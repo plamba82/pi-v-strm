@@ -1,0 +1,177 @@
+{
+  "scripts/run_webkit_check.py": {
+    "filename": "run_webkit_check.py",
+    "path": "scripts/run_webkit_check.py",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "97ec48": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774283050,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "f822873d",
+        "messageId": "system_177baf20-26d4-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_177baf20-26d4-11f1-ad99-e7fdf02f6d1e-Codeblock-2",
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "97ec48",
+        "hash": "acba5f1c",
+        "encoded": "#!/usr/bin/env%20python3",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "97ec48",
+        "hash": "e6fc6bd0",
+        "encoded": "#%20scripts/run_webkit_check.py",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "97ec48",
+        "hash": "0cb24120",
+        "encoded": "#%20Simple%20Playwright%20WebKit%20check:%20opens%20URL%20and%20prints%20video%20element%20info%20+%20some%20requests.",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "97ec48",
+        "hash": "fe3a758f",
+        "encoded": "from%20playwright.sync_api%20import%20sync_playwright",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "97ec48",
+        "hash": "bce06b15",
+        "encoded": "import%20time",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "97ec48",
+        "hash": "04169f76",
+        "encoded": "with%20sync_playwright()%20as%20p:",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "97ec48",
+        "hash": "9e865cc5",
+        "encoded": "browser%20=%20p.webkit.launch(headless=False)%20%20#%20use%20visible%20Safari-like%20engine",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "97ec48",
+        "hash": "ac341d59",
+        "encoded": "ctx%20=%20browser.new_context()",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "97ec48",
+        "hash": "aadef8fd",
+        "encoded": "page%20=%20ctx.new_page()",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "97ec48",
+        "hash": "80aeb2ba",
+        "encoded": "requests%20=%20%5B%5D",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "97ec48",
+        "hash": "449da3e1",
+        "encoded": "page.on(%22request%22,%20lambda%20r:%20requests.append(r.url))",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "97ec48",
+        "hash": "0884b3f7",
+        "encoded": "time.sleep(5)%20%20#%20allow%20player%20to%20initialise",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "97ec48",
+        "hash": "bd8dbb9d",
+        "encoded": "has_video%20=%20page.evaluate(%22!!document.querySelector('video')%22)",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "97ec48",
+        "hash": "866b81cb",
+        "encoded": "print(%22Has%20%3Cvideo%3E%20element:%22,%20has_video)",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "97ec48",
+        "hash": "0bb10525",
+        "encoded": "if%20has_video:",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "97ec48",
+        "hash": "c9dce320",
+        "encoded": "print(%22readyState:%22,%20page.evaluate(%22document.querySelector('video').readyState%22))",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "97ec48",
+        "hash": "4b02947f",
+        "encoded": "print(%22paused:%22,%20page.evaluate(%22document.querySelector('video').paused%22))",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "97ec48",
+        "hash": "0a6aa2e9",
+        "encoded": "#%20Print%20media-like%20requests%20(example)",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "97ec48",
+        "hash": "6015c209",
+        "encoded": "media%20=%20%5Bu%20for%20u%20in%20requests%20if%20any(ext%20in%20u%20for%20ext%20in%20%5B%22.m3u8%22,%20%22.ts%22,%20%22.m4s%22,%20%22.mp4%22,%20%22.mpd%22%5D)%5D",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "97ec48",
+        "hash": "8137893f",
+        "encoded": "print(%22Detected%20media%20requests:%22,%20len(media))",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "97ec48",
+        "hash": "c7baa3c7",
+        "encoded": "for%20u%20in%20media%5B:20%5D:",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "97ec48",
+        "hash": "441423bb",
+        "encoded": "print(%22%20%22,%20u)",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "97ec48",
+        "hash": "2584bbec",
+        "encoded": "page.close()",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "97ec48",
+        "hash": "f29c0525",
+        "encoded": "ctx.close()",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "97ec48",
+        "hash": "ee17e65d",
+        "encoded": "browser.close()",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

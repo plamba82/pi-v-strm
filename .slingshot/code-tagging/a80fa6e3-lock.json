@@ -1,0 +1,132 @@
+{
+  "run-chrome-logging.sh": {
+    "filename": "run-chrome-logging.sh",
+    "path": "run-chrome-logging.sh",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "76c0cb": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774282599,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "saveCreateNewFile",
+        "extraContext": {},
+        "hash": "8679dce8",
+        "messageId": "system_6968d930-26d3-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_6968d930-26d3-11f1-ad99-e7fdf02f6d1e-Codeblock-2",
+        "isActive": false
+      },
+      "0f4956": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774282601,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "8679dce8",
+        "messageId": "system_6968d930-26d3-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_6968d930-26d3-11f1-ad99-e7fdf02f6d1e-Codeblock-2",
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "0f4956",
+        "hash": "fc63ef32",
+        "encoded": "#!/usr/bin/env%20bash",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "0f4956",
+        "hash": "65e473a1",
+        "encoded": "#%20Replace%20/path/to/...%20with%20the%20path%20you%20found%20above.",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "0f4956",
+        "hash": "687b0d05",
+        "encoded": "CHROME_BIN=%22/path/to/Google%20Chrome%20for%20Testing%22",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "0f4956",
+        "hash": "24c6d3bf",
+        "encoded": "if%20%5B%20!%20-x%20%22$CHROME_BIN%22%20%5D;%20then",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "0f4956",
+        "hash": "3df26e67",
+        "encoded": "echo%20%22Set%20CHROME_BIN%20to%20the%20actual%20binary%20path%20found%20from%20previous%20step%22",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "0f4956",
+        "hash": "726b1f35",
+        "encoded": "exit%201",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "0f4956",
+        "hash": "efae1594",
+        "encoded": "fi",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "0f4956",
+        "hash": "49fce032",
+        "encoded": "#%20Run%20headful%20once%20with%20logging;%20this%20prints%20stdout/stderr%20and%20remote%20debugging%20listening%20port.",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "0f4956",
+        "hash": "2060b7eb",
+        "encoded": "%22$CHROME_BIN%22%20%5C",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "0f4956",
+        "hash": "3ff1fd04",
+        "encoded": "--remote-debugging-port=9222%20%5C",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "0f4956",
+        "hash": "52f541e3",
+        "encoded": "--enable-logging=stderr%20%5C",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "0f4956",
+        "hash": "b0a9a31e",
+        "encoded": "--v=1%20%5C",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "0f4956",
+        "hash": "72a52d96",
+        "encoded": "--no-first-run%20%5C",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "0f4956",
+        "hash": "90472723",
+        "encoded": "--disable-gpu%20%5C",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "0f4956",
+        "hash": "45c1f8de",
+        "encoded": "--no-sandbox%202%3E&1%20%7C%20tee%20chrome_for_testing.log",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

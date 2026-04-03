@@ -1,0 +1,95 @@
+{
+  "Dockerfile": {
+    "filename": "Dockerfile",
+    "path": "Dockerfile",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "9e6867": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-4.1",
+        "timestamp": 1774196181,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "saveCreateNewFile",
+        "extraContext": {},
+        "hash": "9ad459bd",
+        "messageId": "system_5ee01bf0-260a-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_5ee01bf0-260a-11f1-ad99-e7fdf02f6d1e-Codeblock-2",
+        "isActive": true
+      },
+      "1a06f5": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-4.1",
+        "timestamp": 1774196186,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "db22f631",
+        "messageId": "system_5ee01bf0-260a-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_5ee01bf0-260a-11f1-ad99-e7fdf02f6d1e-Codeblock-3",
+        "isActive": false
+      },
+      "26c031": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-4.1",
+        "timestamp": 1774196373,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "pasteCode",
+        "extraContext": {},
+        "hash": "2507a8a8",
+        "messageId": "system_dbdd7c10-260a-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_dbdd7c10-260a-11f1-ad99-e7fdf02f6d1e-Codeblock-1",
+        "isActive": false
+      },
+      "df7721": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-4.1",
+        "timestamp": 1774197647,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "a2439cc1",
+        "messageId": "system_c528c5d0-260d-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_c528c5d0-260d-11f1-ad99-e7fdf02f6d1e-Codeblock-6",
+        "isActive": false
+      },
+      "1588df": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-4.1",
+        "timestamp": 1774198193,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "a2439cc1",
+        "messageId": "system_05d36120-260f-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_05d36120-260f-11f1-ad99-e7fdf02f6d1e-Codeblock-4",
+        "isActive": false
+      }
+    },
+    "lines": {
+      "2": {
+        "chunkId": "9e6867",
+        "hash": "4e70cf41",
+        "encoded": "WORKDIR%20/app",
+        "prevChunkIds": [
+          "9e6867"
+        ]
+      }
+    }
+  }
+}

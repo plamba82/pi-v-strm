@@ -1,0 +1,750 @@
+{
+  "utils/player.py": {
+    "filename": "player.py",
+    "path": "utils/player.py",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "a99984": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774280676,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "f29d187d",
+        "messageId": "system_020231a0-26cf-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_020231a0-26cf-11f1-ad99-e7fdf02f6d1e-Codeblock-2",
+        "isActive": true
+      },
+      "d46ea7": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774281022,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {},
+        "hash": "e600b0ed",
+        "messageId": "bb823e18-e3e6-4c1e-b73f-90a5dc63e8e2",
+        "codeBlockId": null,
+        "isActive": false
+      },
+      "f74011": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774281035,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "e600b0ed",
+        "messageId": "system_abe62af0-26cf-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_abe62af0-26cf-11f1-ad99-e7fdf02f6d1e-Codeblock-2",
+        "isActive": true
+      },
+      "c5a37b": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774281585,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "8e718169",
+        "messageId": "system_f5e90c20-26d0-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "a99984",
+        "hash": "28915508",
+        "encoded": "#%20utils/player.py",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "1": {
+        "chunkId": "c5a37b",
+        "hash": "d6fa25a1",
+        "encoded": "#%20Page-bound%20helper%20for%20testing%20HTML5%20%3Cvideo%3E%20playback%20via%20Playwright.",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "c5a37b",
+        "hash": "77320ccd",
+        "encoded": "from%20typing%20import%20Optional",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "a99984",
+        "hash": "462d4aeb",
+        "encoded": "class%20VideoPlayer:",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "6": {
+        "chunkId": "a99984",
+        "hash": "a466b5ed",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "7": {
+        "chunkId": "c5a37b",
+        "hash": "881e38b3",
+        "encoded": "Helper%20to%20find%20a%20%3Cvideo%3E,%20wait%20until%20playable,%20start%20playback%20(muted),",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "c5a37b",
+        "hash": "0cbbdd7f",
+        "encoded": "and%20introspect%20playback%20state%20(currentTime,%20buffered%20ranges).",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "a99984",
+        "hash": "ab39c3d3",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "11": {
+        "chunkId": "a99984",
+        "hash": "da01ff76",
+        "encoded": "def%20__init__(self,%20page):",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "12": {
+        "chunkId": "a99984",
+        "hash": "a9667c70",
+        "encoded": "self.page%20=%20page",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "13": {
+        "chunkId": "a99984",
+        "hash": "7129a69b",
+        "encoded": "self.video_selector%20=%20%22video%22",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "15": {
+        "chunkId": "f74011",
+        "hash": "e91c7ab6",
+        "encoded": "def%20wait_for_player(self,%20timeout:%20int%20=%2030000)%20-%3E%20bool:",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "f74011",
+        "hash": "22407482",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "c5a37b",
+        "hash": "3981b80f",
+        "encoded": "Wait%20for%20a%20%3Cvideo%3E%20element.%20Returns%20True%20if%20found%20within%20timeout,%20else%20False.",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "c5a37b",
+        "hash": "3a8e3059",
+        "encoded": "CHANGE:%20tolerant%20behavior%20(returns%20bool%20rather%20than%20raising)%20and%20JS%20fallback%20for%20non-visible%20cases.",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "f74011",
+        "hash": "b163ccdc",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "a99984",
+        "hash": "bef1cd65",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "21": {
+        "chunkId": "c5a37b",
+        "hash": "02b234b2",
+        "encoded": "#%20primary:%20visible/attached%20element",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "f74011",
+        "hash": "3efa124c",
+        "encoded": "self.page.wait_for_selector(self.video_selector,%20timeout=timeout)",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "a99984",
+        "hash": "94d8fcc7",
+        "encoded": "return%20True",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "24": {
+        "chunkId": "a99984",
+        "hash": "9bfe470b",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "25": {
+        "chunkId": "a99984",
+        "hash": "541c3fcd",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "26": {
+        "chunkId": "c5a37b",
+        "hash": "ef17eaf7",
+        "encoded": "#%20fallback:%20any%20existence%20in%20DOM%20(handles%20shadow/custom%20insertion%20timing)",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "a99984",
+        "hash": "042708f2",
+        "encoded": "self.page.wait_for_function(",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "28": {
+        "chunkId": "f74011",
+        "hash": "f2361df2",
+        "encoded": "%22!!document.querySelector('video')%22,",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "a99984",
+        "hash": "7c8e1fe5",
+        "encoded": "timeout=timeout",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "30": {
+        "chunkId": "a99984",
+        "hash": "cb4026de",
+        "encoded": ")",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "31": {
+        "chunkId": "f74011",
+        "hash": "64674243",
+        "encoded": "return%20True",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "a99984",
+        "hash": "d98da99d",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "33": {
+        "chunkId": "a99984",
+        "hash": "34941aa1",
+        "encoded": "return%20False",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "35": {
+        "chunkId": "c5a37b",
+        "hash": "4bca5e2a",
+        "encoded": "def%20wait_until_playable(self,%20timeout:%20int%20=%2030000)%20-%3E%20None:",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "f74011",
+        "hash": "018e6835",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "f74011",
+        "hash": "5cf9f017",
+        "encoded": "Wait%20until%20the%20video%20has%20enough%20data%20to%20play%20(readyState%20%3E=%203).",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "c5a37b",
+        "hash": "baa19bba",
+        "encoded": "Raises%20Playwright%20timeout%20on%20failure%20which%20is%20OK%20for%20test%20flow.",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "f74011",
+        "hash": "5413e528",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "a99984",
+        "hash": "6f26f785",
+        "encoded": "self.page.wait_for_function(",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "41": {
+        "chunkId": "f74011",
+        "hash": "03dac64d",
+        "encoded": "%22document.querySelector('video')%20&&%20document.querySelector('video').readyState%20%3E=%203%22,",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "f74011",
+        "hash": "fa055ada",
+        "encoded": "timeout=timeout",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "a99984",
+        "hash": "de9a7b90",
+        "encoded": ")",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "45": {
+        "chunkId": "c5a37b",
+        "hash": "f291a488",
+        "encoded": "def%20ensure_playing(self,%20timeout:%20int%20=%208000)%20-%3E%20bool:",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "f74011",
+        "hash": "63ea0cc9",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "c5a37b",
+        "hash": "e8d692d2",
+        "encoded": "Ensure%20the%20video%20starts%20playing%20in%20automated%20environments.",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "f74011",
+        "hash": "00c2d261",
+        "encoded": "Strategy:",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "c5a37b",
+        "hash": "72f77f5b",
+        "encoded": "-%20Wait%20for%20video%20element%20presence.",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "c5a37b",
+        "hash": "53686da6",
+        "encoded": "-%20Mute%20the%20video%20and%20call%20play()%20(muted%20autoplay%20typically%20allowed).",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "c5a37b",
+        "hash": "9d56c245",
+        "encoded": "-%20Wait%20until%20the%20video%20reports%20!paused%20(within%20timeout).",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "c5a37b",
+        "hash": "fcd0d276",
+        "encoded": "Returns%20True%20on%20success,%20False%20otherwise.",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "c5a37b",
+        "hash": "8a6d2088",
+        "encoded": "CHANGE:%20robust%20approach%20to%20work%20around%20autoplay%20policies.",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "f74011",
+        "hash": "680c1700",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "f74011",
+        "hash": "dd2ad4e7",
+        "encoded": "if%20not%20self.wait_for_player(timeout=timeout):",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "f74011",
+        "hash": "298b26e1",
+        "encoded": "return%20False",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "c5a37b",
+        "hash": "26f36d6b",
+        "encoded": "#%20Try%20muting%20+%20play;%20evaluate%20runs%20in%20page%20context.",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "a99984",
+        "hash": "32e2520b",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "62": {
+        "chunkId": "a99984",
+        "hash": "1378ffa6",
+        "encoded": "self.page.locator(self.video_selector).evaluate(",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "63": {
+        "chunkId": "a99984",
+        "hash": "2b80f21c",
+        "encoded": "%22v%20=%3E%20(v.muted%20=%20true,%20v.play())%22",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "64": {
+        "chunkId": "a99984",
+        "hash": "d7021adc",
+        "encoded": ")",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "65": {
+        "chunkId": "a99984",
+        "hash": "dd33eaa6",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "66": {
+        "chunkId": "c5a37b",
+        "hash": "b8e47550",
+        "encoded": "#%20some%20sites%20may%20throw,%20continue%20to%20wait%20for%20playing%20state",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "a99984",
+        "hash": "5e23903a",
+        "encoded": "pass",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "69": {
+        "chunkId": "f74011",
+        "hash": "6dd008df",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "f74011",
+        "hash": "b081977f",
+        "encoded": "self.page.wait_for_function(",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "a99984",
+        "hash": "f6c48f8a",
+        "encoded": "%22document.querySelector('video')%20&&%20!document.querySelector('video').paused%22,",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "72": {
+        "chunkId": "f74011",
+        "hash": "8eda3fc1",
+        "encoded": "timeout=timeout",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "a99984",
+        "hash": "11fc1d2b",
+        "encoded": ")",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "74": {
+        "chunkId": "f74011",
+        "hash": "687e3c4e",
+        "encoded": "return%20True",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "f74011",
+        "hash": "24a84ebd",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "f74011",
+        "hash": "a5bdbebb",
+        "encoded": "return%20False",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "f74011",
+        "hash": "fa5c4538",
+        "encoded": "def%20is_playing(self)%20-%3E%20bool:",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "c5a37b",
+        "hash": "1e1fbb12",
+        "encoded": "%22%22%22Return%20True%20if%20the%20video%20element%20reports%20not%20paused.%22%22%22",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "f74011",
+        "hash": "461d2a12",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "c5a37b",
+        "hash": "174819e0",
+        "encoded": "return%20bool(self.page.locator(self.video_selector).evaluate(",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "f74011",
+        "hash": "684c6e39",
+        "encoded": "%22v%20=%3E%20!!v%20&&%20!v.paused%22",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "c5a37b",
+        "hash": "406a9bbf",
+        "encoded": "))",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "f74011",
+        "hash": "b1ae03f4",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "f74011",
+        "hash": "b256885a",
+        "encoded": "return%20False",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "f74011",
+        "hash": "bdff1ef8",
+        "encoded": "def%20get_current_time(self)%20-%3E%20float:",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "c5a37b",
+        "hash": "dde803ee",
+        "encoded": "%22%22%22Return%20currentTime%20(seconds)%20or%20raise%20if%20video%20missing.%22%22%22",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "c5a37b",
+        "hash": "f35efc7e",
+        "encoded": "return%20float(self.page.locator(self.video_selector).evaluate(",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "a99984",
+        "hash": "60bb17bf",
+        "encoded": "%22v%20=%3E%20v.currentTime%22",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "91": {
+        "chunkId": "c5a37b",
+        "hash": "98e8be7f",
+        "encoded": "))",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "f74011",
+        "hash": "ff3b6174",
+        "encoded": "def%20is_progressing(self,%20wait_time:%20int%20=%203000)%20-%3E%20bool:",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "f74011",
+        "hash": "91f4ddd5",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "f74011",
+        "hash": "fda57ec8",
+        "encoded": "Check%20that%20the%20player's%20currentTime%20advances%20over%20wait_time%20milliseconds.",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "f74011",
+        "hash": "d2886d50",
+        "encoded": "Returns%20True%20if%20progressed,%20False%20otherwise.",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "f74011",
+        "hash": "d8578bb9",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "f74011",
+        "hash": "1c67c22f",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "a99984",
+        "hash": "67804da6",
+        "encoded": "t1%20=%20self.get_current_time()",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "100": {
+        "chunkId": "f74011",
+        "hash": "874982ce",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "f74011",
+        "hash": "9c9efc45",
+        "encoded": "return%20False",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "a99984",
+        "hash": "f8121751",
+        "encoded": "self.page.wait_for_timeout(wait_time)",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "105": {
+        "chunkId": "f74011",
+        "hash": "aa4eab06",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "a99984",
+        "hash": "24c986b3",
+        "encoded": "t2%20=%20self.get_current_time()",
+        "prevChunkIds": [
+          "a99984"
+        ]
+      },
+      "107": {
+        "chunkId": "f74011",
+        "hash": "c0a2cd14",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "c5a37b",
+        "hash": "d4a93133",
+        "encoded": "return%20False",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "c5a37b",
+        "hash": "5de33623",
+        "encoded": "return%20(t2%20-%20t1)%20%3E%200.1%20%20#%20small%20delta%20to%20tolerate%20rounding",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "f74011",
+        "hash": "9d05b33e",
+        "encoded": "def%20get_buffered_ranges(self)%20-%3E%20int:",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "c5a37b",
+        "hash": "4de266fc",
+        "encoded": "%22%22%22Return%20number%20of%20buffered%20ranges%20(0%20if%20unavailable).%22%22%22",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "f74011",
+        "hash": "be0a39ca",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "c5a37b",
+        "hash": "b81e9608",
+        "encoded": "return%20int(self.page.locator(self.video_selector).evaluate(",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "f74011",
+        "hash": "9749f2ee",
+        "encoded": "%22v%20=%3E%20(v%20&&%20v.buffered)%20?%20v.buffered.length%20:%200%22",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "c5a37b",
+        "hash": "fbac733c",
+        "encoded": "))",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "f74011",
+        "hash": "7cf519ae",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "f74011",
+        "hash": "2da5c2cd",
+        "encoded": "return%200",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

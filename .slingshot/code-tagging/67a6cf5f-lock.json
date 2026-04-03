@@ -1,0 +1,1066 @@
+{
+  "tests/test_video.py": {
+    "filename": "test_video.py",
+    "path": "tests/test_video.py",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "27f785": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774280696,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "94f34229",
+        "messageId": "system_020231a0-26cf-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_020231a0-26cf-11f1-ad99-e7fdf02f6d1e-Codeblock-4",
+        "isActive": true
+      },
+      "135bd6": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774281055,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "151d08ea",
+        "messageId": "system_abe62af0-26cf-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_abe62af0-26cf-11f1-ad99-e7fdf02f6d1e-Codeblock-4",
+        "isActive": true
+      },
+      "4b6781": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774281594,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "3dcd824c",
+        "messageId": "system_f5e90c20-26d0-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_f5e90c20-26d0-11f1-ad99-e7fdf02f6d1e-Codeblock-4",
+        "isActive": true
+      },
+      "c98975": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774283466,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "4b86d7f6",
+        "messageId": "system_7ca36a90-26d5-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_7ca36a90-26d5-11f1-ad99-e7fdf02f6d1e-Codeblock-2",
+        "isActive": true
+      },
+      "438dbb": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774283763,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {},
+        "hash": "da5f94c6",
+        "messageId": "system_37ec5cd0-26d6-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_37ec5cd0-26d6-11f1-ad99-e7fdf02f6d1e-Codeblock-1",
+        "isActive": false
+      },
+      "5648de": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774283817,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "da5f94c6",
+        "messageId": "system_37ec5cd0-26d6-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_37ec5cd0-26d6-11f1-ad99-e7fdf02f6d1e-Codeblock-1",
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "27f785",
+        "hash": "fea6e57d",
+        "encoded": "#%20tests/test_video.py",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "1": {
+        "chunkId": "c98975",
+        "hash": "e6b60d96",
+        "encoded": "#%20This%20test%20file%20forces%20Playwright%20to%20use%20WebKit%20(Safari-like%20engine)%20by%20providing",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "2": {
+        "chunkId": "c98975",
+        "hash": "f4a99a32",
+        "encoded": "#%20a%20local%20%60page%60%20fixture%20that%20launches%20p.webkit.%20Set%20PLAYWRIGHT_HEADLESS=0%20to%20run%20headful.",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "3": {
+        "chunkId": "c98975",
+        "hash": "1c529dee",
+        "encoded": "import%20os",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "4": {
+        "chunkId": "27f785",
+        "hash": "92b158ec",
+        "encoded": "import%20pytest",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "5": {
+        "chunkId": "4b6781",
+        "hash": "924e41f4",
+        "encoded": "from%20typing%20import%20List",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "6": {
+        "chunkId": "c98975",
+        "hash": "0eceb504",
+        "encoded": "from%20playwright.sync_api%20import%20sync_playwright",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "7": {
+        "chunkId": "27f785",
+        "hash": "4bf53f1c",
+        "encoded": "from%20utils.player%20import%20VideoPlayer",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "8": {
+        "chunkId": "27f785",
+        "hash": "aa7d1012",
+        "encoded": "from%20utils.url_utils%20import%20extract_video_id",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "10": {
+        "chunkId": "c98975",
+        "hash": "a8024ec3",
+        "encoded": "#%20Replace%20with%20the%20URL%20you%20want%20to%20test",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "13": {
+        "chunkId": "5648de",
+        "hash": "cee74372",
+        "encoded": "#%20Playback%20duration%20to%20assert%20(milliseconds)",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "5648de",
+        "hash": "813c6d9b",
+        "encoded": "PLAYBACK_MS%20=%2015000",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "c98975",
+        "hash": "002947bc",
+        "encoded": "@pytest.fixture(scope=%22function%22)",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "18": {
+        "chunkId": "c98975",
+        "hash": "c18f6608",
+        "encoded": "def%20page():",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "19": {
+        "chunkId": "4b6781",
+        "hash": "b163ccdc",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "20": {
+        "chunkId": "c98975",
+        "hash": "1cab1953",
+        "encoded": "Test-local%20page%20fixture%20that%20launches%20Playwright%20WebKit%20(Safari-like).",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "21": {
+        "chunkId": "c98975",
+        "hash": "80e84cce",
+        "encoded": "This%20overrides%20any%20global%20%60page%60%20fixture%20from%20conftest.py%20for%20tests%20in%20this%20module.",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "22": {
+        "chunkId": "4b6781",
+        "hash": "fca2d660",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "23": {
+        "chunkId": "c98975",
+        "hash": "9053a015",
+        "encoded": "headless%20=%20os.environ.get(%22PLAYWRIGHT_HEADLESS%22,%20%221%22)%20!=%20%220%22",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "24": {
+        "chunkId": "c98975",
+        "hash": "912c468a",
+        "encoded": "with%20sync_playwright()%20as%20p:",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "25": {
+        "chunkId": "c98975",
+        "hash": "d578e2e6",
+        "encoded": "browser%20=%20p.webkit.launch(headless=headless)",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "26": {
+        "chunkId": "c98975",
+        "hash": "1b0c7bf4",
+        "encoded": "context%20=%20browser.new_context()",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "27": {
+        "chunkId": "c98975",
+        "hash": "d96df1c3",
+        "encoded": "page%20=%20context.new_page()",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "28": {
+        "chunkId": "4b6781",
+        "hash": "443e1750",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "29": {
+        "chunkId": "c98975",
+        "hash": "a94c167f",
+        "encoded": "yield%20page",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "30": {
+        "chunkId": "c98975",
+        "hash": "b9a0cf92",
+        "encoded": "finally:",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "31": {
+        "chunkId": "4b6781",
+        "hash": "ba04ebc7",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "32": {
+        "chunkId": "c98975",
+        "hash": "e2a849c5",
+        "encoded": "page.close()",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "33": {
+        "chunkId": "4b6781",
+        "hash": "41c83ea0",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "34": {
+        "chunkId": "4b6781",
+        "hash": "a065d6dc",
+        "encoded": "pass",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "35": {
+        "chunkId": "4b6781",
+        "hash": "b9a31a00",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "36": {
+        "chunkId": "c98975",
+        "hash": "0ff0d20b",
+        "encoded": "context.close()",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "37": {
+        "chunkId": "4b6781",
+        "hash": "af9cd631",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "38": {
+        "chunkId": "c98975",
+        "hash": "985787bf",
+        "encoded": "pass",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "39": {
+        "chunkId": "4b6781",
+        "hash": "34d1a208",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "40": {
+        "chunkId": "c98975",
+        "hash": "b61ee26f",
+        "encoded": "browser.close()",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "41": {
+        "chunkId": "4b6781",
+        "hash": "c5aa774b",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "42": {
+        "chunkId": "c98975",
+        "hash": "1168dfc8",
+        "encoded": "pass",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "45": {
+        "chunkId": "27f785",
+        "hash": "12c95052",
+        "encoded": "def%20test_video_page_loads(page):",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "46": {
+        "chunkId": "27f785",
+        "hash": "fdf580e2",
+        "encoded": "page.goto(VIDEO_URL,%20timeout=60000)",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "47": {
+        "chunkId": "4b6781",
+        "hash": "75bc99b1",
+        "encoded": "#%20Robust%20check:%20ensure%20expected%20video%20id%20is%20present%20in%20final%20URL%20(handles%20redirects)",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "48": {
+        "chunkId": "27f785",
+        "hash": "1d62478d",
+        "encoded": "video_id%20=%20extract_video_id(VIDEO_URL)",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "49": {
+        "chunkId": "27f785",
+        "hash": "ecba0d42",
+        "encoded": "assert%20video_id%20in%20page.url",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "52": {
+        "chunkId": "27f785",
+        "hash": "0cf3c7db",
+        "encoded": "def%20test_video_id_extraction():",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "53": {
+        "chunkId": "27f785",
+        "hash": "792b2738",
+        "encoded": "video_id%20=%20extract_video_id(VIDEO_URL)",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "54": {
+        "chunkId": "27f785",
+        "hash": "e2de04e3",
+        "encoded": "assert%20video_id%20==%20%22SRTDi0Z80RE%22",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "57": {
+        "chunkId": "27f785",
+        "hash": "711d5521",
+        "encoded": "def%20test_video_playback(page):",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "58": {
+        "chunkId": "27f785",
+        "hash": "94473935",
+        "encoded": "page.goto(VIDEO_URL)",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "60": {
+        "chunkId": "27f785",
+        "hash": "8f14be4f",
+        "encoded": "player%20=%20VideoPlayer(page)",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "62": {
+        "chunkId": "135bd6",
+        "hash": "d459518c",
+        "encoded": "assert%20player.wait_for_player(),%20%22No%20%3Cvideo%3E%20element%20found%20on%20the%20page%22",
+        "prevChunkIds": [
+          "135bd6"
+        ]
+      },
+      "63": {
+        "chunkId": "27f785",
+        "hash": "71b438de",
+        "encoded": "player.wait_until_playable()",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "65": {
+        "chunkId": "4b6781",
+        "hash": "ef89b3ff",
+        "encoded": "#%20Ensure%20playback%20starts%20(mute%20+%20play);%20fail%20with%20clear%20message%20if%20blocked",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "66": {
+        "chunkId": "4b6781",
+        "hash": "2e3bbacc",
+        "encoded": "assert%20player.ensure_playing(timeout=10000),%20%22Failed%20to%20start%20playback%20(autoplay%20may%20be%20blocked)%22",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "68": {
+        "chunkId": "5648de",
+        "hash": "a608f2f9",
+        "encoded": "#%20Verify%20the%20video%20progresses%20over%20a%2015%20second%20window",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "5648de",
+        "hash": "2b7e6bd1",
+        "encoded": "assert%20player.is_progressing(wait_time=PLAYBACK_MS),%20f%22Video%20did%20not%20progress%20during%20%7BPLAYBACK_MS/1000:.0f%7Ds%20playback%22",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "5648de",
+        "hash": "345d3ec8",
+        "encoded": "#%20Additionally%20ensure%20it's%20considered%20playing%20at%20the%20end%20of%20the%20window",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "5648de",
+        "hash": "162aa2a5",
+        "encoded": "assert%20player.is_playing(),%20%22Video%20is%20not%20playing%20after%20playback%20window%22",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "27f785",
+        "hash": "67c1e8f1",
+        "encoded": "def%20test_video_buffering(page):",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "75": {
+        "chunkId": "27f785",
+        "hash": "12f6fbc0",
+        "encoded": "page.goto(VIDEO_URL)",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "77": {
+        "chunkId": "27f785",
+        "hash": "9de2f86e",
+        "encoded": "player%20=%20VideoPlayer(page)",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "79": {
+        "chunkId": "135bd6",
+        "hash": "1ba0d222",
+        "encoded": "assert%20player.wait_for_player(),%20%22No%20%3Cvideo%3E%20element%20found%20on%20the%20page%22",
+        "prevChunkIds": [
+          "135bd6"
+        ]
+      },
+      "80": {
+        "chunkId": "27f785",
+        "hash": "b1efd77c",
+        "encoded": "player.wait_until_playable()",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "82": {
+        "chunkId": "4b6781",
+        "hash": "cdba7258",
+        "encoded": "#%20Ensure%20playback%20so%20buffering%20will%20show",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "83": {
+        "chunkId": "5648de",
+        "hash": "4e2083f4",
+        "encoded": "assert%20player.ensure_playing(timeout=10000),%20%22Failed%20to%20start%20playback%20(autoplay%20may%20be%20blocked)%22",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "5648de",
+        "hash": "e9a4a327",
+        "encoded": "#%20Wait%20the%20full%20playback%20window%20to%20allow%20buffering%20to%20occur",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "5648de",
+        "hash": "33f95a2d",
+        "encoded": "page.wait_for_timeout(PLAYBACK_MS)",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "27f785",
+        "hash": "ec65e380",
+        "encoded": "buffered%20=%20player.get_buffered_ranges()",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "89": {
+        "chunkId": "5648de",
+        "hash": "9b10b676",
+        "encoded": "assert%20buffered%20%3E%200,%20f%22No%20buffering%20detected%20during%20%7BPLAYBACK_MS/1000:.0f%7Ds%22",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "4b6781",
+        "hash": "c831006c",
+        "encoded": "def%20_is_media_request(req)%20-%3E%20bool:",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "93": {
+        "chunkId": "c98975",
+        "hash": "c1b52731",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "94": {
+        "chunkId": "c98975",
+        "hash": "49ff71e1",
+        "encoded": "Heuristics%20to%20detect%20media-like%20requests%20from%20captured%20Request%20objects.",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "95": {
+        "chunkId": "c98975",
+        "hash": "e5d9b9fa",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "96": {
+        "chunkId": "c98975",
+        "hash": "f205eade",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "97": {
+        "chunkId": "4b6781",
+        "hash": "3bb76473",
+        "encoded": "rt%20=%20getattr(req,%20%22resource_type%22,%20None)",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "98": {
+        "chunkId": "4b6781",
+        "hash": "ffa1bd49",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "99": {
+        "chunkId": "4b6781",
+        "hash": "256c842e",
+        "encoded": "rt%20=%20None",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "101": {
+        "chunkId": "4b6781",
+        "hash": "aead22b8",
+        "encoded": "url%20=%20(req.url%20or%20%22%22).lower()",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "102": {
+        "chunkId": "4b6781",
+        "hash": "ee8c859d",
+        "encoded": "if%20rt%20==%20%22media%22:",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "103": {
+        "chunkId": "4b6781",
+        "hash": "2b0edf60",
+        "encoded": "return%20True",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "105": {
+        "chunkId": "4b6781",
+        "hash": "e56f030e",
+        "encoded": "MEDIA_PATTERNS%20=%20%5B",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "106": {
+        "chunkId": "4b6781",
+        "hash": "29e40198",
+        "encoded": "%22.m4s%22,%20%22.mp4%22,%20%22.m3u8%22,%20%22.mpd%22,%20%22.ts%22,%20%22.webm%22,%20%22videoplayback%22,%20%22googlevideo.com%22,%20%22/videoplayback?%22",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "107": {
+        "chunkId": "27f785",
+        "hash": "6ffcf704",
+        "encoded": "%5D",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "108": {
+        "chunkId": "4b6781",
+        "hash": "9e36ffdb",
+        "encoded": "if%20any(p%20in%20url%20for%20p%20in%20MEDIA_PATTERNS):",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "109": {
+        "chunkId": "4b6781",
+        "hash": "e717d925",
+        "encoded": "return%20True",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "111": {
+        "chunkId": "c98975",
+        "hash": "f8d88a91",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "112": {
+        "chunkId": "4b6781",
+        "hash": "5e92330e",
+        "encoded": "resp%20=%20req.response()",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "113": {
+        "chunkId": "c98975",
+        "hash": "db43958e",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "114": {
+        "chunkId": "4b6781",
+        "hash": "b190b0b1",
+        "encoded": "resp%20=%20None",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "116": {
+        "chunkId": "4b6781",
+        "hash": "e21eca30",
+        "encoded": "if%20resp:",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "117": {
+        "chunkId": "4b6781",
+        "hash": "e21577db",
+        "encoded": "ct%20=%20(resp.headers.get(%22content-type%22)%20or%20%22%22).lower()",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "118": {
+        "chunkId": "4b6781",
+        "hash": "3b23121b",
+        "encoded": "cl%20=%20resp.headers.get(%22content-length%22)",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "119": {
+        "chunkId": "c98975",
+        "hash": "c17169ed",
+        "encoded": "if%20(%22video%22%20in%20ct)%20or%20(%22audio%22%20in%20ct)%20or%20(%22application/vnd.apple.mpegurl%22%20in%20ct)%20or%20(%22application/dash+xml%22%20in%20ct):",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "120": {
+        "chunkId": "4b6781",
+        "hash": "5527d682",
+        "encoded": "return%20True",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "121": {
+        "chunkId": "c98975",
+        "hash": "f10766dd",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "122": {
+        "chunkId": "4b6781",
+        "hash": "ed2a164e",
+        "encoded": "if%20cl%20and%20int(cl)%20%3E%20100000:",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "123": {
+        "chunkId": "4b6781",
+        "hash": "fabfd1fe",
+        "encoded": "return%20True",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "124": {
+        "chunkId": "c98975",
+        "hash": "91dfda1f",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "125": {
+        "chunkId": "c98975",
+        "hash": "e7aac763",
+        "encoded": "pass",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "127": {
+        "chunkId": "4b6781",
+        "hash": "3adb88f3",
+        "encoded": "return%20False",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "130": {
+        "chunkId": "27f785",
+        "hash": "c0896ae9",
+        "encoded": "def%20test_video_network_requests(page):",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "131": {
+        "chunkId": "c98975",
+        "hash": "23adaab8",
+        "encoded": "captured%20=%20%5B%5D",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "132": {
+        "chunkId": "4b6781",
+        "hash": "82bb9738",
+        "encoded": "page.on(%22request%22,%20lambda%20r:%20captured.append(r))",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "134": {
+        "chunkId": "27f785",
+        "hash": "59767b23",
+        "encoded": "page.goto(VIDEO_URL)",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "135": {
+        "chunkId": "27f785",
+        "hash": "c07d095b",
+        "encoded": "player%20=%20VideoPlayer(page)",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "137": {
+        "chunkId": "135bd6",
+        "hash": "10b36d55",
+        "encoded": "assert%20player.wait_for_player(),%20%22No%20%3Cvideo%3E%20element%20found%20on%20the%20page%22",
+        "prevChunkIds": [
+          "135bd6"
+        ]
+      },
+      "138": {
+        "chunkId": "27f785",
+        "hash": "ef12e456",
+        "encoded": "player.wait_until_playable()",
+        "prevChunkIds": [
+          "27f785"
+        ]
+      },
+      "139": {
+        "chunkId": "5648de",
+        "hash": "a644bded",
+        "encoded": "assert%20player.ensure_playing(timeout=10000),%20%22Failed%20to%20start%20playback%20(autoplay%20may%20be%20blocked)%22",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "5648de",
+        "hash": "989a6b96",
+        "encoded": "#%20Wait%20the%20full%20playback%20window%20to%20capture%20streaming%20requests%20emitted%20during%20playback",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "5648de",
+        "hash": "5bbdc416",
+        "encoded": "page.wait_for_timeout(PLAYBACK_MS)",
+        "prevChunkIds": []
+      },
+      "144": {
+        "chunkId": "4b6781",
+        "hash": "263831ee",
+        "encoded": "media_requests:%20List%5Bstr%5D%20=%20%5B%5D",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "145": {
+        "chunkId": "4b6781",
+        "hash": "41ce5c98",
+        "encoded": "for%20req%20in%20captured:",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "146": {
+        "chunkId": "c98975",
+        "hash": "a8cbbce2",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "147": {
+        "chunkId": "4b6781",
+        "hash": "87318024",
+        "encoded": "if%20_is_media_request(req):",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "148": {
+        "chunkId": "4b6781",
+        "hash": "ac433be4",
+        "encoded": "media_requests.append(req.url)",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "149": {
+        "chunkId": "c98975",
+        "hash": "26130d97",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": [
+          "c98975"
+        ]
+      },
+      "150": {
+        "chunkId": "4b6781",
+        "hash": "1adc5f9e",
+        "encoded": "continue",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "152": {
+        "chunkId": "4b6781",
+        "hash": "60116965",
+        "encoded": "#%20Deduplicate%20while%20preserving%20order",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "153": {
+        "chunkId": "4b6781",
+        "hash": "369f15e4",
+        "encoded": "seen%20=%20set()",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "154": {
+        "chunkId": "4b6781",
+        "hash": "49770e90",
+        "encoded": "dedup%20=%20%5B%5D",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "155": {
+        "chunkId": "4b6781",
+        "hash": "96b53e17",
+        "encoded": "for%20u%20in%20media_requests:",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "156": {
+        "chunkId": "4b6781",
+        "hash": "2426de1c",
+        "encoded": "if%20u%20not%20in%20seen:",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "157": {
+        "chunkId": "4b6781",
+        "hash": "ee69e19e",
+        "encoded": "seen.add(u)",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "158": {
+        "chunkId": "4b6781",
+        "hash": "e24d9e0a",
+        "encoded": "dedup.append(u)",
+        "prevChunkIds": [
+          "4b6781"
+        ]
+      },
+      "160": {
+        "chunkId": "5648de",
+        "hash": "d221c400",
+        "encoded": "assert%20len(dedup)%20%3E%200,%20f%22No%20video%20stream%20requests%20detected%20during%20%7BPLAYBACK_MS/1000:.0f%7Ds%22",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

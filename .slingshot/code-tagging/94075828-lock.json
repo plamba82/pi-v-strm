@@ -1,0 +1,75 @@
+{
+  "find-chrome.sh": {
+    "filename": "find-chrome.sh",
+    "path": "find-chrome.sh",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "a78080": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774282570,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "pasteCode",
+        "extraContext": {},
+        "hash": "ebbb472c",
+        "messageId": "system_6968d930-26d3-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_6968d930-26d3-11f1-ad99-e7fdf02f6d1e-Codeblock-1",
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "a78080",
+        "hash": "fc63ef32",
+        "encoded": "#!/usr/bin/env%20bash",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "a78080",
+        "hash": "7a1b785e",
+        "encoded": "#%20prints%20candidate%20Chrome%20for%20Testing%20binary%20paths%20under%20$HOME/Library/Caches",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "a78080",
+        "hash": "44906af5",
+        "encoded": "set%20-e",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "a78080",
+        "hash": "8f17f441",
+        "encoded": "echo%20%22Searching%20common%20cache%20dirs...%22",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "a78080",
+        "hash": "23b4242b",
+        "encoded": "find%20%22$HOME/Library/Caches%22%20-type%20f%20-name%20%22Google%20Chrome%20for%20Testing%22%20-print%202%3E/dev/null%20%7C%7C%20true",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "a78080",
+        "hash": "1babb5df",
+        "encoded": "#%20also%20try%20ms-playwright%20cache",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "a78080",
+        "hash": "2ac5e01c",
+        "encoded": "echo%20%22Playwright%20cache%20path%20(if%20installed):%22",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "a78080",
+        "hash": "2a8eb0c9",
+        "encoded": "ls%20-d%20%22$HOME/Library/Caches/ms-playwright%22%202%3E/dev/null%20%7C%7C%20true",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "scripts/run_safari_selenium.py": {
+    "filename": "run_safari_selenium.py",
+    "path": "scripts/run_safari_selenium.py",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "33492d": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774283128,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "5f77b096",
+        "messageId": "system_177baf20-26d4-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_177baf20-26d4-11f1-ad99-e7fdf02f6d1e-Codeblock-4",
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "33492d",
+        "hash": "acba5f1c",
+        "encoded": "#!/usr/bin/env%20python3",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "33492d",
+        "hash": "802af4c7",
+        "encoded": "#%20scripts/run_safari_selenium.py",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "33492d",
+        "hash": "342caf9c",
+        "encoded": "#%20Requires%20macOS%20Safari%20and%20safaridriver%20enabled%20(Develop%20-%3E%20Allow%20Remote%20Automation)",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "33492d",
+        "hash": "a061efc9",
+        "encoded": "from%20selenium%20import%20webdriver",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "33492d",
+        "hash": "a291a453",
+        "encoded": "from%20selenium.webdriver.common.by%20import%20By",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "33492d",
+        "hash": "cd021ae9",
+        "encoded": "import%20time",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "33492d",
+        "hash": "476f57f5",
+        "encoded": "#%20Create%20Safari%20driver%20(macOS%20only)",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "33492d",
+        "hash": "c730cfc9",
+        "encoded": "driver%20=%20webdriver.Safari()",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "33492d",
+        "hash": "d8c6cdc6",
+        "encoded": "time.sleep(5)",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "33492d",
+        "hash": "767a343a",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "33492d",
+        "hash": "345dd72d",
+        "encoded": "video%20=%20driver.find_element(By.TAG_NAME,%20%22video%22)",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "33492d",
+        "hash": "6f2e1b22",
+        "encoded": "ready%20=%20driver.execute_script(%22return%20document.querySelector('video').readyState%22)",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "33492d",
+        "hash": "2e979a01",
+        "encoded": "paused%20=%20driver.execute_script(%22return%20document.querySelector('video').paused%22)",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "33492d",
+        "hash": "2bd66f9d",
+        "encoded": "print(%22Has%20%3Cvideo%3E:%22,%20bool(video))",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "33492d",
+        "hash": "aedbe2af",
+        "encoded": "print(%22readyState:%22,%20ready,%20%22paused:%22,%20paused)",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "33492d",
+        "hash": "ea3b7c39",
+        "encoded": "finally:",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "33492d",
+        "hash": "cb28511e",
+        "encoded": "driver.quit()",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

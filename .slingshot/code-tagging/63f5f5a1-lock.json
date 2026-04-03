@@ -1,0 +1,486 @@
+{
+  "conftest.py": {
+    "filename": "conftest.py",
+    "path": "conftest.py",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "913418": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774280478,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "ea74a731",
+        "messageId": "system_562d8be0-26ce-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_562d8be0-26ce-11f1-ad99-e7fdf02f6d1e-Codeblock-2",
+        "isActive": false
+      },
+      "3c0c4e": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774280324,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "cb158095",
+        "messageId": "system_10b82ca0-26ce-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_10b82ca0-26ce-11f1-ad99-e7fdf02f6d1e-Codeblock-1",
+        "isActive": true
+      },
+      "43115f": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774280375,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "ea74a731",
+        "messageId": "system_562d8be0-26ce-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_562d8be0-26ce-11f1-ad99-e7fdf02f6d1e-Codeblock-2",
+        "isActive": false
+      },
+      "3513dc": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774280480,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "ea74a731",
+        "messageId": "system_562d8be0-26ce-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_562d8be0-26ce-11f1-ad99-e7fdf02f6d1e-Codeblock-2",
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "3c0c4e",
+        "hash": "c7b319c8",
+        "encoded": "#%20conftest.py",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "3513dc",
+        "hash": "5fb09728",
+        "encoded": "#%20Robust%20Playwright%20fixtures%20for%20pytest%20designed%20to%20avoid%20profile%20/%20user-data-dir%20issues.",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "3513dc",
+        "hash": "b019e1d1",
+        "encoded": "import%20os",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "3513dc",
+        "hash": "3fcd2061",
+        "encoded": "import%20tempfile",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "3c0c4e",
+        "hash": "92b158ec",
+        "encoded": "import%20pytest",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "3c0c4e",
+        "hash": "db1b68df",
+        "encoded": "from%20playwright.sync_api%20import%20sync_playwright",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "3513dc",
+        "hash": "b233f2f4",
+        "encoded": "#%20CHANGE:%20allow%20overriding%20headless%20via%20env%20for%20easy%20local%20debugging",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "3513dc",
+        "hash": "206a4449",
+        "encoded": "DEFAULT_HEADLESS%20=%20os.environ.get(%22PLAYWRIGHT_HEADLESS%22,%20%221%22)%20!=%20%220%22",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "3c0c4e",
+        "hash": "822696bb",
+        "encoded": "@pytest.fixture(scope=%22session%22)",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "3c0c4e",
+        "hash": "e161e0b0",
+        "encoded": "def%20pw():",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "3c0c4e",
+        "hash": "bd4166f8",
+        "encoded": "%22%22%22Start%20Playwright%20once%20per%20test%20session%20and%20close%20at%20the%20end.%22%22%22",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "3513dc",
+        "hash": "9f7312fb",
+        "encoded": "#%20CHANGE:%20use%20sync_playwright%20context%20manager%20to%20ensure%20proper%20startup/cleanup",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "3c0c4e",
+        "hash": "bc943a27",
+        "encoded": "with%20sync_playwright()%20as%20p:",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "3c0c4e",
+        "hash": "bd201487",
+        "encoded": "yield%20p",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "3513dc",
+        "hash": "2c10df09",
+        "encoded": "#%20sync_playwright%20will%20be%20closed%20when%20context%20manager%20exits",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "3c0c4e",
+        "hash": "f2204a78",
+        "encoded": "@pytest.fixture(scope=%22session%22)",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "3c0c4e",
+        "hash": "4d75122f",
+        "encoded": "def%20browser(pw):",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "3513dc",
+        "hash": "3104a4e6",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "3513dc",
+        "hash": "174adcd5",
+        "encoded": "Launch%20a%20single%20browser%20for%20the%20entire%20session.%20Use%20conservative%20args%20to%20avoid",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "3513dc",
+        "hash": "a18f6925",
+        "encoded": "profile/sandbox%20problems%20seen%20on%20some%20macOS/Linux%20setups.",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "3513dc",
+        "hash": "8e9d08f0",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "3513dc",
+        "hash": "a98fb04f",
+        "encoded": "launch_args%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "3513dc",
+        "hash": "0d82d07a",
+        "encoded": "%22--disable-dev-shm-usage%22,%20%20%20%20%20%20#%20avoid%20/dev/shm%20issues%20in%20containers",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "3513dc",
+        "hash": "3880ba64",
+        "encoded": "%22--no-sandbox%22,%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20avoids%20common%20sandbox%20permission%20issues",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "3513dc",
+        "hash": "23fe6554",
+        "encoded": "%22--disable-setuid-sandbox%22,%20%20%20%20%20#%20further%20sandbox%20safety",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "3513dc",
+        "hash": "39d108a8",
+        "encoded": "%22--disable-gpu%22,%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20GPU%20can%20cause%20platform%20specific%20crashes",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "3513dc",
+        "hash": "6b2ad350",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "3513dc",
+        "hash": "ef26c4ae",
+        "encoded": "headless%20=%20DEFAULT_HEADLESS",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "3c0c4e",
+        "hash": "c6622b8e",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "3513dc",
+        "hash": "e4f19d97",
+        "encoded": "browser%20=%20pw.chromium.launch(headless=headless,%20args=launch_args)",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "3513dc",
+        "hash": "0b598b95",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "3513dc",
+        "hash": "fef9b088",
+        "encoded": "#%20CHANGE:%20re-raise%20after%20printing%20to%20help%20diagnostics",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "3513dc",
+        "hash": "45558a80",
+        "encoded": "print(%22ERROR:%20failed%20to%20launch%20Chromium.%20Exception:%22,%20e)",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "3513dc",
+        "hash": "9bec7242",
+        "encoded": "print(%22Hint:%20run%20%60python%20-m%20playwright%20install%60%20and%20check%20PWDEBUG=1%20logs.%22)",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "3513dc",
+        "hash": "0b2aeadf",
+        "encoded": "raise",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "3c0c4e",
+        "hash": "786a0ace",
+        "encoded": "yield%20browser",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "3513dc",
+        "hash": "e09f2506",
+        "encoded": "#%20Teardown:%20try-close%20safely",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "3c0c4e",
+        "hash": "65d99eed",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "3c0c4e",
+        "hash": "9344dbbc",
+        "encoded": "browser.close()",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "3c0c4e",
+        "hash": "a30f9d7a",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "3c0c4e",
+        "hash": "2c37b2e6",
+        "encoded": "pass",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "3c0c4e",
+        "hash": "5d619403",
+        "encoded": "@pytest.fixture(scope=%22function%22)",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "3513dc",
+        "hash": "2d518ba7",
+        "encoded": "def%20context(browser,%20request):",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "3513dc",
+        "hash": "2ce5d582",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "3513dc",
+        "hash": "467ec4dc",
+        "encoded": "Create%20a%20fresh%20context%20per%20test.%20Use%20an%20ephemeral%20user-data%20dir%20by%20default%20(Playwright%20does%20that)",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "3513dc",
+        "hash": "064849a6",
+        "encoded": "but%20if%20a%20persistent%20directory%20is%20required,%20set%20PLAYWRIGHT_PERSIST_DIR%20env%20var.",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "3513dc",
+        "hash": "396214d9",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "3513dc",
+        "hash": "35dd125d",
+        "encoded": "persist_dir%20=%20os.environ.get(%22PLAYWRIGHT_PERSIST_DIR%22)",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "3513dc",
+        "hash": "c34fc144",
+        "encoded": "ctx%20=%20None",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "3513dc",
+        "hash": "a1d3c475",
+        "encoded": "if%20persist_dir:",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "3513dc",
+        "hash": "e2e4a4f0",
+        "encoded": "#%20Optionally%20use%20a%20temp%20subdir%20of%20the%20requested%20persist%20dir%20to%20avoid%20collisions.",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "3513dc",
+        "hash": "2a8a9ef4",
+        "encoded": "tmp%20=%20tempfile.mkdtemp(prefix=%22pw_persist_%22,%20dir=persist_dir)",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "3513dc",
+        "hash": "6203ea56",
+        "encoded": "ctx%20=%20browser.new_context(storage_state=None)%20%20#%20still%20ephemeral;%20choose%20persistent_context%20if%20needed",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "3513dc",
+        "hash": "2964638a",
+        "encoded": "else:",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "3c0c4e",
+        "hash": "3db62082",
+        "encoded": "ctx%20=%20browser.new_context()",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "3c0c4e",
+        "hash": "f395f6bf",
+        "encoded": "yield%20ctx",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "3c0c4e",
+        "hash": "ca845350",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "3c0c4e",
+        "hash": "4d826c4e",
+        "encoded": "ctx.close()",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "3c0c4e",
+        "hash": "0b537aeb",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "3c0c4e",
+        "hash": "b73d05c3",
+        "encoded": "pass",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "3c0c4e",
+        "hash": "9b2fbe49",
+        "encoded": "@pytest.fixture(scope=%22function%22)",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "3c0c4e",
+        "hash": "791e818e",
+        "encoded": "def%20page(context):",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "3513dc",
+        "hash": "4ee1d657",
+        "encoded": "%22%22%22Yield%20a%20new%20page%20bound%20to%20the%20function-scoped%20context.%22%22%22",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "3c0c4e",
+        "hash": "b7690437",
+        "encoded": "page%20=%20context.new_page()",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "3c0c4e",
+        "hash": "d79aeced",
+        "encoded": "yield%20page",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "3513dc",
+        "hash": "4f796c53",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "3c0c4e",
+        "hash": "ebacdc54",
+        "encoded": "page.close()",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "3c0c4e",
+        "hash": "0d65e584",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "3513dc",
+        "hash": "86886366",
+        "encoded": "pass",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

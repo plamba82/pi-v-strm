@@ -1,0 +1,26 @@
+{
+  "requirements.txt": {
+    "filename": "requirements.txt",
+    "path": "requirements.txt",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "0f2bfb": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1774201308,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "chat",
+        "type": "pasteCode",
+        "extraContext": {},
+        "hash": "3aa6964f",
+        "messageId": "system_a6c4f390-2615-11f1-ad99-e7fdf02f6d1e",
+        "codeBlockId": "system_a6c4f390-2615-11f1-ad99-e7fdf02f6d1e-Codeblock-2",
+        "isActive": false
+      }
+    },
+    "lines": {}
+  }
+}
