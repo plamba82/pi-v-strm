@@ -1,0 +1,141 @@
+{
+  "global_url": "https://youtube.com/shorts/NpUjjeArnbw?feature=share",
+  "profiles": [
+    {
+      "profile_name": "plamba82",
+      "automation_steps": [
+        {
+          "type": "open_url",
+          "url": "https://www.youtube.com"
+        },
+        {
+          "type": "search",
+          "search_term": "BhaktiSangeetPlus Channel"
+        },
+        {
+          "type": "go_to_absolute_url",
+          "url": "https://youtube.com/shorts/NpUjjeArnbw?feature=share"
+        }
+      ]
+    },
+    {
+      "profile_name": "krishiv",
+      "automation_steps": [
+        {
+          "type": "open_url",
+          "url": "https://www.youtube.com"
+        },
+        {
+          "type": "search",
+          "search_term": "BhaktiSangeetPlus Channel"
+        },
+        {
+          "type": "go_to_absolute_url",
+          "url": "https://youtube.com/shorts/NpUjjeArnbw?feature=share"
+        }
+      ]
+    },
+    {
+      "profile_name": "techgeekintown",
+      "automation_steps": [
+        {
+          "type": "open_url",
+          "url": "https://www.youtube.com"
+        },
+        {
+          "type": "search",
+          "search_term": "BhaktiSangeetPlus Channel"
+        },
+        {
+          "type": "go_to_absolute_url",
+          "url": "https://youtube.com/shorts/NpUjjeArnbw?feature=share"
+        }
+      ]
+    },
+    {
+      "profile_name": "sweetuguess",
+      "automation_steps": [
+        {
+          "type": "open_url",
+          "url": "https://www.youtube.com"
+        },
+        {
+          "type": "search",
+          "search_term": "BhaktiSangeetPlus Channel"
+        },
+        {
+          "type": "go_to_absolute_url",
+          "url": "https://youtube.com/shorts/NpUjjeArnbw?feature=share"
+        }
+      ]
+    },
+    {
+      "profile_name": "John",
+      "automation_steps": [
+        {
+          "type": "open_url",
+          "url": "https://www.youtube.com"
+        },
+        {
+          "type": "search",
+          "search_term": "BhaktiSangeetPlus Channel"
+        },
+        {
+          "type": "go_to_absolute_url",
+          "url": "https://youtube.com/shorts/NpUjjeArnbw?feature=share"
+        }
+      ]
+    },
+    {
+      "profile_name": "Neelam",
+      "automation_steps": [
+        {
+          "type": "open_url",
+          "url": "https://www.youtube.com"
+        },
+        {
+          "type": "search",
+          "search_term": "BhaktiSangeetPlus Channel"
+        },
+        {
+          "type": "go_to_absolute_url",
+          "url": "https://youtube.com/shorts/NpUjjeArnbw?feature=share"
+        }
+      ]
+    },
+    {
+      "profile_name": "superokapi",
+      "automation_steps": [
+        {
+          "type": "open_url",
+          "url": "https://www.youtube.com"
+        },
+        {
+          "type": "search",
+          "search_term": "BhaktiSangeetPlus Channel"
+        },
+        {
+          "type": "go_to_absolute_url",
+          "url": "https://youtube.com/shorts/NpUjjeArnbw?feature=share"
+        }
+      ]
+    },
+    {
+      "profile_name": "Arjun",
+      "automation_steps": [
+        {
+          "type": "open_url",
+          "url": "https://www.youtube.com"
+        },
+        {
+          "type": "search",
+          "search_term": "BhaktiSangeetPlus Channel"
+        },
+        {
+          "type": "go_to_absolute_url",
+          "url": "https://youtube.com/shorts/NpUjjeArnbw?feature=share"
+        }
+      ]
+    }
+  ]
+}
