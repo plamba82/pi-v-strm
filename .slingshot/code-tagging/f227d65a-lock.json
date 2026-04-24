@@ -1,0 +1,818 @@
+{
+  "src/chrome/main.py": {
+    "filename": "main.py",
+    "path": "src/chrome/main.py",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "205700": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776882892,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "7e92674f",
+          "files": "c686a771"
+        },
+        "hash": "3b140d05",
+        "messageId": "system_6e771960-3e79-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_6e771960-3e79-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": false
+      },
+      "d47811": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776829302,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "5709d83c",
+          "files": "38ba885a"
+        },
+        "hash": "ef81890b",
+        "messageId": "system_1a3ea790-3dfd-11f1-b1ef-d734c7968469",
+        "codeBlockId": null,
+        "isActive": false
+      },
+      "6bcfdc": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776829465,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "0cc5cf08",
+          "files": "ed2ff0c3"
+        },
+        "hash": "144686c5",
+        "messageId": "system_793eb910-3dfd-11f1-b1ef-d734c7968469",
+        "codeBlockId": null,
+        "isActive": false
+      },
+      "5264b5": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776829585,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "a00864aa",
+          "files": "8399e637"
+        },
+        "hash": "393cdbfd",
+        "messageId": "system_bc8ccb80-3dfd-11f1-b1ef-d734c7968469",
+        "codeBlockId": null,
+        "isActive": false
+      },
+      "06d853": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776829899,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {},
+        "hash": "5cb5f0e7",
+        "messageId": "806e26b5-43e7-4d1a-b893-65724c868ca6",
+        "codeBlockId": null,
+        "isActive": false
+      },
+      "5a5d0d": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776829928,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "944fa03d",
+          "files": "8c7e6bfb"
+        },
+        "hash": "387e4f8a",
+        "messageId": "system_729dfca0-3dfe-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_729dfca0-3dfe-11f1-b1ef-d734c7968469-Codeblock-2",
+        "isActive": true
+      },
+      "080015": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776831156,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "0b67a831",
+          "files": "17a41c6a"
+        },
+        "hash": "703ec925",
+        "messageId": "system_f6cae450-3e00-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_f6cae450-3e00-11f1-b1ef-d734c7968469-Codeblock-3",
+        "isActive": false
+      },
+      "77b6aa": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776878467,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {
+          "promptMessage": "fc87ac53",
+          "files": "dc50b5a6"
+        },
+        "hash": "b1ea4695",
+        "messageId": "system_980105f0-3e6c-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_980105f0-3e6c-11f1-b1ef-d734c7968469-Codeblock-3",
+        "isActive": false
+      },
+      "b40f6a": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776878477,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "fc87ac53",
+          "files": "dc50b5a6"
+        },
+        "hash": "b1ea4695",
+        "messageId": "system_980105f0-3e6c-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_980105f0-3e6c-11f1-b1ef-d734c7968469-Codeblock-3",
+        "isActive": false
+      },
+      "f87aa8": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776882853,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {
+          "promptMessage": "7e92674f",
+          "files": "c686a771"
+        },
+        "hash": "3b140d05",
+        "messageId": "system_6e771960-3e79-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_6e771960-3e79-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": false
+      },
+      "27b932": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776883192,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "7e92674f",
+          "files": "c686a771"
+        },
+        "hash": "3b140d05",
+        "messageId": "system_6e771960-3e79-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_6e771960-3e79-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": true
+      },
+      "48af1a": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776897875,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "f41edb62",
+          "files": "8da5d678"
+        },
+        "hash": "a60d8004",
+        "messageId": "system_f0440a80-3e9b-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_f0440a80-3e9b-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": true
+      },
+      "0a2a41": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776898253,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {
+          "promptMessage": "a5331f3c",
+          "files": "8c7e6bfb"
+        },
+        "hash": "bb7afb98",
+        "messageId": "system_5a5c44e0-3e9d-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_5a5c44e0-3e9d-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": false
+      },
+      "486de6": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776898324,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "a5331f3c",
+          "files": "8c7e6bfb"
+        },
+        "hash": "bb7afb98",
+        "messageId": "system_5a5c44e0-3e9d-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_5a5c44e0-3e9d-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": true
+      },
+      "a1d72e": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-4.1",
+        "timestamp": 1776916406,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "56cc6a9e",
+          "files": "c2c40ef0"
+        },
+        "hash": "6772f659",
+        "messageId": "system_77167310-3ec7-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_77167310-3ec7-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": true
+      }
+    },
+    "lines": {
+      "1": {
+        "chunkId": "5a5d0d",
+        "hash": "c0024312",
+        "encoded": "import%20time",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "2": {
+        "chunkId": "5a5d0d",
+        "hash": "3a0863de",
+        "encoded": "import%20subprocess",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "3": {
+        "chunkId": "5a5d0d",
+        "hash": "e5fd850a",
+        "encoded": "import%20logging",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "4": {
+        "chunkId": "27b932",
+        "hash": "b7624ce9",
+        "encoded": "import%20random",
+        "prevChunkIds": [
+          "27b932",
+          "5a5d0d"
+        ]
+      },
+      "17": {
+        "chunkId": "5a5d0d",
+        "hash": "8affb987",
+        "encoded": ")",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "18": {
+        "chunkId": "5a5d0d",
+        "hash": "f0490202",
+        "encoded": "logger%20=%20logging.getLogger(__name__)",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "154": {
+        "chunkId": "5a5d0d",
+        "hash": "ac5dcc3d",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "158": {
+        "chunkId": "5a5d0d",
+        "hash": "4a546886",
+        "encoded": "Args:",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "161": {
+        "chunkId": "5a5d0d",
+        "hash": "aff1b85e",
+        "encoded": "Returns:",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "166": {
+        "chunkId": "5a5d0d",
+        "hash": "b8e183a1",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "167": {
+        "chunkId": "5a5d0d",
+        "hash": "af307cd5",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "175": {
+        "chunkId": "5a5d0d",
+        "hash": "ba078afd",
+        "encoded": "logger.info(",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "177": {
+        "chunkId": "5a5d0d",
+        "hash": "6a0beb2f",
+        "encoded": ")",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "182": {
+        "chunkId": "5a5d0d",
+        "hash": "c38b2f63",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "188": {
+        "chunkId": "5a5d0d",
+        "hash": "99e540c2",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "191": {
+        "chunkId": "5a5d0d",
+        "hash": "6ed3bd83",
+        "encoded": "Args:",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "194": {
+        "chunkId": "5a5d0d",
+        "hash": "1675ef50",
+        "encoded": "Returns:",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "200": {
+        "chunkId": "5a5d0d",
+        "hash": "1d4cab26",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "215": {
+        "chunkId": "5a5d0d",
+        "hash": "3c72afdc",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "218": {
+        "chunkId": "5a5d0d",
+        "hash": "4a9da5b0",
+        "encoded": "Args:",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "221": {
+        "chunkId": "5a5d0d",
+        "hash": "3dc10251",
+        "encoded": "Returns:",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "226": {
+        "chunkId": "5a5d0d",
+        "hash": "aab02a63",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "252": {
+        "chunkId": "5a5d0d",
+        "hash": "59bae652",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "264": {
+        "chunkId": "5a5d0d",
+        "hash": "6fd842d9",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "48af1a",
+          "5a5d0d"
+        ]
+      },
+      "281": {
+        "chunkId": "5a5d0d",
+        "hash": "eafd2246",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "282": {
+        "chunkId": "5a5d0d",
+        "hash": "6aca3a7d",
+        "encoded": "Execute%20an%20AppleScript%20and%20return%20the%20result.",
+        "prevChunkIds": [
+          "b40f6a",
+          "5a5d0d"
+        ]
+      },
+      "285": {
+        "chunkId": "5a5d0d",
+        "hash": "27bb73b1",
+        "encoded": "script:%20AppleScript%20code%20to%20execute",
+        "prevChunkIds": [
+          "080015",
+          "5a5d0d"
+        ]
+      },
+      "288": {
+        "chunkId": "5a5d0d",
+        "hash": "7358ea0b",
+        "encoded": "Tuple%20of%20(success:%20bool,%20output:%20str)",
+        "prevChunkIds": [
+          "b40f6a",
+          "5a5d0d"
+        ]
+      },
+      "289": {
+        "chunkId": "5a5d0d",
+        "hash": "19585b1a",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "48af1a",
+          "5a5d0d"
+        ]
+      },
+      "291": {
+        "chunkId": "5a5d0d",
+        "hash": "f9c9e9a1",
+        "encoded": "result%20=%20subprocess.run(",
+        "prevChunkIds": [
+          "080015",
+          "5a5d0d"
+        ]
+      },
+      "292": {
+        "chunkId": "5a5d0d",
+        "hash": "b62f8b2f",
+        "encoded": "%5B%22osascript%22,%20%22-e%22,%20script%5D,%20capture_output=True,%20text=True,%20timeout=30",
+        "prevChunkIds": [
+          "080015",
+          "5a5d0d"
+        ]
+      },
+      "295": {
+        "chunkId": "5a5d0d",
+        "hash": "9b7234f4",
+        "encoded": "if%20result.returncode%20==%200:",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "296": {
+        "chunkId": "5a5d0d",
+        "hash": "070bb05a",
+        "encoded": "return%20True,%20result.stdout.strip()",
+        "prevChunkIds": [
+          "b40f6a",
+          "5a5d0d"
+        ]
+      },
+      "297": {
+        "chunkId": "5a5d0d",
+        "hash": "8f4ff22e",
+        "encoded": "else:",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "298": {
+        "chunkId": "5a5d0d",
+        "hash": "dac1f8ba",
+        "encoded": "logger.error(f%22AppleScript%20error:%20%7Bresult.stderr%7D%22)",
+        "prevChunkIds": [
+          "b40f6a",
+          "5a5d0d"
+        ]
+      },
+      "299": {
+        "chunkId": "5a5d0d",
+        "hash": "4892bdf7",
+        "encoded": "return%20False,%20result.stderr.strip()",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "300": {
+        "chunkId": "5a5d0d",
+        "hash": "b1388952",
+        "encoded": "except%20subprocess.TimeoutExpired:",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "301": {
+        "chunkId": "5a5d0d",
+        "hash": "c5b7ee68",
+        "encoded": "logger.error(%22AppleScript%20execution%20timed%20out%22)",
+        "prevChunkIds": [
+          "27b932",
+          "5a5d0d"
+        ]
+      },
+      "302": {
+        "chunkId": "5a5d0d",
+        "hash": "c6713860",
+        "encoded": "return%20False,%20%22Timeout%22",
+        "prevChunkIds": [
+          "27b932",
+          "5a5d0d"
+        ]
+      },
+      "304": {
+        "chunkId": "5a5d0d",
+        "hash": "02883a11",
+        "encoded": "logger.error(f%22Failed%20to%20execute%20AppleScript:%20%7Be%7D%22)",
+        "prevChunkIds": [
+          "27b932",
+          "5a5d0d"
+        ]
+      },
+      "305": {
+        "chunkId": "5a5d0d",
+        "hash": "d11ad62b",
+        "encoded": "return%20False,%20str(e)",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "309": {
+        "chunkId": "5a5d0d",
+        "hash": "3637cee1",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "48af1a",
+          "5a5d0d"
+        ]
+      },
+      "317": {
+        "chunkId": "5a5d0d",
+        "hash": "fde40f5b",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "48af1a",
+          "5a5d0d"
+        ]
+      },
+      "318": {
+        "chunkId": "5a5d0d",
+        "hash": "fe2a0925",
+        "encoded": "script%20=%20f%22%22%22",
+        "prevChunkIds": [
+          "48af1a",
+          "5a5d0d"
+        ]
+      },
+      "319": {
+        "chunkId": "5a5d0d",
+        "hash": "3f2eca00",
+        "encoded": "tell%20application%20%22Google%20Chrome%22",
+        "prevChunkIds": [
+          "48af1a",
+          "5a5d0d"
+        ]
+      },
+      "320": {
+        "chunkId": "5a5d0d",
+        "hash": "5c8ae26d",
+        "encoded": "activate",
+        "prevChunkIds": [
+          "5a5d0d",
+          "b40f6a"
+        ]
+      },
+      "323": {
+        "chunkId": "5a5d0d",
+        "hash": "b17c1812",
+        "encoded": "end%20tell",
+        "prevChunkIds": [
+          "48af1a",
+          "5a5d0d"
+        ]
+      },
+      "326": {
+        "chunkId": "5a5d0d",
+        "hash": "6de14de7",
+        "encoded": "success,%20output%20=%20execute_applescript(script)",
+        "prevChunkIds": [
+          "48af1a",
+          "5a5d0d"
+        ]
+      },
+      "327": {
+        "chunkId": "5a5d0d",
+        "hash": "2bce9c81",
+        "encoded": "if%20success:",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "329": {
+        "chunkId": "5a5d0d",
+        "hash": "1fc4fbbd",
+        "encoded": "else:",
+        "prevChunkIds": [
+          "48af1a",
+          "5a5d0d"
+        ]
+      },
+      "341": {
+        "chunkId": "5a5d0d",
+        "hash": "8d6acb64",
+        "encoded": "script%20=%20%22%22%22",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "342": {
+        "chunkId": "5a5d0d",
+        "hash": "90974b5d",
+        "encoded": "tell%20application%20%22Google%20Chrome%22",
+        "prevChunkIds": [
+          "48af1a",
+          "5a5d0d"
+        ]
+      },
+      "344": {
+        "chunkId": "5a5d0d",
+        "hash": "d3aae53c",
+        "encoded": "end%20tell",
+        "prevChunkIds": [
+          "48af1a",
+          "5a5d0d"
+        ]
+      },
+      "348": {
+        "chunkId": "5a5d0d",
+        "hash": "565ce98a",
+        "encoded": "if%20success:",
+        "prevChunkIds": [
+          "48af1a",
+          "5a5d0d"
+        ]
+      },
+      "350": {
+        "chunkId": "5a5d0d",
+        "hash": "67b7dec2",
+        "encoded": "else:",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "363": {
+        "chunkId": "5a5d0d",
+        "hash": "1f58cce0",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "389": {
+        "chunkId": "5a5d0d",
+        "hash": "7a2a1f8c",
+        "encoded": "else:",
+        "prevChunkIds": [
+          "5a5d0d"
+        ]
+      },
+      "407": {
+        "chunkId": "486de6",
+        "hash": "354a4349",
+        "encoded": "):",
+        "prevChunkIds": []
+      },
+      "453": {
+        "chunkId": "27b932",
+        "hash": "813dfc5b",
+        "encoded": "logger.info(f%22Selected%20random%20comment:%20'%7Bselected_comment%7D'%22)",
+        "prevChunkIds": [
+          "27b932",
+          "205700"
+        ]
+      },
+      "455": {
+        "chunkId": "486de6",
+        "hash": "7fca8a14",
+        "encoded": "if%20click_comment_button_and_add_comment(",
+        "prevChunkIds": []
+      },
+      "457": {
+        "chunkId": "a1d72e",
+        "hash": "b8abb5a9",
+        "encoded": "):",
+        "prevChunkIds": []
+      },
+      "506": {
+        "chunkId": "48af1a",
+        "hash": "67b1f88c",
+        "encoded": "tell%20application%20%22System%20Events%22",
+        "prevChunkIds": [
+          "48af1a"
+        ]
+      },
+      "508": {
+        "chunkId": "48af1a",
+        "hash": "e8bdf60c",
+        "encoded": "end%20tell",
+        "prevChunkIds": [
+          "48af1a"
+        ]
+      },
+      "511": {
+        "chunkId": "48af1a",
+        "hash": "70f1af17",
+        "encoded": "success,%20_%20=%20execute_applescript(script)",
+        "prevChunkIds": [
+          "48af1a"
+        ]
+      },
+      "512": {
+        "chunkId": "48af1a",
+        "hash": "b68cac7e",
+        "encoded": "if%20not%20success:",
+        "prevChunkIds": [
+          "48af1a"
+        ]
+      }
+    }
+  }
+}

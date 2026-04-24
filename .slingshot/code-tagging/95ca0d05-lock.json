@@ -1,0 +1,47 @@
+{
+  "profiles-v1.json": {
+    "filename": "profiles-v1.json",
+    "path": "profiles-v1.json",
+    "version": "1.2",
+    "contextFile": "95ca0d05-context.json",
+    "chunks": {
+      "1d08cb": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-4.1",
+        "timestamp": 1775157425,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "857e7e96",
+          "files": "9011dd6d"
+        },
+        "hash": "e66e4a05",
+        "messageId": "system_580b52b0-2ec8-11f1-8f89-6941bd58eb95",
+        "codeBlockId": "system_580b52b0-2ec8-11f1-8f89-6941bd58eb95-Codeblock-1",
+        "isActive": false
+      },
+      "ca41cd": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1775243763,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "50cfd30a",
+          "files": "a2723b82"
+        },
+        "hash": "359d38b3",
+        "messageId": "system_4b06b450-2f91-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_4b06b450-2f91-11f1-b8d4-ad09f5789ffa-Codeblock-2",
+        "isActive": false
+      }
+    },
+    "lines": {}
+  }
+}

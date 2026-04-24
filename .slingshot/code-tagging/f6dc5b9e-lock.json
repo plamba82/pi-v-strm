@@ -1,0 +1,2268 @@
+{
+  "src/chrome/step3.py": {
+    "filename": "step3.py",
+    "path": "src/chrome/step3.py",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "609238": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776884623,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "bb7c4e08",
+          "files": "081778d9"
+        },
+        "hash": "43e0cc25",
+        "messageId": "system_e7f78060-3e7c-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_e7f78060-3e7c-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": false
+      },
+      "9e791a": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776878386,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "pasteCode",
+        "extraContext": {
+          "promptMessage": "fc87ac53",
+          "files": "dc50b5a6"
+        },
+        "hash": "888dd691",
+        "messageId": "system_980105f0-3e6c-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_980105f0-3e6c-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": false
+      },
+      "1791aa": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776878912,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "a56e1bff",
+          "files": "f03c6d51"
+        },
+        "hash": "809c2e28",
+        "messageId": "system_eeb6b7c0-3e6f-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_eeb6b7c0-3e6f-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": false
+      },
+      "a4bd96": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776879549,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "91235dfb",
+          "files": "8c7e6bfb"
+        },
+        "hash": "fa2a6e8e",
+        "messageId": "system_c804a450-3e71-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_c804a450-3e71-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": false
+      },
+      "e6eafa": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776879632,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "91235dfb",
+          "files": "8c7e6bfb"
+        },
+        "hash": "fa2a6e8e",
+        "messageId": "system_c804a450-3e71-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_c804a450-3e71-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": false
+      },
+      "679a2d": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776880017,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "f6461686",
+          "files": "929aebe4"
+        },
+        "hash": "bebff8ae",
+        "messageId": "system_05faf510-3e73-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_05faf510-3e73-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": false
+      },
+      "612d24": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776880235,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "710d791d",
+          "files": "99561a8c"
+        },
+        "hash": "e99a5995",
+        "messageId": "system_95e8f730-3e73-11f1-b1ef-d734c7968469",
+        "codeBlockId": null,
+        "isActive": false
+      },
+      "725af5": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776880427,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "3f56d2c3",
+          "files": "15f05431"
+        },
+        "hash": "766e23e6",
+        "messageId": "system_00f8f480-3e74-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_00f8f480-3e74-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": false
+      },
+      "5b9da1": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776881208,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "a96d470f",
+          "files": "d1338f1f"
+        },
+        "hash": "2823d72f",
+        "messageId": "system_b6952740-3e75-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_b6952740-3e75-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": true
+      },
+      "8a5e70": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776881470,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "39576ff8",
+          "files": "5c14c6dc"
+        },
+        "hash": "3e3576f8",
+        "messageId": "system_4dcf72a0-3e76-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_4dcf72a0-3e76-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": true
+      },
+      "30cfd5": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776883945,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {
+          "promptMessage": "22c44a45",
+          "files": "081778d9"
+        },
+        "hash": "2db39a3b",
+        "messageId": "system_fec66370-3e7b-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_fec66370-3e7b-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": false
+      },
+      "bc8ff3": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776883961,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "22c44a45",
+          "files": "081778d9"
+        },
+        "hash": "2db39a3b",
+        "messageId": "system_fec66370-3e7b-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_fec66370-3e7b-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": false
+      },
+      "dded3c": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776884601,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {
+          "promptMessage": "bb7c4e08",
+          "files": "081778d9"
+        },
+        "hash": "43e0cc25",
+        "messageId": "system_e7f78060-3e7c-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_e7f78060-3e7c-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": false
+      },
+      "f4dcf0": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-4.1",
+        "timestamp": 1776916466,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "56cc6a9e",
+          "files": "c2c40ef0"
+        },
+        "hash": "6772f659",
+        "messageId": "system_77167310-3ec7-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_77167310-3ec7-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": true
+      },
+      "3824bb": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-4.1",
+        "timestamp": 1776916940,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "9862e3bd",
+          "files": "95fee789"
+        },
+        "hash": "52fe772e",
+        "messageId": "system_16462380-3ec9-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_16462380-3ec9-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "5b9da1",
+        "hash": "4e630601",
+        "encoded": "import%20time",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "1": {
+        "chunkId": "5b9da1",
+        "hash": "93ebed14",
+        "encoded": "import%20logging",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "2": {
+        "chunkId": "5b9da1",
+        "hash": "3a0863de",
+        "encoded": "import%20subprocess",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "3": {
+        "chunkId": "f4dcf0",
+        "hash": "38804a66",
+        "encoded": "import%20random",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "5b9da1",
+        "hash": "25d9ef6e",
+        "encoded": "from%20typing%20import%20Tuple",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "6": {
+        "chunkId": "5b9da1",
+        "hash": "fad6e72a",
+        "encoded": "logger%20=%20logging.getLogger(__name__)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "8": {
+        "chunkId": "5b9da1",
+        "hash": "5f2b41fd",
+        "encoded": "def%20execute_applescript(script:%20str)%20-%3E%20Tuple%5Bbool,%20str%5D:",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "9": {
+        "chunkId": "5b9da1",
+        "hash": "e4d69cbc",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "10": {
+        "chunkId": "5b9da1",
+        "hash": "feac4437",
+        "encoded": "result%20=%20subprocess.run(",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "11": {
+        "chunkId": "5b9da1",
+        "hash": "e4fccc9e",
+        "encoded": "%5B%22osascript%22,%20%22-e%22,%20script%5D,%20capture_output=True,%20text=True,%20timeout=30",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "12": {
+        "chunkId": "5b9da1",
+        "hash": "e3174527",
+        "encoded": ")",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "13": {
+        "chunkId": "5b9da1",
+        "hash": "13fb7dfb",
+        "encoded": "if%20result.returncode%20==%200:",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "14": {
+        "chunkId": "5b9da1",
+        "hash": "3b4f433f",
+        "encoded": "return%20True,%20result.stdout.strip()",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "15": {
+        "chunkId": "5b9da1",
+        "hash": "030eb669",
+        "encoded": "else:",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "16": {
+        "chunkId": "5b9da1",
+        "hash": "a268f99c",
+        "encoded": "logger.error(f%22AppleScript%20error:%20%7Bresult.stderr%7D%22)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "17": {
+        "chunkId": "5b9da1",
+        "hash": "710dfce7",
+        "encoded": "return%20False,%20result.stderr.strip()",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "18": {
+        "chunkId": "5b9da1",
+        "hash": "4f77b2e1",
+        "encoded": "except%20subprocess.TimeoutExpired:",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "19": {
+        "chunkId": "5b9da1",
+        "hash": "fa050fe5",
+        "encoded": "logger.error(%22AppleScript%20execution%20timed%20out%22)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "20": {
+        "chunkId": "5b9da1",
+        "hash": "6ea748de",
+        "encoded": "return%20False,%20%22Timeout%22",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "21": {
+        "chunkId": "5b9da1",
+        "hash": "c800a655",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "22": {
+        "chunkId": "5b9da1",
+        "hash": "efc39ab5",
+        "encoded": "logger.error(f%22Failed%20to%20execute%20AppleScript:%20%7Be%7D%22)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "23": {
+        "chunkId": "5b9da1",
+        "hash": "692d9e36",
+        "encoded": "return%20False,%20str(e)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "25": {
+        "chunkId": "5b9da1",
+        "hash": "849ec6d1",
+        "encoded": "def%20execute_javascript_in_chrome(js_code:%20str)%20-%3E%20Tuple%5Bbool,%20str%5D:",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "26": {
+        "chunkId": "5b9da1",
+        "hash": "37346b27",
+        "encoded": "escaped_js%20=%20js_code.replace(%22%5C%5C%22,%20%22%5C%5C%5C%5C%22).replace('%22',%20'%5C%5C%22')",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "27": {
+        "chunkId": "5b9da1",
+        "hash": "524faa03",
+        "encoded": "script%20=%20f%22%22%22",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "28": {
+        "chunkId": "5b9da1",
+        "hash": "a1bc6185",
+        "encoded": "tell%20application%20%22Google%20Chrome%22",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "29": {
+        "chunkId": "5b9da1",
+        "hash": "7fc3cfb2",
+        "encoded": "tell%20active%20tab%20of%20front%20window",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "30": {
+        "chunkId": "5b9da1",
+        "hash": "6fbcdc47",
+        "encoded": "execute%20javascript%20%22%7Bescaped_js%7D%22",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "31": {
+        "chunkId": "5b9da1",
+        "hash": "ea86a11c",
+        "encoded": "end%20tell",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "32": {
+        "chunkId": "5b9da1",
+        "hash": "cb46dbf1",
+        "encoded": "end%20tell",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "33": {
+        "chunkId": "5b9da1",
+        "hash": "6f6020c9",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "34": {
+        "chunkId": "5b9da1",
+        "hash": "6284e0ab",
+        "encoded": "success,%20output%20=%20execute_applescript(script)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "35": {
+        "chunkId": "5b9da1",
+        "hash": "9fb92d4c",
+        "encoded": "if%20success:",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "36": {
+        "chunkId": "5b9da1",
+        "hash": "6872e34b",
+        "encoded": "logger.info(f%22JavaScript%20executed%20successfully.%20Result:%20%7Boutput%5B:100%5D%7D%22)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "37": {
+        "chunkId": "5b9da1",
+        "hash": "522466b4",
+        "encoded": "else:",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "38": {
+        "chunkId": "5b9da1",
+        "hash": "76aafc84",
+        "encoded": "logger.error(f%22JavaScript%20execution%20failed:%20%7Boutput%7D%22)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "39": {
+        "chunkId": "5b9da1",
+        "hash": "c55961e8",
+        "encoded": "return%20success,%20output",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "42": {
+        "chunkId": "5b9da1",
+        "hash": "cb3e2b24",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "45": {
+        "chunkId": "5b9da1",
+        "hash": "a9c3ce7c",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "59": {
+        "chunkId": "5b9da1",
+        "hash": "a38e72b5",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "63": {
+        "chunkId": "5b9da1",
+        "hash": "c1bcc979",
+        "encoded": "return%20False",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "68": {
+        "chunkId": "f4dcf0",
+        "hash": "17ca69c1",
+        "encoded": "logger.info(%22Finished%20typing%20comment%20as%20human.%22)",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "8a5e70",
+        "hash": "1c1bf0b7",
+        "encoded": "return%20True",
+        "prevChunkIds": [
+          "8a5e70"
+        ]
+      },
+      "71": {
+        "chunkId": "5b9da1",
+        "hash": "f6c5aea3",
+        "encoded": "def%20click_comment_button_and_add_comment(",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "72": {
+        "chunkId": "5b9da1",
+        "hash": "8514263c",
+        "encoded": "comment_text:%20str%20=%20%22Great%20video!%20Thanks%20for%20sharing.%22,",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "73": {
+        "chunkId": "5b9da1",
+        "hash": "8b4e99f4",
+        "encoded": ")%20-%3E%20bool:",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "74": {
+        "chunkId": "5b9da1",
+        "hash": "6f5faae4",
+        "encoded": "logger.info(%22Step%205:%20Waiting%201%20second%20before%20clicking%20comment%20button...%22)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "75": {
+        "chunkId": "5b9da1",
+        "hash": "0d26d557",
+        "encoded": "time.sleep(1)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "78": {
+        "chunkId": "5b9da1",
+        "hash": "6e5902a0",
+        "encoded": "js_click_comment%20=%20%22%22%22",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "79": {
+        "chunkId": "5b9da1",
+        "hash": "d221d9ad",
+        "encoded": "(function()%20%7B",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "80": {
+        "chunkId": "5b9da1",
+        "hash": "139b2c99",
+        "encoded": "var%20commentButton%20=%20null;",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "81": {
+        "chunkId": "5b9da1",
+        "hash": "40521a4c",
+        "encoded": "var%20buttons%20=%20document.querySelectorAll('button%5Baria-label%5D');",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "82": {
+        "chunkId": "5b9da1",
+        "hash": "381668eb",
+        "encoded": "for%20(var%20i%20=%200;%20i%20%3C%20buttons.length;%20i++)%20%7B",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "83": {
+        "chunkId": "5b9da1",
+        "hash": "55eebb9a",
+        "encoded": "var%20label%20=%20buttons%5Bi%5D.getAttribute('aria-label');",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "84": {
+        "chunkId": "5b9da1",
+        "hash": "0493b947",
+        "encoded": "if%20(label%20&&%20label.toLowerCase().includes('comment'))%20%7B",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "85": {
+        "chunkId": "5b9da1",
+        "hash": "aaf4b768",
+        "encoded": "commentButton%20=%20buttons%5Bi%5D;",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "86": {
+        "chunkId": "5b9da1",
+        "hash": "55419761",
+        "encoded": "break;",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "87": {
+        "chunkId": "5b9da1",
+        "hash": "f4ff50cd",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "88": {
+        "chunkId": "5b9da1",
+        "hash": "726efa75",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "90": {
+        "chunkId": "5b9da1",
+        "hash": "5c73d8bc",
+        "encoded": "var%20rect%20=%20commentButton.getBoundingClientRect();",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "94": {
+        "chunkId": "5b9da1",
+        "hash": "ade19641",
+        "encoded": "return%20'Comment%20button%20clicked';",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "95": {
+        "chunkId": "5b9da1",
+        "hash": "f0a5fdc9",
+        "encoded": "%7D)();",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "96": {
+        "chunkId": "5b9da1",
+        "hash": "391a281d",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "97": {
+        "chunkId": "5b9da1",
+        "hash": "96b1b154",
+        "encoded": "success,%20result%20=%20execute_javascript_in_chrome(js_click_comment)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "99": {
+        "chunkId": "5b9da1",
+        "hash": "7c81ab4a",
+        "encoded": "logger.error(f%22Failed%20to%20click%20comment%20button:%20%7Bresult%7D%22)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "100": {
+        "chunkId": "5b9da1",
+        "hash": "f58c06e0",
+        "encoded": "return%20False",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "101": {
+        "chunkId": "5b9da1",
+        "hash": "6ec22206",
+        "encoded": "logger.info(f%22Comment%20button%20clicked:%20%7Bresult%7D%22)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "103": {
+        "chunkId": "5b9da1",
+        "hash": "4a464ca2",
+        "encoded": "logger.info(%22Waiting%202%20seconds%20for%20comment%20popup%20to%20render...%22)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "104": {
+        "chunkId": "5b9da1",
+        "hash": "4d511c8c",
+        "encoded": "time.sleep(2)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "108": {
+        "chunkId": "5b9da1",
+        "hash": "a339ca2e",
+        "encoded": "tab_script%20=%20%22%22%22",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "109": {
+        "chunkId": "5b9da1",
+        "hash": "71ff861f",
+        "encoded": "tell%20application%20%22Google%20Chrome%22",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "110": {
+        "chunkId": "5b9da1",
+        "hash": "46f35c36",
+        "encoded": "activate",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "111": {
+        "chunkId": "5b9da1",
+        "hash": "4c9a4ae1",
+        "encoded": "tell%20application%20%22System%20Events%22",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "112": {
+        "chunkId": "8a5e70",
+        "hash": "8bc7d11a",
+        "encoded": "keystroke%20tab",
+        "prevChunkIds": [
+          "8a5e70"
+        ]
+      },
+      "113": {
+        "chunkId": "8a5e70",
+        "hash": "c621ce9a",
+        "encoded": "delay%200.3",
+        "prevChunkIds": [
+          "8a5e70"
+        ]
+      },
+      "114": {
+        "chunkId": "5b9da1",
+        "hash": "9e1b2bfc",
+        "encoded": "keystroke%20tab",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "115": {
+        "chunkId": "8a5e70",
+        "hash": "9bcf8b17",
+        "encoded": "delay%200.3",
+        "prevChunkIds": [
+          "8a5e70"
+        ]
+      },
+      "116": {
+        "chunkId": "8a5e70",
+        "hash": "ddf0e61a",
+        "encoded": "keystroke%20tab",
+        "prevChunkIds": [
+          "8a5e70"
+        ]
+      },
+      "117": {
+        "chunkId": "5b9da1",
+        "hash": "929b36ba",
+        "encoded": "delay%200.5",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "118": {
+        "chunkId": "5b9da1",
+        "hash": "459c03c5",
+        "encoded": "end%20tell",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "119": {
+        "chunkId": "5b9da1",
+        "hash": "4f82579a",
+        "encoded": "end%20tell",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "120": {
+        "chunkId": "5b9da1",
+        "hash": "4883678c",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "121": {
+        "chunkId": "5b9da1",
+        "hash": "11331032",
+        "encoded": "success,%20result%20=%20execute_applescript(tab_script)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "122": {
+        "chunkId": "5b9da1",
+        "hash": "f0f79f1a",
+        "encoded": "if%20not%20success:",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "123": {
+        "chunkId": "8a5e70",
+        "hash": "956bdfed",
+        "encoded": "logger.error(%22Failed%20to%20press%20Tab%20key%203%20times%22)",
+        "prevChunkIds": [
+          "8a5e70"
+        ]
+      },
+      "124": {
+        "chunkId": "5b9da1",
+        "hash": "c0d8223c",
+        "encoded": "return%20False",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "125": {
+        "chunkId": "8a5e70",
+        "hash": "d48fd71d",
+        "encoded": "logger.info(%22Tab%20key%20pressed%203%20times%20to%20focus%20comment%20input%22)",
+        "prevChunkIds": [
+          "8a5e70"
+        ]
+      },
+      "126": {
+        "chunkId": "5b9da1",
+        "hash": "5c5fff83",
+        "encoded": "time.sleep(0.5)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "133": {
+        "chunkId": "8a5e70",
+        "hash": "c0917db0",
+        "encoded": "#%20Wait%201%20second%20for%20YouTube%20to%20show%20the%20submit%20button",
+        "prevChunkIds": [
+          "8a5e70"
+        ]
+      },
+      "134": {
+        "chunkId": "5b9da1",
+        "hash": "c9ec6914",
+        "encoded": "time.sleep(1)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "137": {
+        "chunkId": "5b9da1",
+        "hash": "b550b080",
+        "encoded": "js_click_submit%20=%20%22%22%22",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "138": {
+        "chunkId": "5b9da1",
+        "hash": "73a34e2b",
+        "encoded": "(function()%20%7B",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "139": {
+        "chunkId": "5b9da1",
+        "hash": "848373b4",
+        "encoded": "var%20submitButton%20=%20null;",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "140": {
+        "chunkId": "5b9da1",
+        "hash": "cc54a4aa",
+        "encoded": "var%20buttons%20=%20document.querySelectorAll('button%5Baria-label=%22Comment%22%5D');",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "141": {
+        "chunkId": "5b9da1",
+        "hash": "26639031",
+        "encoded": "for%20(var%20i%20=%200;%20i%20%3C%20buttons.length;%20i++)%20%7B",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "142": {
+        "chunkId": "5b9da1",
+        "hash": "b7794f90",
+        "encoded": "var%20classList%20=%20buttons%5Bi%5D.classList;",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "144": {
+        "chunkId": "5b9da1",
+        "hash": "b987617c",
+        "encoded": "submitButton%20=%20buttons%5Bi%5D;",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "145": {
+        "chunkId": "5b9da1",
+        "hash": "3c6d1ec1",
+        "encoded": "break;",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "146": {
+        "chunkId": "5b9da1",
+        "hash": "2d25e64b",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "147": {
+        "chunkId": "5b9da1",
+        "hash": "f787a6d1",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "149": {
+        "chunkId": "5b9da1",
+        "hash": "afe37338",
+        "encoded": "var%20isDisabled%20=%20submitButton.getAttribute('aria-disabled');",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "152": {
+        "chunkId": "5b9da1",
+        "hash": "f4856a8e",
+        "encoded": "return%20'Submit%20button%20clicked';",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "153": {
+        "chunkId": "5b9da1",
+        "hash": "ff66d62b",
+        "encoded": "%7D)();",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "154": {
+        "chunkId": "5b9da1",
+        "hash": "ac5dcc3d",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "155": {
+        "chunkId": "5b9da1",
+        "hash": "a1d767a3",
+        "encoded": "success,%20result%20=%20execute_javascript_in_chrome(js_click_submit)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "157": {
+        "chunkId": "5b9da1",
+        "hash": "8f5a8884",
+        "encoded": "logger.error(f%22Failed%20to%20click%20submit%20button:%20%7Bresult%7D%22)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "159": {
+        "chunkId": "5b9da1",
+        "hash": "c24f68c0",
+        "encoded": "logger.info(f%22Submit%20button%20clicked:%20%7Bresult%7D%22)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "162": {
+        "chunkId": "5b9da1",
+        "hash": "75419778",
+        "encoded": "logger.info(%22Step%205.5:%20Verifying%20comment%20submission...%22)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "163": {
+        "chunkId": "5b9da1",
+        "hash": "f2feba9b",
+        "encoded": "time.sleep(1)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "164": {
+        "chunkId": "5b9da1",
+        "hash": "50cd770e",
+        "encoded": "js_verify_submission%20=%20%22%22%22",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "165": {
+        "chunkId": "5b9da1",
+        "hash": "531f59fd",
+        "encoded": "(function()%20%7B",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "166": {
+        "chunkId": "5b9da1",
+        "hash": "74fa54ff",
+        "encoded": "var%20commentBox%20=%20document.querySelector('div#contenteditable-root%5Bcontenteditable=%22true%22%5D');",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "168": {
+        "chunkId": "5b9da1",
+        "hash": "634550bd",
+        "encoded": "var%20rect%20=%20commentBox.getBoundingClientRect();",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "171": {
+        "chunkId": "5b9da1",
+        "hash": "aeccc85d",
+        "encoded": "return%20'Comment%20popup%20still%20visible%20-%20submission%20may%20have%20failed';",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "172": {
+        "chunkId": "5b9da1",
+        "hash": "80297bec",
+        "encoded": "%7D)();",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "173": {
+        "chunkId": "5b9da1",
+        "hash": "b696137a",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "174": {
+        "chunkId": "5b9da1",
+        "hash": "434892e4",
+        "encoded": "success,%20verify_result%20=%20execute_javascript_in_chrome(js_verify_submission)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "175": {
+        "chunkId": "5b9da1",
+        "hash": "79406217",
+        "encoded": "if%20success:",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "176": {
+        "chunkId": "5b9da1",
+        "hash": "d2e4e49d",
+        "encoded": "logger.info(f%22Verification:%20%7Bverify_result%7D%22)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "177": {
+        "chunkId": "5b9da1",
+        "hash": "38457731",
+        "encoded": "else:",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "178": {
+        "chunkId": "5b9da1",
+        "hash": "422e88f5",
+        "encoded": "logger.warning(%22Could%20not%20verify%20comment%20submission%22)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "179": {
+        "chunkId": "5b9da1",
+        "hash": "9045870e",
+        "encoded": "time.sleep(1)",
+        "prevChunkIds": [
+          "5b9da1"
+        ]
+      },
+      "476": {
+        "chunkId": "3824bb",
+        "hash": "08c85f6f",
+        "encoded": "import%20time",
+        "prevChunkIds": []
+      },
+      "477": {
+        "chunkId": "3824bb",
+        "hash": "fc636e33",
+        "encoded": "import%20logging",
+        "prevChunkIds": []
+      },
+      "478": {
+        "chunkId": "3824bb",
+        "hash": "ad91b792",
+        "encoded": "import%20subprocess",
+        "prevChunkIds": []
+      },
+      "479": {
+        "chunkId": "3824bb",
+        "hash": "f88de648",
+        "encoded": "import%20random",
+        "prevChunkIds": []
+      },
+      "480": {
+        "chunkId": "3824bb",
+        "hash": "db06f6e3",
+        "encoded": "from%20typing%20import%20Tuple",
+        "prevChunkIds": []
+      },
+      "482": {
+        "chunkId": "3824bb",
+        "hash": "c2ee62ef",
+        "encoded": "logger%20=%20logging.getLogger(__name__)",
+        "prevChunkIds": []
+      },
+      "484": {
+        "chunkId": "3824bb",
+        "hash": "bf3a859d",
+        "encoded": "def%20execute_applescript(script:%20str)%20-%3E%20Tuple%5Bbool,%20str%5D:",
+        "prevChunkIds": []
+      },
+      "485": {
+        "chunkId": "3824bb",
+        "hash": "b9f5fb55",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "486": {
+        "chunkId": "3824bb",
+        "hash": "111282b4",
+        "encoded": "result%20=%20subprocess.run(",
+        "prevChunkIds": []
+      },
+      "487": {
+        "chunkId": "3824bb",
+        "hash": "33cdcbb6",
+        "encoded": "%5B%22osascript%22,%20%22-e%22,%20script%5D,%20capture_output=True,%20text=True,%20timeout=30",
+        "prevChunkIds": []
+      },
+      "488": {
+        "chunkId": "3824bb",
+        "hash": "72302ae2",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "489": {
+        "chunkId": "3824bb",
+        "hash": "7d37476e",
+        "encoded": "if%20result.returncode%20==%200:",
+        "prevChunkIds": []
+      },
+      "490": {
+        "chunkId": "3824bb",
+        "hash": "1c01bd2c",
+        "encoded": "return%20True,%20result.stdout.strip()",
+        "prevChunkIds": []
+      },
+      "491": {
+        "chunkId": "3824bb",
+        "hash": "d21a652c",
+        "encoded": "else:",
+        "prevChunkIds": []
+      },
+      "492": {
+        "chunkId": "3824bb",
+        "hash": "52b7ccbb",
+        "encoded": "logger.error(f%22AppleScript%20error:%20%7Bresult.stderr%7D%22)",
+        "prevChunkIds": []
+      },
+      "493": {
+        "chunkId": "3824bb",
+        "hash": "d6b6bfd3",
+        "encoded": "return%20False,%20result.stderr.strip()",
+        "prevChunkIds": []
+      },
+      "494": {
+        "chunkId": "3824bb",
+        "hash": "7598f3cd",
+        "encoded": "except%20subprocess.TimeoutExpired:",
+        "prevChunkIds": []
+      },
+      "495": {
+        "chunkId": "3824bb",
+        "hash": "8fbb3289",
+        "encoded": "logger.error(%22AppleScript%20execution%20timed%20out%22)",
+        "prevChunkIds": []
+      },
+      "496": {
+        "chunkId": "3824bb",
+        "hash": "7d808302",
+        "encoded": "return%20False,%20%22Timeout%22",
+        "prevChunkIds": []
+      },
+      "497": {
+        "chunkId": "3824bb",
+        "hash": "f2cfdc72",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": []
+      },
+      "498": {
+        "chunkId": "3824bb",
+        "hash": "14b48e2a",
+        "encoded": "logger.error(f%22Failed%20to%20execute%20AppleScript:%20%7Be%7D%22)",
+        "prevChunkIds": []
+      },
+      "499": {
+        "chunkId": "3824bb",
+        "hash": "5daccc1f",
+        "encoded": "return%20False,%20str(e)",
+        "prevChunkIds": []
+      },
+      "501": {
+        "chunkId": "3824bb",
+        "hash": "33f46865",
+        "encoded": "def%20execute_javascript_in_chrome(js_code:%20str)%20-%3E%20Tuple%5Bbool,%20str%5D:",
+        "prevChunkIds": []
+      },
+      "502": {
+        "chunkId": "3824bb",
+        "hash": "b2092377",
+        "encoded": "escaped_js%20=%20js_code.replace(%22%5C%5C%22,%20%22%5C%5C%5C%5C%22).replace('%22',%20'%5C%5C%22')",
+        "prevChunkIds": []
+      },
+      "503": {
+        "chunkId": "3824bb",
+        "hash": "ae76ca53",
+        "encoded": "script%20=%20f%22%22%22",
+        "prevChunkIds": []
+      },
+      "504": {
+        "chunkId": "3824bb",
+        "hash": "983a6273",
+        "encoded": "tell%20application%20%22Google%20Chrome%22",
+        "prevChunkIds": []
+      },
+      "505": {
+        "chunkId": "3824bb",
+        "hash": "8b51f1ee",
+        "encoded": "tell%20active%20tab%20of%20front%20window",
+        "prevChunkIds": []
+      },
+      "506": {
+        "chunkId": "3824bb",
+        "hash": "51dd4e20",
+        "encoded": "execute%20javascript%20%22%7Bescaped_js%7D%22",
+        "prevChunkIds": []
+      },
+      "507": {
+        "chunkId": "3824bb",
+        "hash": "254bdb19",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "508": {
+        "chunkId": "3824bb",
+        "hash": "e8bdf60c",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "509": {
+        "chunkId": "3824bb",
+        "hash": "ec247c19",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "510": {
+        "chunkId": "3824bb",
+        "hash": "2a9cb832",
+        "encoded": "success,%20output%20=%20execute_applescript(script)",
+        "prevChunkIds": []
+      },
+      "511": {
+        "chunkId": "3824bb",
+        "hash": "6b9ecdb6",
+        "encoded": "if%20success:",
+        "prevChunkIds": []
+      },
+      "512": {
+        "chunkId": "3824bb",
+        "hash": "9eab109c",
+        "encoded": "logger.info(f%22JavaScript%20executed%20successfully.%20Result:%20%7Boutput%5B:100%5D%7D%22)",
+        "prevChunkIds": []
+      },
+      "513": {
+        "chunkId": "3824bb",
+        "hash": "c6dd168a",
+        "encoded": "else:",
+        "prevChunkIds": []
+      },
+      "514": {
+        "chunkId": "3824bb",
+        "hash": "26243d95",
+        "encoded": "logger.error(f%22JavaScript%20execution%20failed:%20%7Boutput%7D%22)",
+        "prevChunkIds": []
+      },
+      "515": {
+        "chunkId": "3824bb",
+        "hash": "0bd98f35",
+        "encoded": "return%20success,%20output",
+        "prevChunkIds": []
+      },
+      "517": {
+        "chunkId": "3824bb",
+        "hash": "5896caa7",
+        "encoded": "def%20type_like_human_comment(text:%20str,%20selector:%20str%20=%20'div#contenteditable-root%5Bcontenteditable=%22true%22%5D')%20-%3E%20bool:",
+        "prevChunkIds": []
+      },
+      "518": {
+        "chunkId": "3824bb",
+        "hash": "b34edd21",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "519": {
+        "chunkId": "3824bb",
+        "hash": "0f2ee608",
+        "encoded": "Types%20text%20character%20by%20character%20into%20a%20contenteditable%20element%20with%20human-like%20delays.",
+        "prevChunkIds": []
+      },
+      "520": {
+        "chunkId": "3824bb",
+        "hash": "0cef63f1",
+        "encoded": "Uses%20JS%20to%20append%20to%20.textContent%20and%20dispatches%20input%20events.",
+        "prevChunkIds": []
+      },
+      "521": {
+        "chunkId": "3824bb",
+        "hash": "d910ad69",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "522": {
+        "chunkId": "3824bb",
+        "hash": "a47f26ed",
+        "encoded": "logger.info(f%22Typing%20comment%20as%20human:%20'%7Btext%7D'%22)",
+        "prevChunkIds": []
+      },
+      "523": {
+        "chunkId": "3824bb",
+        "hash": "1aef5b91",
+        "encoded": "for%20idx,%20char%20in%20enumerate(text):",
+        "prevChunkIds": []
+      },
+      "524": {
+        "chunkId": "3824bb",
+        "hash": "cddc9093",
+        "encoded": "#%20Escape%20for%20JS%20string",
+        "prevChunkIds": []
+      },
+      "525": {
+        "chunkId": "3824bb",
+        "hash": "c619c244",
+        "encoded": "escaped_char%20=%20char.replace(%22%5C%5C%22,%20%22%5C%5C%5C%5C%22).replace(%22'%22,%20%22%5C%5C'%22).replace('%22',%20'%5C%5C%22')",
+        "prevChunkIds": []
+      },
+      "526": {
+        "chunkId": "3824bb",
+        "hash": "5bc6744e",
+        "encoded": "js_type_char%20=%20f%22%22%22",
+        "prevChunkIds": []
+      },
+      "527": {
+        "chunkId": "3824bb",
+        "hash": "ea7bb27a",
+        "encoded": "(function()%20%7B%7B",
+        "prevChunkIds": []
+      },
+      "528": {
+        "chunkId": "3824bb",
+        "hash": "a93e0007",
+        "encoded": "var%20el%20=%20document.querySelector('%7Bselector%7D');",
+        "prevChunkIds": []
+      },
+      "529": {
+        "chunkId": "3824bb",
+        "hash": "ba756572",
+        "encoded": "if%20(!el)%20return%20'Input%20not%20found';",
+        "prevChunkIds": []
+      },
+      "530": {
+        "chunkId": "3824bb",
+        "hash": "b9c988cd",
+        "encoded": "el.textContent%20+=%20'%7Bescaped_char%7D';",
+        "prevChunkIds": []
+      },
+      "531": {
+        "chunkId": "3824bb",
+        "hash": "67e6df2d",
+        "encoded": "var%20inputEvent%20=%20new%20Event('input',%20%7B%7B%20bubbles:%20true%20%7D%7D);",
+        "prevChunkIds": []
+      },
+      "532": {
+        "chunkId": "3824bb",
+        "hash": "bd6d93d2",
+        "encoded": "el.dispatchEvent(inputEvent);",
+        "prevChunkIds": []
+      },
+      "533": {
+        "chunkId": "3824bb",
+        "hash": "89434b8f",
+        "encoded": "return%20'Typed:%20%7Bescaped_char%7D';",
+        "prevChunkIds": []
+      },
+      "534": {
+        "chunkId": "3824bb",
+        "hash": "1b4a622c",
+        "encoded": "%7D%7D)();",
+        "prevChunkIds": []
+      },
+      "535": {
+        "chunkId": "3824bb",
+        "hash": "e76346b4",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "536": {
+        "chunkId": "3824bb",
+        "hash": "75a62e60",
+        "encoded": "success,%20result%20=%20execute_javascript_in_chrome(js_type_char)",
+        "prevChunkIds": []
+      },
+      "537": {
+        "chunkId": "3824bb",
+        "hash": "14910baf",
+        "encoded": "if%20not%20success%20or%20%22not%20found%22%20in%20result:",
+        "prevChunkIds": []
+      },
+      "538": {
+        "chunkId": "3824bb",
+        "hash": "50399619",
+        "encoded": "logger.error(f%22Failed%20to%20type%20character:%20%7Bchar%7D%22)",
+        "prevChunkIds": []
+      },
+      "539": {
+        "chunkId": "3824bb",
+        "hash": "7acaefd4",
+        "encoded": "return%20False",
+        "prevChunkIds": []
+      },
+      "540": {
+        "chunkId": "3824bb",
+        "hash": "3a2e5967",
+        "encoded": "#%20Human-like%20delay",
+        "prevChunkIds": []
+      },
+      "541": {
+        "chunkId": "3824bb",
+        "hash": "18cdd21e",
+        "encoded": "time.sleep(random.uniform(0.04,%200.14))",
+        "prevChunkIds": []
+      },
+      "542": {
+        "chunkId": "3824bb",
+        "hash": "65bf2226",
+        "encoded": "if%20random.random()%20%3C%200.15:",
+        "prevChunkIds": []
+      },
+      "543": {
+        "chunkId": "3824bb",
+        "hash": "3a95d471",
+        "encoded": "time.sleep(random.uniform(0.2,%200.6))",
+        "prevChunkIds": []
+      },
+      "544": {
+        "chunkId": "3824bb",
+        "hash": "cf1a0955",
+        "encoded": "logger.info(%22Finished%20typing%20comment%20as%20human.%22)",
+        "prevChunkIds": []
+      },
+      "545": {
+        "chunkId": "3824bb",
+        "hash": "d0e91179",
+        "encoded": "return%20True",
+        "prevChunkIds": []
+      },
+      "547": {
+        "chunkId": "3824bb",
+        "hash": "ba390243",
+        "encoded": "def%20click_comment_button_and_add_comment(",
+        "prevChunkIds": []
+      },
+      "548": {
+        "chunkId": "3824bb",
+        "hash": "8f313a8d",
+        "encoded": "comment_text:%20str%20=%20%22Great%20video!%20Thanks%20for%20sharing.%22,",
+        "prevChunkIds": []
+      },
+      "549": {
+        "chunkId": "3824bb",
+        "hash": "de100f10",
+        "encoded": ")%20-%3E%20bool:",
+        "prevChunkIds": []
+      },
+      "550": {
+        "chunkId": "3824bb",
+        "hash": "d054a369",
+        "encoded": "logger.info(%22Step%205:%20Waiting%201%20second%20before%20clicking%20comment%20button...%22)",
+        "prevChunkIds": []
+      },
+      "551": {
+        "chunkId": "3824bb",
+        "hash": "bd583be5",
+        "encoded": "time.sleep(1)",
+        "prevChunkIds": []
+      },
+      "553": {
+        "chunkId": "3824bb",
+        "hash": "99aa16ee",
+        "encoded": "#%20Step%201:%20Click%20the%20comment%20button%20(unchanged)",
+        "prevChunkIds": []
+      },
+      "554": {
+        "chunkId": "3824bb",
+        "hash": "62c0ba56",
+        "encoded": "js_click_comment%20=%20%22%22%22",
+        "prevChunkIds": []
+      },
+      "555": {
+        "chunkId": "3824bb",
+        "hash": "d64b8069",
+        "encoded": "(function()%20%7B",
+        "prevChunkIds": []
+      },
+      "556": {
+        "chunkId": "3824bb",
+        "hash": "1b0ca165",
+        "encoded": "var%20commentButton%20=%20null;",
+        "prevChunkIds": []
+      },
+      "557": {
+        "chunkId": "3824bb",
+        "hash": "3abe847c",
+        "encoded": "var%20buttons%20=%20document.querySelectorAll('button%5Baria-label%5D');",
+        "prevChunkIds": []
+      },
+      "558": {
+        "chunkId": "3824bb",
+        "hash": "c7242774",
+        "encoded": "for%20(var%20i%20=%200;%20i%20%3C%20buttons.length;%20i++)%20%7B",
+        "prevChunkIds": []
+      },
+      "559": {
+        "chunkId": "3824bb",
+        "hash": "78c4bc5a",
+        "encoded": "var%20label%20=%20buttons%5Bi%5D.getAttribute('aria-label');",
+        "prevChunkIds": []
+      },
+      "560": {
+        "chunkId": "3824bb",
+        "hash": "6037e0a1",
+        "encoded": "if%20(label%20&&%20label.toLowerCase().includes('comment'))%20%7B",
+        "prevChunkIds": []
+      },
+      "561": {
+        "chunkId": "3824bb",
+        "hash": "f4ed77fb",
+        "encoded": "commentButton%20=%20buttons%5Bi%5D;",
+        "prevChunkIds": []
+      },
+      "562": {
+        "chunkId": "3824bb",
+        "hash": "bb53a5c3",
+        "encoded": "break;",
+        "prevChunkIds": []
+      },
+      "563": {
+        "chunkId": "3824bb",
+        "hash": "4540c3a1",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "564": {
+        "chunkId": "3824bb",
+        "hash": "76642655",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "565": {
+        "chunkId": "3824bb",
+        "hash": "16eb8151",
+        "encoded": "if%20(!commentButton)%20return%20'Comment%20button%20not%20found';",
+        "prevChunkIds": []
+      },
+      "566": {
+        "chunkId": "3824bb",
+        "hash": "430f08d2",
+        "encoded": "var%20rect%20=%20commentButton.getBoundingClientRect();",
+        "prevChunkIds": []
+      },
+      "567": {
+        "chunkId": "3824bb",
+        "hash": "d0779472",
+        "encoded": "var%20isVisible%20=%20rect.top%20%3E=%200%20&&%20rect.left%20%3E=%200%20&&%20rect.bottom%20%3C=%20(window.innerHeight%20%7C%7C%20document.documentElement.clientHeight)%20&&%20rect.right%20%3C=%20(window.innerWidth%20%7C%7C%20document.documentElement.clientWidth)%20&&%20window.getComputedStyle(commentButton).visibility%20!==%20'hidden'%20&&%20window.getComputedStyle(commentButton).display%20!==%20'none';",
+        "prevChunkIds": []
+      },
+      "568": {
+        "chunkId": "3824bb",
+        "hash": "74785955",
+        "encoded": "if%20(!isVisible)%20return%20'Comment%20button%20not%20visible';",
+        "prevChunkIds": []
+      },
+      "569": {
+        "chunkId": "3824bb",
+        "hash": "aaea51ff",
+        "encoded": "try%20%7B%20commentButton.click();%20%7D%20catch%20(e)%20%7B%20return%20'Click%20failed';%20%7D",
+        "prevChunkIds": []
+      },
+      "570": {
+        "chunkId": "3824bb",
+        "hash": "8852da9a",
+        "encoded": "return%20'Comment%20button%20clicked';",
+        "prevChunkIds": []
+      },
+      "571": {
+        "chunkId": "3824bb",
+        "hash": "012faf98",
+        "encoded": "%7D)();",
+        "prevChunkIds": []
+      },
+      "572": {
+        "chunkId": "3824bb",
+        "hash": "92fa2a25",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "573": {
+        "chunkId": "3824bb",
+        "hash": "da55d6c2",
+        "encoded": "success,%20result%20=%20execute_javascript_in_chrome(js_click_comment)",
+        "prevChunkIds": []
+      },
+      "574": {
+        "chunkId": "3824bb",
+        "hash": "aa4dc249",
+        "encoded": "if%20not%20success%20or%20%22not%20found%22%20in%20result%20or%20%22failed%22%20in%20result%20or%20%22not%20visible%22%20in%20result:",
+        "prevChunkIds": []
+      },
+      "575": {
+        "chunkId": "3824bb",
+        "hash": "3318078b",
+        "encoded": "logger.error(f%22Failed%20to%20click%20comment%20button:%20%7Bresult%7D%22)",
+        "prevChunkIds": []
+      },
+      "576": {
+        "chunkId": "3824bb",
+        "hash": "79b4d7bc",
+        "encoded": "return%20False",
+        "prevChunkIds": []
+      },
+      "577": {
+        "chunkId": "3824bb",
+        "hash": "15856830",
+        "encoded": "logger.info(f%22Comment%20button%20clicked:%20%7Bresult%7D%22)",
+        "prevChunkIds": []
+      },
+      "579": {
+        "chunkId": "3824bb",
+        "hash": "99a1fa0a",
+        "encoded": "logger.info(%22Waiting%202%20seconds%20for%20comment%20popup%20to%20render...%22)",
+        "prevChunkIds": []
+      },
+      "580": {
+        "chunkId": "3824bb",
+        "hash": "193b0eb5",
+        "encoded": "time.sleep(2)",
+        "prevChunkIds": []
+      },
+      "582": {
+        "chunkId": "3824bb",
+        "hash": "dead97b9",
+        "encoded": "#%20Step%202:%20Tab%20to%20comment%20input",
+        "prevChunkIds": []
+      },
+      "583": {
+        "chunkId": "3824bb",
+        "hash": "ab41c287",
+        "encoded": "logger.info(%22Step%205.2:%20Using%20Tab%20key%20(3%20times)%20to%20navigate%20to%20comment%20input%20field...%22)",
+        "prevChunkIds": []
+      },
+      "584": {
+        "chunkId": "3824bb",
+        "hash": "5f948aed",
+        "encoded": "tab_script%20=%20%22%22%22",
+        "prevChunkIds": []
+      },
+      "585": {
+        "chunkId": "3824bb",
+        "hash": "69b488bf",
+        "encoded": "tell%20application%20%22Google%20Chrome%22",
+        "prevChunkIds": []
+      },
+      "586": {
+        "chunkId": "3824bb",
+        "hash": "edd7df1a",
+        "encoded": "activate",
+        "prevChunkIds": []
+      },
+      "587": {
+        "chunkId": "3824bb",
+        "hash": "75add1f9",
+        "encoded": "tell%20application%20%22System%20Events%22",
+        "prevChunkIds": []
+      },
+      "588": {
+        "chunkId": "3824bb",
+        "hash": "c83e6d5a",
+        "encoded": "keystroke%20tab",
+        "prevChunkIds": []
+      },
+      "589": {
+        "chunkId": "3824bb",
+        "hash": "a0e1c66d",
+        "encoded": "delay%200.3",
+        "prevChunkIds": []
+      },
+      "590": {
+        "chunkId": "3824bb",
+        "hash": "265e4973",
+        "encoded": "keystroke%20tab",
+        "prevChunkIds": []
+      },
+      "591": {
+        "chunkId": "3824bb",
+        "hash": "01f4596a",
+        "encoded": "delay%200.3",
+        "prevChunkIds": []
+      },
+      "592": {
+        "chunkId": "3824bb",
+        "hash": "7c1cfb8e",
+        "encoded": "keystroke%20tab",
+        "prevChunkIds": []
+      },
+      "593": {
+        "chunkId": "3824bb",
+        "hash": "522f98e5",
+        "encoded": "delay%200.5",
+        "prevChunkIds": []
+      },
+      "594": {
+        "chunkId": "3824bb",
+        "hash": "7fcb9b67",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "595": {
+        "chunkId": "3824bb",
+        "hash": "fccb41ed",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "596": {
+        "chunkId": "3824bb",
+        "hash": "226de3e4",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "597": {
+        "chunkId": "3824bb",
+        "hash": "7761bef8",
+        "encoded": "success,%20result%20=%20execute_applescript(tab_script)",
+        "prevChunkIds": []
+      },
+      "598": {
+        "chunkId": "3824bb",
+        "hash": "f7d5d77f",
+        "encoded": "if%20not%20success:",
+        "prevChunkIds": []
+      },
+      "599": {
+        "chunkId": "3824bb",
+        "hash": "a4a16744",
+        "encoded": "logger.error(%22Failed%20to%20press%20Tab%20key%203%20times%22)",
+        "prevChunkIds": []
+      },
+      "600": {
+        "chunkId": "3824bb",
+        "hash": "8468786f",
+        "encoded": "return%20False",
+        "prevChunkIds": []
+      },
+      "601": {
+        "chunkId": "3824bb",
+        "hash": "1e73ccb3",
+        "encoded": "logger.info(%22Tab%20key%20pressed%203%20times%20to%20focus%20comment%20input%22)",
+        "prevChunkIds": []
+      },
+      "602": {
+        "chunkId": "3824bb",
+        "hash": "a4637b96",
+        "encoded": "time.sleep(0.5)",
+        "prevChunkIds": []
+      },
+      "604": {
+        "chunkId": "3824bb",
+        "hash": "bb7b5b06",
+        "encoded": "#%20Step%203:%20Human-like%20typing%20using%20JS%20(supports%20emoji,%20Unicode)",
+        "prevChunkIds": []
+      },
+      "605": {
+        "chunkId": "3824bb",
+        "hash": "e4873ac0",
+        "encoded": "if%20not%20type_like_human_comment(comment_text):",
+        "prevChunkIds": []
+      },
+      "606": {
+        "chunkId": "3824bb",
+        "hash": "8b4f7f41",
+        "encoded": "logger.error(%22Failed%20to%20type%20comment%20as%20human%22)",
+        "prevChunkIds": []
+      },
+      "607": {
+        "chunkId": "3824bb",
+        "hash": "d583170d",
+        "encoded": "return%20False",
+        "prevChunkIds": []
+      },
+      "609": {
+        "chunkId": "3824bb",
+        "hash": "9d1a8d15",
+        "encoded": "#%20Wait%201%20second%20for%20YouTube%20to%20show%20the%20submit%20button",
+        "prevChunkIds": []
+      },
+      "610": {
+        "chunkId": "3824bb",
+        "hash": "cf25ee2e",
+        "encoded": "time.sleep(1)",
+        "prevChunkIds": []
+      },
+      "612": {
+        "chunkId": "3824bb",
+        "hash": "3ac3feea",
+        "encoded": "#%20Step%204:%20Click%20the%20submit%20%22Comment%22%20button%20(unchanged)",
+        "prevChunkIds": []
+      },
+      "613": {
+        "chunkId": "3824bb",
+        "hash": "fc3017b5",
+        "encoded": "js_click_submit%20=%20%22%22%22",
+        "prevChunkIds": []
+      },
+      "614": {
+        "chunkId": "3824bb",
+        "hash": "c5279cfd",
+        "encoded": "(function()%20%7B",
+        "prevChunkIds": []
+      },
+      "615": {
+        "chunkId": "3824bb",
+        "hash": "a17620b2",
+        "encoded": "var%20submitButton%20=%20null;",
+        "prevChunkIds": []
+      },
+      "616": {
+        "chunkId": "3824bb",
+        "hash": "31ee1886",
+        "encoded": "var%20buttons%20=%20document.querySelectorAll('button%5Baria-label=%22Comment%22%5D');",
+        "prevChunkIds": []
+      },
+      "617": {
+        "chunkId": "3824bb",
+        "hash": "5c5ea4c7",
+        "encoded": "for%20(var%20i%20=%200;%20i%20%3C%20buttons.length;%20i++)%20%7B",
+        "prevChunkIds": []
+      },
+      "618": {
+        "chunkId": "3824bb",
+        "hash": "f2764198",
+        "encoded": "var%20classList%20=%20buttons%5Bi%5D.classList;",
+        "prevChunkIds": []
+      },
+      "619": {
+        "chunkId": "3824bb",
+        "hash": "3acacc39",
+        "encoded": "if%20(classList.contains('ytSpecButtonShapeNextFilled')%20%7C%7C%20classList.contains('ytSpecButtonShapeNextCallToAction'))%20%7B",
+        "prevChunkIds": []
+      },
+      "620": {
+        "chunkId": "3824bb",
+        "hash": "dbc7029e",
+        "encoded": "submitButton%20=%20buttons%5Bi%5D;",
+        "prevChunkIds": []
+      },
+      "621": {
+        "chunkId": "3824bb",
+        "hash": "9c0f089d",
+        "encoded": "break;",
+        "prevChunkIds": []
+      },
+      "622": {
+        "chunkId": "3824bb",
+        "hash": "03d17218",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "623": {
+        "chunkId": "3824bb",
+        "hash": "e84d28da",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "624": {
+        "chunkId": "3824bb",
+        "hash": "080fd906",
+        "encoded": "if%20(!submitButton)%20return%20'Submit%20button%20not%20found';",
+        "prevChunkIds": []
+      },
+      "625": {
+        "chunkId": "3824bb",
+        "hash": "f1dba823",
+        "encoded": "var%20isDisabled%20=%20submitButton.getAttribute('aria-disabled');",
+        "prevChunkIds": []
+      },
+      "626": {
+        "chunkId": "3824bb",
+        "hash": "9112b5ce",
+        "encoded": "if%20(isDisabled%20===%20'true')%20return%20'Submit%20button%20is%20disabled';",
+        "prevChunkIds": []
+      },
+      "627": {
+        "chunkId": "3824bb",
+        "hash": "154b9917",
+        "encoded": "try%20%7B%20submitButton.click();%20%7D%20catch%20(e)%20%7B%20return%20'Click%20failed';%20%7D",
+        "prevChunkIds": []
+      },
+      "628": {
+        "chunkId": "3824bb",
+        "hash": "93591a0b",
+        "encoded": "return%20'Submit%20button%20clicked';",
+        "prevChunkIds": []
+      },
+      "629": {
+        "chunkId": "3824bb",
+        "hash": "ab52995c",
+        "encoded": "%7D)();",
+        "prevChunkIds": []
+      },
+      "630": {
+        "chunkId": "3824bb",
+        "hash": "ea7316ac",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "631": {
+        "chunkId": "3824bb",
+        "hash": "535fe9b9",
+        "encoded": "success,%20result%20=%20execute_javascript_in_chrome(js_click_submit)",
+        "prevChunkIds": []
+      },
+      "632": {
+        "chunkId": "3824bb",
+        "hash": "b16f1b5b",
+        "encoded": "if%20not%20success%20or%20%22not%20found%22%20in%20result%20or%20%22failed%22%20in%20result%20or%20%22disabled%22%20in%20result:",
+        "prevChunkIds": []
+      },
+      "633": {
+        "chunkId": "3824bb",
+        "hash": "0667d368",
+        "encoded": "logger.error(f%22Failed%20to%20click%20submit%20button:%20%7Bresult%7D%22)",
+        "prevChunkIds": []
+      },
+      "634": {
+        "chunkId": "3824bb",
+        "hash": "6d4c46d9",
+        "encoded": "return%20False",
+        "prevChunkIds": []
+      },
+      "635": {
+        "chunkId": "3824bb",
+        "hash": "c4614a3a",
+        "encoded": "logger.info(f%22Submit%20button%20clicked:%20%7Bresult%7D%22)",
+        "prevChunkIds": []
+      },
+      "637": {
+        "chunkId": "3824bb",
+        "hash": "90d4cabd",
+        "encoded": "#%20Step%205:%20Verify%20comment%20popup%20closed%20(unchanged)",
+        "prevChunkIds": []
+      },
+      "638": {
+        "chunkId": "3824bb",
+        "hash": "d7399779",
+        "encoded": "logger.info(%22Step%205.5:%20Verifying%20comment%20submission...%22)",
+        "prevChunkIds": []
+      },
+      "639": {
+        "chunkId": "3824bb",
+        "hash": "de3fdf79",
+        "encoded": "time.sleep(1)",
+        "prevChunkIds": []
+      },
+      "640": {
+        "chunkId": "3824bb",
+        "hash": "ea267bf9",
+        "encoded": "js_verify_submission%20=%20%22%22%22",
+        "prevChunkIds": []
+      },
+      "641": {
+        "chunkId": "3824bb",
+        "hash": "6f54508c",
+        "encoded": "(function()%20%7B",
+        "prevChunkIds": []
+      },
+      "642": {
+        "chunkId": "3824bb",
+        "hash": "5a5bc15e",
+        "encoded": "var%20commentBox%20=%20document.querySelector('div#contenteditable-root%5Bcontenteditable=%22true%22%5D');",
+        "prevChunkIds": []
+      },
+      "643": {
+        "chunkId": "3824bb",
+        "hash": "cf79a248",
+        "encoded": "if%20(!commentBox)%20return%20'Comment%20popup%20closed%20-%20submission%20likely%20successful';",
+        "prevChunkIds": []
+      },
+      "644": {
+        "chunkId": "3824bb",
+        "hash": "6cca1f40",
+        "encoded": "var%20rect%20=%20commentBox.getBoundingClientRect();",
+        "prevChunkIds": []
+      },
+      "645": {
+        "chunkId": "3824bb",
+        "hash": "53415038",
+        "encoded": "var%20isVisible%20=%20rect.top%20%3E=%200%20&&%20rect.left%20%3E=%200%20&&%20rect.bottom%20%3C=%20(window.innerHeight%20%7C%7C%20document.documentElement.clientHeight)%20&&%20rect.right%20%3C=%20(window.innerWidth%20%7C%7C%20document.documentElement.clientWidth)%20&&%20window.getComputedStyle(commentBox).visibility%20!==%20'hidden'%20&&%20window.getComputedStyle(commentBox).display%20!==%20'none';",
+        "prevChunkIds": []
+      },
+      "646": {
+        "chunkId": "3824bb",
+        "hash": "5906acfb",
+        "encoded": "if%20(!isVisible)%20return%20'Comment%20popup%20hidden%20-%20submission%20likely%20successful';",
+        "prevChunkIds": []
+      },
+      "647": {
+        "chunkId": "3824bb",
+        "hash": "84a6b225",
+        "encoded": "return%20'Comment%20popup%20still%20visible%20-%20submission%20may%20have%20failed';",
+        "prevChunkIds": []
+      },
+      "648": {
+        "chunkId": "3824bb",
+        "hash": "8df54556",
+        "encoded": "%7D)();",
+        "prevChunkIds": []
+      },
+      "649": {
+        "chunkId": "3824bb",
+        "hash": "2a4d3458",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "650": {
+        "chunkId": "3824bb",
+        "hash": "bb2b0c91",
+        "encoded": "success,%20verify_result%20=%20execute_javascript_in_chrome(js_verify_submission)",
+        "prevChunkIds": []
+      },
+      "651": {
+        "chunkId": "3824bb",
+        "hash": "629f5f42",
+        "encoded": "if%20success:",
+        "prevChunkIds": []
+      },
+      "652": {
+        "chunkId": "3824bb",
+        "hash": "977f9400",
+        "encoded": "logger.info(f%22Verification:%20%7Bverify_result%7D%22)",
+        "prevChunkIds": []
+      },
+      "653": {
+        "chunkId": "3824bb",
+        "hash": "01c5f3a2",
+        "encoded": "else:",
+        "prevChunkIds": []
+      },
+      "654": {
+        "chunkId": "3824bb",
+        "hash": "e518a1e3",
+        "encoded": "logger.warning(%22Could%20not%20verify%20comment%20submission%22)",
+        "prevChunkIds": []
+      },
+      "655": {
+        "chunkId": "3824bb",
+        "hash": "2422876b",
+        "encoded": "time.sleep(1)",
+        "prevChunkIds": []
+      },
+      "656": {
+        "chunkId": "3824bb",
+        "hash": "43a1f429",
+        "encoded": "return%20True",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

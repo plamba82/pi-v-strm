@@ -1,0 +1,114 @@
+{
+  "filename": "step1.py",
+  "path": "src/chrome/step1.py",
+  "version": "1.1",
+  "files": {
+    "8c7e6bfb": {
+      "value": [
+        {
+          "programming_language": "JSON",
+          "fileName": "profiles.json",
+          "relativeFilePath": "profiles.json",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            11
+          ]
+        }
+      ]
+    },
+    "d7bc186e": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "main.py",
+          "relativeFilePath": "src/chrome/main.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            235
+          ]
+        }
+      ]
+    },
+    "c8c053c3": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "step1.py",
+          "relativeFilePath": "src/chrome/step1.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            208
+          ]
+        }
+      ]
+    },
+    "17a41c6a": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "step1.py",
+          "relativeFilePath": "src/chrome/step1.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            276
+          ]
+        },
+        {
+          "programming_language": "Python",
+          "fileName": "main.py",
+          "relativeFilePath": "src/chrome/main.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            235
+          ]
+        }
+      ]
+    },
+    "e0156d80": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "main.py",
+          "relativeFilePath": "src/chrome/main.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            435
+          ]
+        }
+      ]
+    }
+  },
+  "promptMessage": {
+    "944fa03d": {
+      "value": "thanks , now i want to add setp and create this step in  seperate  file say step1.py: the scope of step1 is to search a keyword in youtube search box and hit search, and wait for page to be loaded"
+    },
+    "d6621c2d": {
+      "value": "2026-04-21 22:52:21,864 - INFO - Starting YouTube search for: 'Bhakti Sangeet video'\n2026-04-21 22:52:21,864 - INFO - Step 1: Checking if page is loaded...\n2026-04-21 22:52:22,078 - INFO - JavaScript executed successfully. Result: ready\n2026-04-21 22:52:22,078 - INFO - Step 2: Locating YouTube search box...\n2026-04-21 22:52:22,508 - INFO - JavaScript executed successfully. Result: Search box not found\n2026-04-21 22:52:22,508 - ERROR - Failed to locate YouTube search box\n2026-04-21 22:52:22,508 -"
+    },
+    "8a51911b": {
+      "value": "- ERROR - Unexpected error for profile plamba82: name 'logger' is not defined"
+    },
+    "0b67a831": {
+      "value": "this is great, now on step 1, typing make it like human typoing ad then add 1 sec declay for every action ., now create a new file step2. where once the page is loaded from step1 succwssfull, look for shorts section and click on forst short and play it and wait till page is loaded"
+    },
+    "49e4e634": {
+      "value": "one small change 1. when you come from step3 to steps 1. make sure search box is step1 is cleared before text is entered."
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

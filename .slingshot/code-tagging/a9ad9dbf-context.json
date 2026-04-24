@@ -1,0 +1,142 @@
+{
+  "filename": "Chrome-l-v-c.py",
+  "path": "Chrome-l-v-c.py",
+  "version": "1.1",
+  "files": {
+    "15ac3ab3": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari-l-v-c.py",
+          "relativeFilePath": "safari-l-v-c.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            1
+          ]
+        }
+      ]
+    },
+    "0370e5ca": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "Chrome-l-v-c.py",
+          "relativeFilePath": "Chrome-l-v-c.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            361
+          ]
+        }
+      ]
+    },
+    "8c7e6bfb": {
+      "value": [
+        {
+          "programming_language": "JSON",
+          "fileName": "profiles.json",
+          "relativeFilePath": "profiles.json",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            11
+          ]
+        }
+      ]
+    },
+    "6328a68f": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "Chrome-l-v-c.py",
+          "relativeFilePath": "Chrome-l-v-c.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            604
+          ]
+        }
+      ]
+    },
+    "3da2ec7d": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "Chrome-l-v-c.py",
+          "relativeFilePath": "Chrome-l-v-c.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            931
+          ]
+        }
+      ]
+    },
+    "6a22e9c0": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "Chrome-l-v-c.py",
+          "relativeFilePath": "Chrome-l-v-c.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            859
+          ]
+        }
+      ]
+    },
+    "9ae97f28": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "Chrome-l-v-c.py",
+          "relativeFilePath": "Chrome-l-v-c.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            908
+          ]
+        }
+      ]
+    }
+  },
+  "promptMessage": {
+    "ce61ac82": {
+      "value": "don't use safari, instead use google chrome"
+    },
+    "dd527300": {
+      "value": "search should be done withing youtube.com search box"
+    },
+    "4937190e": {
+      "value": "the search must be on youtube.com search box,not google.com"
+    },
+    "b32f8884": {
+      "value": "2026-04-21 21:41:44,821 INFO: open_chrome_profile: START profile=plamba82 url=search:TinkletalesHindi youtube channel close_after=150\n2026-04-21 21:41:45,916 INFO: ✅ Chrome opened: plamba82\n2026-04-21 21:41:45,917 INFO: chrome_search_and_click: START search_query=TinkletalesHindi youtube channel default_url=https://www.youtube.com/?\n2026-04-21 21:41:51,288 WARNING: perform_youtube_search_in_page failed; aborting search flow (no omnibox fallback)\n2026-04-21 21:41:51,289 INFO: 🔍 Search 'Tinkletal"
+    },
+    "d6388d22": {
+      "value": "regenerate the full program as pernchanges you suggested above"
+    },
+    "a7bc1a70": {
+      "value": "i want add next step after video is played, after 2 seconf, step1 :click on \"<div class=\"ytSpecTouchFeedbackShapeFill\"></div>\" the page.  and wait for 1 sec. step2: click on \"<div class=\"ytSpecTouchFeedbackShapeFill\"></div>\" and wait for 1 second it will open a popup model, you need to enter \"Nice \" and submit"
+    },
+    "e2ab529c": {
+      "value": "it open the model but it didn't enter the text, i look at the text box it is located at \"<div id=\"contenteditable-root\" contenteditable=\"true\" dir=\"auto\" class=\"style-scope yt-formatted-string\" aria-label=\"Add a comment...\"></div>\", see why this was not used to iijnput tje yexty , after you inu the text there is comment button below it, is should be be clicked"
+    },
+    "3edf9405": {
+      "value": "also add a delay o f5 second between you type and add commetn and 1 sec dellay when you click the comment button"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

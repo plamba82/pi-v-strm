@@ -1,0 +1,358 @@
+{
+  "filename": "safari-v1.py",
+  "path": "safari-v1.py",
+  "version": "1.1",
+  "files": {
+    "252f2a14": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            70
+          ]
+        }
+      ]
+    },
+    "7f7d2301": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            99
+          ]
+        }
+      ]
+    },
+    "2ec8e14b": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            100
+          ]
+        }
+      ]
+    },
+    "4a013c2c": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            233
+          ]
+        }
+      ]
+    },
+    "0b74445e": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            223
+          ]
+        }
+      ]
+    },
+    "477730e8": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            410
+          ]
+        }
+      ]
+    },
+    "3dfc68ba": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            414
+          ]
+        }
+      ]
+    },
+    "d3670720": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            309
+          ]
+        }
+      ]
+    },
+    "39df89ba": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            374
+          ]
+        }
+      ]
+    },
+    "03e95db0": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            343
+          ]
+        }
+      ]
+    },
+    "406e9eb5": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            346
+          ]
+        }
+      ]
+    },
+    "9011dd6d": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            368
+          ]
+        }
+      ]
+    },
+    "2185e67e": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            338
+          ]
+        }
+      ]
+    },
+    "a2723b82": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            298
+          ]
+        }
+      ]
+    },
+    "3a6c1895": {
+      "value": [
+        {
+          "programming_language": "JSON",
+          "fileName": "profiles.json",
+          "relativeFilePath": "profiles.json",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            31
+          ]
+        }
+      ]
+    },
+    "f67586f3": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            331
+          ]
+        }
+      ]
+    },
+    "5ec8b5c2": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            354
+          ]
+        }
+      ]
+    },
+    "1053d992": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            361
+          ]
+        }
+      ]
+    },
+    "596645be": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            334
+          ]
+        }
+      ]
+    }
+  },
+  "promptMessage": {
+    "4175a043": {
+      "value": "somwhow this program when run doesn't switch the active profile to the proifle name , it used what so ever the browser is on"
+    },
+    "723a0f53": {
+      "value": "how do i run this program"
+    },
+    "eab3e94f": {
+      "value": "it is not using plamba82 prifile, instead it remeber the last profile when browser was closed with and open that"
+    },
+    "b7c73d21": {
+      "value": "it seems when you activate safari, profile index is not used"
+    },
+    "277fc3c7": {
+      "value": "abler to open the URL, somehow the accessibiltiy key stock are not able to choose intended profile"
+    },
+    "ace2775c": {
+      "value": "I a using safari Version 17.6 (19618.3.11.11.5) somehow keystrock is not working, he default profile is loaded"
+    },
+    "1e5a0041": {
+      "value": "my profile is under menu, File - New Window  - New [profile-name] Window"
+    },
+    "afe43902": {
+      "value": "it is working now, can you now make sure you close the window after 15 second"
+    },
+    "a89c6596": {
+      "value": "I want to modify this program to spawm multiple prfile randamly and close the browser after 15 second"
+    },
+    "bde44f3f": {
+      "value": "add delay of 3 second for each profile"
+    },
+    "3e8a7f2c": {
+      "value": "only thing which is not wokring is theat window didn't close after 15 \\second"
+    },
+    "857e7e96": {
+      "value": "now I want to keep all configuration in JSON file, such as profilename, URL which need to opended, duration, - so a kind of array in a json and program read from JSON array, if URL is not provided, use a global URL in JSON file"
+    },
+    "7aefdd35": {
+      "value": "I dont think wee need to keep a PROFILE_MAP in code, just read it from json and use it directly"
+    },
+    "50cfd30a": {
+      "value": "Extend this tools to support closing the open window with a duration configuration, Also it should now implement a sequence of steps just not opening one URL.\n\nit should open first URL as \"https://www.youtube.com\", then after 5 seconds it should perform a search with keywiord \"BhaktiSangeetPlus Channel\" in the same window and after another 5 seconds it should perform a keywird search in the page with name \"Bhakti Sangeet | भक्ति संगीत\" and clicked on this URL. Once the URL is loaded which has a "
+    },
+    "35672d37": {
+      "value": "Searched: BhaktiSangeetPlus Channel was not performed"
+    },
+    "8be38da5": {
+      "value": "now i want to extend this program to openb safari broser for multiple propfile simultaniusly"
+    },
+    "bbc9e554": {
+      "value": "i want to create a delay of 3 second for each profile safri window luach, additionally, i wnated to ensure prfoile name is dynamically read from profiles.json and passed to main program when open a safari window"
+    },
+    "822e3566": {
+      "value": "this nprogram has a problem, it is opening all the windows seperatly which is fine but using same profile_name."
+    },
+    "6b94c479": {
+      "value": "Remove multiprocessing for accessibility-dependent steps.\nSequentially create a Safari window for each profile.\nKeep profile_name only for logging and tab title display.\nKeep the execute_automation_steps with 3-second delay between each step."
+    },
+    "0b7a054b": {
+      "value": "still the progam is not opening window for each profile, it is using same propfile name for all opened window"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

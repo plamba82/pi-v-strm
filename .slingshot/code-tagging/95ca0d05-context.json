@@ -1,0 +1,49 @@
+{
+  "filename": "profiles-v1.json",
+  "path": "profiles-v1.json",
+  "version": "1.1",
+  "files": {
+    "9011dd6d": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            368
+          ]
+        }
+      ]
+    },
+    "a2723b82": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "safari.py",
+          "relativeFilePath": "safari.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            298
+          ]
+        }
+      ]
+    }
+  },
+  "promptMessage": {
+    "857e7e96": {
+      "value": "now I want to keep all configuration in JSON file, such as profilename, URL which need to opended, duration, - so a kind of array in a json and program read from JSON array, if URL is not provided, use a global URL in JSON file"
+    },
+    "50cfd30a": {
+      "value": "Extend this tools to support closing the open window with a duration configuration, Also it should now implement a sequence of steps just not opening one URL.\n\nit should open first URL as \"https://www.youtube.com\", then after 5 seconds it should perform a search with keywiord \"BhaktiSangeetPlus Channel\" in the same window and after another 5 seconds it should perform a keywird search in the page with name \"Bhakti Sangeet | भक्ति संगीत\" and clicked on this URL. Once the URL is loaded which has a "
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

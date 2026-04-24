@@ -1,0 +1,2881 @@
+{
+  "src/chrome/step2.py": {
+    "filename": "step2.py",
+    "path": "src/chrome/step2.py",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "325528": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776873145,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "pasteCode",
+        "extraContext": {
+          "promptMessage": "7c9d7b1f",
+          "files": "2aef65ed"
+        },
+        "hash": "5eba9d8e",
+        "messageId": "system_1aaebe20-3e63-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_1aaebe20-3e63-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": false
+      },
+      "13acfa": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776831147,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "0b67a831",
+          "files": "17a41c6a"
+        },
+        "hash": "c1685502",
+        "messageId": "system_f6cae450-3e00-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_f6cae450-3e00-11f1-b1ef-d734c7968469-Codeblock-2",
+        "isActive": false
+      },
+      "6e3aed": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776831541,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "70b851c1",
+          "files": "d2947407"
+        },
+        "hash": "10b9b22e",
+        "messageId": "system_46053880-3e02-11f1-b1ef-d734c7968469",
+        "codeBlockId": null,
+        "isActive": false
+      },
+      "42da21": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776831677,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "28d040f5",
+          "files": "27616c80"
+        },
+        "hash": "44c879e3",
+        "messageId": "system_9d7010e0-3e02-11f1-b1ef-d734c7968469",
+        "codeBlockId": null,
+        "isActive": false
+      },
+      "7119cf": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776831724,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "pasteCode",
+        "extraContext": {
+          "promptMessage": "28d040f5",
+          "files": "27616c80"
+        },
+        "hash": "44c879e3",
+        "messageId": "system_9d7010e0-3e02-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_9d7010e0-3e02-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": false
+      },
+      "ef53e8": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776832562,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "eced90d7",
+          "files": "b47b3c2c"
+        },
+        "hash": "90a55de9",
+        "messageId": "system_9ceb65a0-3e04-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_9ceb65a0-3e04-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": false
+      },
+      "c6ed7c": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776832792,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "70284568",
+          "files": "a7851205"
+        },
+        "hash": "33d04eda",
+        "messageId": "system_29626970-3e05-11f1-b1ef-d734c7968469",
+        "codeBlockId": null,
+        "isActive": false
+      },
+      "4d42e7": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776832926,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "pasteCode",
+        "extraContext": {
+          "promptMessage": "e7c09bcc",
+          "files": "1bbc6bd9"
+        },
+        "hash": "559955e7",
+        "messageId": "system_73ed5bd0-3e05-11f1-b1ef-d734c7968469",
+        "codeBlockId": null,
+        "isActive": false
+      },
+      "50b48e": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776833180,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "08bb2595",
+          "files": "e9b2d95b"
+        },
+        "hash": "0f629524",
+        "messageId": "system_063e0610-3e06-11f1-b1ef-d734c7968469",
+        "codeBlockId": null,
+        "isActive": false
+      },
+      "a3b12e": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776833398,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {
+          "promptMessage": "4e5e85e1",
+          "files": "0f429af1"
+        },
+        "hash": "ed9ccd50",
+        "messageId": "system_8a8d54c0-3e06-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_8a8d54c0-3e06-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": false
+      },
+      "5d6841": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776833412,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "4e5e85e1",
+          "files": "0f429af1"
+        },
+        "hash": "ed9ccd50",
+        "messageId": "system_8a8d54c0-3e06-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_8a8d54c0-3e06-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": true
+      },
+      "8b1f7d": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776874513,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "pasteCode",
+        "extraContext": {
+          "promptMessage": "b6f2235e",
+          "files": "45bc2f4e"
+        },
+        "hash": "028ef41c",
+        "messageId": "system_34073570-3e66-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_34073570-3e66-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": true
+      },
+      "057d69": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776874532,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "pasteCode",
+        "extraContext": {
+          "promptMessage": "b6f2235e",
+          "files": "45bc2f4e"
+        },
+        "hash": "a00ad123",
+        "messageId": "system_34073570-3e66-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_34073570-3e66-11f1-b1ef-d734c7968469-Codeblock-2",
+        "isActive": true
+      },
+      "830a63": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776875144,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "pasteCode",
+        "extraContext": {
+          "promptMessage": "0f862dae",
+          "files": "e9aadfd6"
+        },
+        "hash": "f091296f",
+        "messageId": "system_bbc0d840-3e66-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_bbc0d840-3e66-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": true
+      },
+      "98fdd7": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776878422,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {
+          "promptMessage": "fc87ac53",
+          "files": "dc50b5a6"
+        },
+        "hash": "4f12a745",
+        "messageId": "system_980105f0-3e6c-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_980105f0-3e6c-11f1-b1ef-d734c7968469-Codeblock-2",
+        "isActive": true
+      },
+      "d5fbb0": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776886613,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {
+          "promptMessage": "b017ef14",
+          "files": "dc50b5a6"
+        },
+        "hash": "b56647d1",
+        "messageId": "system_6fab6490-3e82-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_6fab6490-3e82-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": false
+      },
+      "b0fcba": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1776886639,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.0",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {
+          "promptMessage": "b017ef14",
+          "files": "dc50b5a6"
+        },
+        "hash": "b56647d1",
+        "messageId": "system_6fab6490-3e82-11f1-b1ef-d734c7968469",
+        "codeBlockId": "system_6fab6490-3e82-11f1-b1ef-d734c7968469-Codeblock-1",
+        "isActive": false
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "5d6841",
+        "hash": "4e630601",
+        "encoded": "import%20time",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "1": {
+        "chunkId": "5d6841",
+        "hash": "93ebed14",
+        "encoded": "import%20logging",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "2": {
+        "chunkId": "5d6841",
+        "hash": "3a0863de",
+        "encoded": "import%20subprocess",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "3": {
+        "chunkId": "5d6841",
+        "hash": "9f8aff00",
+        "encoded": "from%20typing%20import%20Tuple",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "5": {
+        "chunkId": "5d6841",
+        "hash": "3852cdfe",
+        "encoded": "#%20Configure%20logger%20for%20this%20module",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "6": {
+        "chunkId": "5d6841",
+        "hash": "fad6e72a",
+        "encoded": "logger%20=%20logging.getLogger(__name__)",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "9": {
+        "chunkId": "5d6841",
+        "hash": "d11d151d",
+        "encoded": "def%20execute_applescript(script:%20str)%20-%3E%20Tuple%5Bbool,%20str%5D:",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "10": {
+        "chunkId": "5d6841",
+        "hash": "7a530b09",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "11": {
+        "chunkId": "5d6841",
+        "hash": "cf64fda1",
+        "encoded": "Execute%20an%20AppleScript%20and%20return%20the%20result.",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "13": {
+        "chunkId": "5d6841",
+        "hash": "320d197a",
+        "encoded": "Args:",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "14": {
+        "chunkId": "5d6841",
+        "hash": "48efbe69",
+        "encoded": "script:%20AppleScript%20code%20to%20execute",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "16": {
+        "chunkId": "5d6841",
+        "hash": "15e09200",
+        "encoded": "Returns:",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "17": {
+        "chunkId": "5d6841",
+        "hash": "70e9560a",
+        "encoded": "Tuple%20of%20(success:%20bool,%20output:%20str)",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "18": {
+        "chunkId": "5d6841",
+        "hash": "4c60f0d0",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "19": {
+        "chunkId": "5d6841",
+        "hash": "3d35aff3",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "20": {
+        "chunkId": "5d6841",
+        "hash": "73ba4bc2",
+        "encoded": "result%20=%20subprocess.run(",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "21": {
+        "chunkId": "5d6841",
+        "hash": "f07d88b7",
+        "encoded": "%5B%22osascript%22,%20%22-e%22,%20script%5D,%20capture_output=True,%20text=True,%20timeout=30",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "22": {
+        "chunkId": "5d6841",
+        "hash": "cb5d9511",
+        "encoded": ")",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "24": {
+        "chunkId": "5d6841",
+        "hash": "ed88bf8e",
+        "encoded": "if%20result.returncode%20==%200:",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "25": {
+        "chunkId": "5d6841",
+        "hash": "23a10dfc",
+        "encoded": "return%20True,%20result.stdout.strip()",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "26": {
+        "chunkId": "5d6841",
+        "hash": "4c3c5792",
+        "encoded": "else:",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "27": {
+        "chunkId": "5d6841",
+        "hash": "9f9f18c7",
+        "encoded": "logger.error(f%22AppleScript%20error:%20%7Bresult.stderr%7D%22)",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "28": {
+        "chunkId": "5d6841",
+        "hash": "ce81ea4f",
+        "encoded": "return%20False,%20result.stderr.strip()",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "29": {
+        "chunkId": "5d6841",
+        "hash": "690a936d",
+        "encoded": "except%20subprocess.TimeoutExpired:",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "30": {
+        "chunkId": "5d6841",
+        "hash": "3d0ee68e",
+        "encoded": "logger.error(%22AppleScript%20execution%20timed%20out%22)",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "31": {
+        "chunkId": "5d6841",
+        "hash": "bc1a9ff4",
+        "encoded": "return%20False,%20%22Timeout%22",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "32": {
+        "chunkId": "5d6841",
+        "hash": "cbfa6362",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "33": {
+        "chunkId": "5d6841",
+        "hash": "4bb823bb",
+        "encoded": "logger.error(f%22Failed%20to%20execute%20AppleScript:%20%7Be%7D%22)",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "34": {
+        "chunkId": "5d6841",
+        "hash": "1b6a3d05",
+        "encoded": "return%20False,%20str(e)",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "37": {
+        "chunkId": "5d6841",
+        "hash": "2e8b8f3e",
+        "encoded": "def%20execute_javascript_in_chrome(js_code:%20str)%20-%3E%20Tuple%5Bbool,%20str%5D:",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "38": {
+        "chunkId": "5d6841",
+        "hash": "d8ef4b51",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "39": {
+        "chunkId": "5d6841",
+        "hash": "4bf621e7",
+        "encoded": "Execute%20JavaScript%20in%20the%20active%20Chrome%20tab.",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "41": {
+        "chunkId": "5d6841",
+        "hash": "a9bb9d56",
+        "encoded": "Args:",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "42": {
+        "chunkId": "5d6841",
+        "hash": "4e5f643e",
+        "encoded": "js_code:%20JavaScript%20code%20to%20execute",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "44": {
+        "chunkId": "5d6841",
+        "hash": "9747b798",
+        "encoded": "Returns:",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "45": {
+        "chunkId": "5d6841",
+        "hash": "6c595a2e",
+        "encoded": "Tuple%20of%20(success:%20bool,%20result:%20str)",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "46": {
+        "chunkId": "5d6841",
+        "hash": "63ea0cc9",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "47": {
+        "chunkId": "5d6841",
+        "hash": "74a1b12a",
+        "encoded": "#%20Escape%20quotes%20in%20JavaScript%20code%20for%20AppleScript",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "48": {
+        "chunkId": "5d6841",
+        "hash": "d4c2fc14",
+        "encoded": "escaped_js%20=%20js_code.replace(%22%5C%5C%22,%20%22%5C%5C%5C%5C%22).replace('%22',%20'%5C%5C%22')",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "50": {
+        "chunkId": "5d6841",
+        "hash": "0bafaa78",
+        "encoded": "script%20=%20f%22%22%22",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "51": {
+        "chunkId": "5d6841",
+        "hash": "dcacf651",
+        "encoded": "tell%20application%20%22Google%20Chrome%22",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "52": {
+        "chunkId": "5d6841",
+        "hash": "6740530c",
+        "encoded": "tell%20active%20tab%20of%20front%20window",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "53": {
+        "chunkId": "5d6841",
+        "hash": "578c3229",
+        "encoded": "execute%20javascript%20%22%7Bescaped_js%7D%22",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "54": {
+        "chunkId": "5d6841",
+        "hash": "0e7800db",
+        "encoded": "end%20tell",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "55": {
+        "chunkId": "5d6841",
+        "hash": "96bcf0d4",
+        "encoded": "end%20tell",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "56": {
+        "chunkId": "5d6841",
+        "hash": "680c1700",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "58": {
+        "chunkId": "5d6841",
+        "hash": "4c8d8f04",
+        "encoded": "success,%20output%20=%20execute_applescript(script)",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "59": {
+        "chunkId": "5d6841",
+        "hash": "6f7dbaa1",
+        "encoded": "if%20success:",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "60": {
+        "chunkId": "5d6841",
+        "hash": "2bd21322",
+        "encoded": "logger.info(f%22JavaScript%20executed%20successfully.%20Result:%20%7Boutput%5B:100%5D%7D%22)",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "61": {
+        "chunkId": "5d6841",
+        "hash": "2964638a",
+        "encoded": "else:",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "62": {
+        "chunkId": "5d6841",
+        "hash": "cc493fe1",
+        "encoded": "logger.error(f%22JavaScript%20execution%20failed:%20%7Boutput%7D%22)",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "63": {
+        "chunkId": "5d6841",
+        "hash": "fbdc496a",
+        "encoded": "return%20success,%20output",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "66": {
+        "chunkId": "830a63",
+        "hash": "19e28593",
+        "encoded": "def%20click_like_button()%20-%3E%20bool:",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "67": {
+        "chunkId": "830a63",
+        "hash": "e074f5a5",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "68": {
+        "chunkId": "830a63",
+        "hash": "973711e3",
+        "encoded": "Click%20the%20like%20button%20on%20the%20currently%20playing%20Short.",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "69": {
+        "chunkId": "830a63",
+        "hash": "4bd68b6a",
+        "encoded": "Waits%20for%20the%20button%20to%20be%20visible%20before%20clicking.",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "71": {
+        "chunkId": "830a63",
+        "hash": "5361b286",
+        "encoded": "Returns:",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "72": {
+        "chunkId": "830a63",
+        "hash": "2dd38317",
+        "encoded": "True%20if%20like%20button%20was%20clicked%20successfully,%20False%20otherwise",
+        "prevChunkIds": [
+          "830a63",
+          "8b1f7d"
+        ]
+      },
+      "73": {
+        "chunkId": "830a63",
+        "hash": "a0578ba6",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "74": {
+        "chunkId": "830a63",
+        "hash": "68c6fc84",
+        "encoded": "logger.info(%22Step%204:%20Waiting%20for%20like%20button%20to%20be%20visible...%22)",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "76": {
+        "chunkId": "830a63",
+        "hash": "d15e1cd6",
+        "encoded": "#%20Wait%20for%20like%20button%20to%20be%20visible%20before%20clicking",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "77": {
+        "chunkId": "830a63",
+        "hash": "166307fe",
+        "encoded": "max_wait_time%20=%2010%20%20#%20Wait%20up%20to%2010%20seconds%20for%20button%20to%20appear",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "78": {
+        "chunkId": "830a63",
+        "hash": "cb7c0b20",
+        "encoded": "check_interval%20=%200.5",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "79": {
+        "chunkId": "830a63",
+        "hash": "43299edd",
+        "encoded": "elapsed_time%20=%200",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "81": {
+        "chunkId": "830a63",
+        "hash": "c6af064f",
+        "encoded": "js_wait_for_button%20=%20%22%22%22",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "82": {
+        "chunkId": "830a63",
+        "hash": "136cb3b2",
+        "encoded": "(function()%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "83": {
+        "chunkId": "830a63",
+        "hash": "a1fe893c",
+        "encoded": "//%20Try%20multiple%20selector%20strategies",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "84": {
+        "chunkId": "830a63",
+        "hash": "6331ccd7",
+        "encoded": "var%20likeButton%20=%20null;",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "86": {
+        "chunkId": "830a63",
+        "hash": "0f9dba53",
+        "encoded": "//%20Strategy%201:%20Find%20by%20aria-label%20containing%20%22Like%20this%20video%22",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "87": {
+        "chunkId": "830a63",
+        "hash": "35312a8a",
+        "encoded": "var%20buttons%20=%20document.querySelectorAll('button%5Baria-label*=%22Like%20this%20video%22%5D');",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "88": {
+        "chunkId": "830a63",
+        "hash": "aef35cbd",
+        "encoded": "if%20(buttons.length%20%3E%200)%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "89": {
+        "chunkId": "830a63",
+        "hash": "1d32ba32",
+        "encoded": "likeButton%20=%20buttons%5B0%5D;",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "90": {
+        "chunkId": "830a63",
+        "hash": "1a9d363f",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "92": {
+        "chunkId": "830a63",
+        "hash": "ef67627e",
+        "encoded": "//%20Strategy%202:%20Find%20by%20class%20combination",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "93": {
+        "chunkId": "830a63",
+        "hash": "8f32ec67",
+        "encoded": "if%20(!likeButton)%20%7B",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "94": {
+        "chunkId": "830a63",
+        "hash": "f05b58ae",
+        "encoded": "var%20classButtons%20=%20document.querySelectorAll('button.ytSpecButtonShapeNextHost.ytSpecButtonShapeNextTonal.ytSpecButtonShapeNextIconButton');",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "95": {
+        "chunkId": "830a63",
+        "hash": "b3bac9f3",
+        "encoded": "for%20(var%20i%20=%200;%20i%20%3C%20classButtons.length;%20i++)%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "96": {
+        "chunkId": "830a63",
+        "hash": "cfd0ee7f",
+        "encoded": "var%20ariaLabel%20=%20classButtons%5Bi%5D.getAttribute('aria-label');",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "97": {
+        "chunkId": "830a63",
+        "hash": "e19106c9",
+        "encoded": "if%20(ariaLabel%20&&%20ariaLabel.toLowerCase().includes('like'))%20%7B",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "98": {
+        "chunkId": "830a63",
+        "hash": "0c010313",
+        "encoded": "likeButton%20=%20classButtons%5Bi%5D;",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "99": {
+        "chunkId": "830a63",
+        "hash": "f7c8d653",
+        "encoded": "break;",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "100": {
+        "chunkId": "830a63",
+        "hash": "020d2fe1",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "101": {
+        "chunkId": "830a63",
+        "hash": "6bf91891",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "102": {
+        "chunkId": "830a63",
+        "hash": "79409de0",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "104": {
+        "chunkId": "830a63",
+        "hash": "9eca2dbe",
+        "encoded": "//%20Strategy%203:%20Find%20by%20SVG%20path%20(thumbs%20up%20icon)",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "105": {
+        "chunkId": "830a63",
+        "hash": "8f97a97e",
+        "encoded": "if%20(!likeButton)%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "106": {
+        "chunkId": "830a63",
+        "hash": "79f851a3",
+        "encoded": "var%20svgPaths%20=%20document.querySelectorAll('button%20svg%20path%5Bd*=%22M9.221%22%5D');",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "107": {
+        "chunkId": "830a63",
+        "hash": "30e46aba",
+        "encoded": "if%20(svgPaths.length%20%3E%200)%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "108": {
+        "chunkId": "830a63",
+        "hash": "71d3665a",
+        "encoded": "var%20svgButton%20=%20svgPaths%5B0%5D.closest('button');",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "109": {
+        "chunkId": "830a63",
+        "hash": "2f0bd548",
+        "encoded": "if%20(svgButton)%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "110": {
+        "chunkId": "830a63",
+        "hash": "2c9ed809",
+        "encoded": "likeButton%20=%20svgButton;",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "111": {
+        "chunkId": "830a63",
+        "hash": "367981c3",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "112": {
+        "chunkId": "830a63",
+        "hash": "3674f723",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "113": {
+        "chunkId": "830a63",
+        "hash": "fd8e1155",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "115": {
+        "chunkId": "830a63",
+        "hash": "8e1419a3",
+        "encoded": "if%20(!likeButton)%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "116": {
+        "chunkId": "830a63",
+        "hash": "28af2dd7",
+        "encoded": "return%20'not_found';",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "117": {
+        "chunkId": "830a63",
+        "hash": "056477bc",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "119": {
+        "chunkId": "830a63",
+        "hash": "37fdc86a",
+        "encoded": "//%20Check%20if%20button%20is%20visible%20in%20viewport",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "120": {
+        "chunkId": "830a63",
+        "hash": "ee049864",
+        "encoded": "var%20rect%20=%20likeButton.getBoundingClientRect();",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "121": {
+        "chunkId": "830a63",
+        "hash": "12cbd461",
+        "encoded": "var%20isVisible%20=%20rect.top%20%3E=%200%20&&",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "122": {
+        "chunkId": "830a63",
+        "hash": "68b15941",
+        "encoded": "rect.left%20%3E=%200%20&&",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "123": {
+        "chunkId": "830a63",
+        "hash": "2ef57121",
+        "encoded": "rect.bottom%20%3C=%20(window.innerHeight%20%7C%7C%20document.documentElement.clientHeight)%20&&",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "124": {
+        "chunkId": "830a63",
+        "hash": "859aa8fb",
+        "encoded": "rect.right%20%3C=%20(window.innerWidth%20%7C%7C%20document.documentElement.clientWidth)%20&&",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "125": {
+        "chunkId": "830a63",
+        "hash": "ec603a0d",
+        "encoded": "window.getComputedStyle(likeButton).visibility%20!==%20'hidden'%20&&",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "126": {
+        "chunkId": "830a63",
+        "hash": "26f8a307",
+        "encoded": "window.getComputedStyle(likeButton).display%20!==%20'none';",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "128": {
+        "chunkId": "830a63",
+        "hash": "38657805",
+        "encoded": "if%20(!isVisible)%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "129": {
+        "chunkId": "830a63",
+        "hash": "1519db66",
+        "encoded": "return%20'not_visible';",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "130": {
+        "chunkId": "830a63",
+        "hash": "14fa0baa",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "132": {
+        "chunkId": "830a63",
+        "hash": "9a1e5c28",
+        "encoded": "return%20'visible';",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "133": {
+        "chunkId": "830a63",
+        "hash": "618eda39",
+        "encoded": "%7D)();",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "134": {
+        "chunkId": "830a63",
+        "hash": "035c377e",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "136": {
+        "chunkId": "830a63",
+        "hash": "7cf0bbbb",
+        "encoded": "#%20Poll%20until%20button%20is%20visible",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "137": {
+        "chunkId": "830a63",
+        "hash": "f14c6472",
+        "encoded": "while%20elapsed_time%20%3C%20max_wait_time:",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "138": {
+        "chunkId": "830a63",
+        "hash": "a01aefb8",
+        "encoded": "success,%20result%20=%20execute_javascript_in_chrome(js_wait_for_button)",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "140": {
+        "chunkId": "830a63",
+        "hash": "6a2a60bf",
+        "encoded": "if%20success%20and%20result%20==%20%22visible%22:",
+        "prevChunkIds": [
+          "830a63",
+          "8b1f7d"
+        ]
+      },
+      "141": {
+        "chunkId": "830a63",
+        "hash": "416188e5",
+        "encoded": "logger.info(%22Like%20button%20is%20visible,%20proceeding%20to%20click%22)",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "142": {
+        "chunkId": "830a63",
+        "hash": "090cdd08",
+        "encoded": "break",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "144": {
+        "chunkId": "830a63",
+        "hash": "4618b0ad",
+        "encoded": "if%20result%20==%20%22not_found%22:",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "145": {
+        "chunkId": "830a63",
+        "hash": "2189f5c7",
+        "encoded": "logger.debug(f%22Like%20button%20not%20found%20yet%20(%7Belapsed_time%7Ds%20elapsed)%22)",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "146": {
+        "chunkId": "830a63",
+        "hash": "99b6a30c",
+        "encoded": "elif%20result%20==%20%22not_visible%22:",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "147": {
+        "chunkId": "98fdd7",
+        "hash": "b82741a4",
+        "encoded": "logger.debug(",
+        "prevChunkIds": [
+          "98fdd7"
+        ]
+      },
+      "148": {
+        "chunkId": "98fdd7",
+        "hash": "66a43b6e",
+        "encoded": "f%22Like%20button%20found%20but%20not%20visible%20yet%20(%7Belapsed_time%7Ds%20elapsed)%22",
+        "prevChunkIds": [
+          "98fdd7"
+        ]
+      },
+      "149": {
+        "chunkId": "5d6841",
+        "hash": "f846a7bb",
+        "encoded": ")",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "151": {
+        "chunkId": "830a63",
+        "hash": "5cd31c70",
+        "encoded": "time.sleep(check_interval)",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "152": {
+        "chunkId": "830a63",
+        "hash": "ac0f7719",
+        "encoded": "elapsed_time%20+=%20check_interval",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "154": {
+        "chunkId": "830a63",
+        "hash": "3e9e812f",
+        "encoded": "if%20elapsed_time%20%3E=%20max_wait_time:",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "155": {
+        "chunkId": "830a63",
+        "hash": "916fe029",
+        "encoded": "logger.error(%22Like%20button%20did%20not%20become%20visible%20within%20timeout%22)",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "156": {
+        "chunkId": "830a63",
+        "hash": "d8b61981",
+        "encoded": "return%20False",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "158": {
+        "chunkId": "830a63",
+        "hash": "c029dc95",
+        "encoded": "#%20CHANGE:%20Click%20the%20button%20and%20verify%20state%20change%20in%20separate%20executions%20(no%20Promise)",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "159": {
+        "chunkId": "830a63",
+        "hash": "6bacda67",
+        "encoded": "js_click_like%20=%20%22%22%22",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "160": {
+        "chunkId": "830a63",
+        "hash": "f3c48a58",
+        "encoded": "(function()%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "161": {
+        "chunkId": "830a63",
+        "hash": "7a334ef6",
+        "encoded": "//%20Try%20multiple%20selector%20strategies",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "162": {
+        "chunkId": "830a63",
+        "hash": "7c2ab85c",
+        "encoded": "var%20likeButton%20=%20null;",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "164": {
+        "chunkId": "830a63",
+        "hash": "07518c97",
+        "encoded": "//%20Strategy%201:%20Find%20by%20aria-label%20containing%20%22Like%20this%20video%22",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "165": {
+        "chunkId": "830a63",
+        "hash": "2c519c4a",
+        "encoded": "var%20buttons%20=%20document.querySelectorAll('button%5Baria-label*=%22Like%20this%20video%22%5D');",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "166": {
+        "chunkId": "830a63",
+        "hash": "3414e95f",
+        "encoded": "if%20(buttons.length%20%3E%200)%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "167": {
+        "chunkId": "830a63",
+        "hash": "cdd8702a",
+        "encoded": "likeButton%20=%20buttons%5B0%5D;",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "168": {
+        "chunkId": "830a63",
+        "hash": "181abf74",
+        "encoded": "console.log('Found%20like%20button%20using%20aria-label');",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "169": {
+        "chunkId": "830a63",
+        "hash": "4a829956",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "171": {
+        "chunkId": "830a63",
+        "hash": "f95f87b2",
+        "encoded": "//%20Strategy%202:%20Find%20by%20class%20combination",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "172": {
+        "chunkId": "830a63",
+        "hash": "2a871dad",
+        "encoded": "if%20(!likeButton)%20%7B",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "173": {
+        "chunkId": "830a63",
+        "hash": "21846690",
+        "encoded": "var%20classButtons%20=%20document.querySelectorAll('button.ytSpecButtonShapeNextHost.ytSpecButtonShapeNextTonal.ytSpecButtonShapeNextIconButton');",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "174": {
+        "chunkId": "830a63",
+        "hash": "9073845e",
+        "encoded": "for%20(var%20i%20=%200;%20i%20%3C%20classButtons.length;%20i++)%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "175": {
+        "chunkId": "830a63",
+        "hash": "8acbf7d9",
+        "encoded": "var%20ariaLabel%20=%20classButtons%5Bi%5D.getAttribute('aria-label');",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "176": {
+        "chunkId": "830a63",
+        "hash": "00e29020",
+        "encoded": "if%20(ariaLabel%20&&%20ariaLabel.toLowerCase().includes('like'))%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "177": {
+        "chunkId": "830a63",
+        "hash": "826a401c",
+        "encoded": "likeButton%20=%20classButtons%5Bi%5D;",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "178": {
+        "chunkId": "830a63",
+        "hash": "b341f676",
+        "encoded": "console.log('Found%20like%20button%20using%20class%20combination');",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "179": {
+        "chunkId": "830a63",
+        "hash": "26e413ea",
+        "encoded": "break;",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "180": {
+        "chunkId": "830a63",
+        "hash": "b42e774a",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "181": {
+        "chunkId": "830a63",
+        "hash": "1e08084c",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "182": {
+        "chunkId": "830a63",
+        "hash": "ad066da5",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "184": {
+        "chunkId": "830a63",
+        "hash": "1b25ad26",
+        "encoded": "//%20Strategy%203:%20Find%20by%20SVG%20path%20(thumbs%20up%20icon)",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "185": {
+        "chunkId": "830a63",
+        "hash": "6493d592",
+        "encoded": "if%20(!likeButton)%20%7B",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "186": {
+        "chunkId": "830a63",
+        "hash": "e128d164",
+        "encoded": "var%20svgPaths%20=%20document.querySelectorAll('button%20svg%20path%5Bd*=%22M9.221%22%5D');",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "187": {
+        "chunkId": "830a63",
+        "hash": "bbc1b376",
+        "encoded": "if%20(svgPaths.length%20%3E%200)%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "188": {
+        "chunkId": "830a63",
+        "hash": "cdc2207d",
+        "encoded": "var%20svgButton%20=%20svgPaths%5B0%5D.closest('button');",
+        "prevChunkIds": [
+          "830a63",
+          "8b1f7d"
+        ]
+      },
+      "189": {
+        "chunkId": "830a63",
+        "hash": "2451f03d",
+        "encoded": "if%20(svgButton)%20%7B",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "190": {
+        "chunkId": "830a63",
+        "hash": "66a9ce82",
+        "encoded": "likeButton%20=%20svgButton;",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "191": {
+        "chunkId": "830a63",
+        "hash": "45d4a3d9",
+        "encoded": "console.log('Found%20like%20button%20using%20SVG%20path');",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "192": {
+        "chunkId": "830a63",
+        "hash": "bd24004b",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "193": {
+        "chunkId": "830a63",
+        "hash": "675a30df",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "194": {
+        "chunkId": "830a63",
+        "hash": "c7ef80cf",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "196": {
+        "chunkId": "830a63",
+        "hash": "c6594b9c",
+        "encoded": "if%20(!likeButton)%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "197": {
+        "chunkId": "830a63",
+        "hash": "eae7192f",
+        "encoded": "return%20'Like%20button%20not%20found';",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "198": {
+        "chunkId": "830a63",
+        "hash": "7cf402bb",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "200": {
+        "chunkId": "830a63",
+        "hash": "245a5724",
+        "encoded": "//%20Check%20if%20already%20liked%20(aria-pressed=%22true%22)",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "201": {
+        "chunkId": "830a63",
+        "hash": "2cf0d055",
+        "encoded": "var%20isPressed%20=%20likeButton.getAttribute('aria-pressed');",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "202": {
+        "chunkId": "830a63",
+        "hash": "150f2944",
+        "encoded": "if%20(isPressed%20===%20'true')%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "203": {
+        "chunkId": "830a63",
+        "hash": "2ba4fabb",
+        "encoded": "return%20'Video%20already%20liked';",
+        "prevChunkIds": [
+          "830a63",
+          "8b1f7d"
+        ]
+      },
+      "204": {
+        "chunkId": "830a63",
+        "hash": "bfce87e8",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "206": {
+        "chunkId": "830a63",
+        "hash": "33b67bfc",
+        "encoded": "//%20Try%20multiple%20click%20strategies%20to%20ensure%20the%20click%20registers",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "207": {
+        "chunkId": "830a63",
+        "hash": "f3a9d0ed",
+        "encoded": "var%20clickSuccess%20=%20false;",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "209": {
+        "chunkId": "830a63",
+        "hash": "50cd648f",
+        "encoded": "//%20Method%201:%20Standard%20click",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "210": {
+        "chunkId": "830a63",
+        "hash": "a8be39e2",
+        "encoded": "try%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "211": {
+        "chunkId": "830a63",
+        "hash": "cd12eb59",
+        "encoded": "likeButton.click();",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "212": {
+        "chunkId": "830a63",
+        "hash": "0e123446",
+        "encoded": "clickSuccess%20=%20true;",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "213": {
+        "chunkId": "830a63",
+        "hash": "395b797a",
+        "encoded": "console.log('Standard%20click%20executed');",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "214": {
+        "chunkId": "830a63",
+        "hash": "69bd0e21",
+        "encoded": "%7D%20catch%20(e)%20%7B",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "215": {
+        "chunkId": "830a63",
+        "hash": "2cb33d42",
+        "encoded": "console.log('Standard%20click%20failed:%20'%20+%20e.message);",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "216": {
+        "chunkId": "830a63",
+        "hash": "84f00426",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "218": {
+        "chunkId": "830a63",
+        "hash": "6cf2d0c3",
+        "encoded": "//%20Method%202:%20Dispatch%20click%20event%20(handles%20shadow%20DOM%20and%20event%20listeners)",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "219": {
+        "chunkId": "830a63",
+        "hash": "92af550e",
+        "encoded": "if%20(!clickSuccess)%20%7B",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "220": {
+        "chunkId": "830a63",
+        "hash": "879aae67",
+        "encoded": "try%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "221": {
+        "chunkId": "830a63",
+        "hash": "01c58381",
+        "encoded": "var%20clickEvent%20=%20new%20MouseEvent('click',%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "222": {
+        "chunkId": "830a63",
+        "hash": "590aeebf",
+        "encoded": "view:%20window,",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "223": {
+        "chunkId": "830a63",
+        "hash": "609731d5",
+        "encoded": "bubbles:%20true,",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "224": {
+        "chunkId": "830a63",
+        "hash": "45e62adb",
+        "encoded": "cancelable:%20true",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "225": {
+        "chunkId": "830a63",
+        "hash": "6f608546",
+        "encoded": "%7D);",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "226": {
+        "chunkId": "830a63",
+        "hash": "9e1cfd10",
+        "encoded": "likeButton.dispatchEvent(clickEvent);",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "227": {
+        "chunkId": "830a63",
+        "hash": "c4ccfd1c",
+        "encoded": "clickSuccess%20=%20true;",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "228": {
+        "chunkId": "830a63",
+        "hash": "ca5fa750",
+        "encoded": "console.log('Event%20dispatch%20click%20executed');",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "229": {
+        "chunkId": "830a63",
+        "hash": "86eca0e3",
+        "encoded": "%7D%20catch%20(e)%20%7B",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "230": {
+        "chunkId": "830a63",
+        "hash": "2899b9d5",
+        "encoded": "console.log('Event%20dispatch%20failed:%20'%20+%20e.message);",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "231": {
+        "chunkId": "830a63",
+        "hash": "9d1eb832",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "325528"
+        ]
+      },
+      "232": {
+        "chunkId": "830a63",
+        "hash": "156d2c96",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "234": {
+        "chunkId": "830a63",
+        "hash": "17d08121",
+        "encoded": "//%20Method%203:%20Coordinate-based%20click%20(simulates%20actual%20user%20click)",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "235": {
+        "chunkId": "830a63",
+        "hash": "1fde30b0",
+        "encoded": "if%20(!clickSuccess)%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "236": {
+        "chunkId": "830a63",
+        "hash": "c3898131",
+        "encoded": "try%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "237": {
+        "chunkId": "830a63",
+        "hash": "77986487",
+        "encoded": "var%20rect%20=%20likeButton.getBoundingClientRect();",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "238": {
+        "chunkId": "830a63",
+        "hash": "ace4b621",
+        "encoded": "var%20x%20=%20rect.left%20+%20rect.width%20/%202;",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "239": {
+        "chunkId": "830a63",
+        "hash": "f0d460d9",
+        "encoded": "var%20y%20=%20rect.top%20+%20rect.height%20/%202;",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "241": {
+        "chunkId": "830a63",
+        "hash": "bbb8eba2",
+        "encoded": "var%20mousedownEvent%20=%20new%20MouseEvent('mousedown',%20%7B",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "242": {
+        "chunkId": "830a63",
+        "hash": "b06f8a5d",
+        "encoded": "view:%20window,",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "243": {
+        "chunkId": "830a63",
+        "hash": "eb46ab55",
+        "encoded": "bubbles:%20true,",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "244": {
+        "chunkId": "830a63",
+        "hash": "24aad32c",
+        "encoded": "cancelable:%20true,",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "245": {
+        "chunkId": "830a63",
+        "hash": "ca52afab",
+        "encoded": "clientX:%20x,",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "246": {
+        "chunkId": "830a63",
+        "hash": "c9e5e966",
+        "encoded": "clientY:%20y",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "247": {
+        "chunkId": "830a63",
+        "hash": "1f5a7612",
+        "encoded": "%7D);",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "248": {
+        "chunkId": "830a63",
+        "hash": "b87cc7cd",
+        "encoded": "var%20mouseupEvent%20=%20new%20MouseEvent('mouseup',%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "249": {
+        "chunkId": "830a63",
+        "hash": "1a5d329e",
+        "encoded": "view:%20window,",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "250": {
+        "chunkId": "830a63",
+        "hash": "eb83b1b8",
+        "encoded": "bubbles:%20true,",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "251": {
+        "chunkId": "830a63",
+        "hash": "c9ce3402",
+        "encoded": "cancelable:%20true,",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "252": {
+        "chunkId": "830a63",
+        "hash": "7b0d5296",
+        "encoded": "clientX:%20x,",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "253": {
+        "chunkId": "830a63",
+        "hash": "95858d4e",
+        "encoded": "clientY:%20y",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "254": {
+        "chunkId": "830a63",
+        "hash": "29576acb",
+        "encoded": "%7D);",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "256": {
+        "chunkId": "830a63",
+        "hash": "6d8e71c7",
+        "encoded": "likeButton.dispatchEvent(mousedownEvent);",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "257": {
+        "chunkId": "830a63",
+        "hash": "01f52f70",
+        "encoded": "likeButton.dispatchEvent(mouseupEvent);",
+        "prevChunkIds": [
+          "830a63",
+          "057d69"
+        ]
+      },
+      "258": {
+        "chunkId": "830a63",
+        "hash": "60e3e127",
+        "encoded": "likeButton.click();",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "259": {
+        "chunkId": "830a63",
+        "hash": "e507e5cf",
+        "encoded": "clickSuccess%20=%20true;",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "260": {
+        "chunkId": "830a63",
+        "hash": "ef48070b",
+        "encoded": "console.log('Coordinate-based%20click%20executed');",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "261": {
+        "chunkId": "830a63",
+        "hash": "23f599d3",
+        "encoded": "%7D%20catch%20(e)%20%7B",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "262": {
+        "chunkId": "830a63",
+        "hash": "77083291",
+        "encoded": "console.log('Coordinate%20click%20failed:%20'%20+%20e.message);",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "263": {
+        "chunkId": "830a63",
+        "hash": "ed68a824",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "264": {
+        "chunkId": "830a63",
+        "hash": "2a88b195",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "266": {
+        "chunkId": "830a63",
+        "hash": "aee3619d",
+        "encoded": "if%20(!clickSuccess)%20%7B",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "267": {
+        "chunkId": "830a63",
+        "hash": "86e8c46c",
+        "encoded": "return%20'All%20click%20methods%20failed';",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "268": {
+        "chunkId": "830a63",
+        "hash": "5c85fe45",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "270": {
+        "chunkId": "830a63",
+        "hash": "6b01870d",
+        "encoded": "//%20CHANGE:%20Return%20synchronously%20instead%20of%20using%20Promise",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "271": {
+        "chunkId": "830a63",
+        "hash": "56e5a89e",
+        "encoded": "return%20'Click%20executed';",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "272": {
+        "chunkId": "830a63",
+        "hash": "b7defa12",
+        "encoded": "%7D)();",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "273": {
+        "chunkId": "830a63",
+        "hash": "e465cbae",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "275": {
+        "chunkId": "830a63",
+        "hash": "8797244e",
+        "encoded": "success,%20result%20=%20execute_javascript_in_chrome(js_click_like)",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "276": {
+        "chunkId": "830a63",
+        "hash": "6c2c7670",
+        "encoded": "if%20not%20success%20or%20%22not%20found%22%20in%20result%20or%20%22failed%22%20in%20result:",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "277": {
+        "chunkId": "830a63",
+        "hash": "a23422db",
+        "encoded": "logger.error(f%22Failed%20to%20click%20like%20button:%20%7Bresult%7D%22)",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "278": {
+        "chunkId": "830a63",
+        "hash": "20fa18d2",
+        "encoded": "return%20False",
+        "prevChunkIds": [
+          "830a63",
+          "5d6841"
+        ]
+      },
+      "280": {
+        "chunkId": "830a63",
+        "hash": "b02556fc",
+        "encoded": "logger.info(f%22Like%20button%20clicked:%20%7Bresult%7D%22)",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "282": {
+        "chunkId": "830a63",
+        "hash": "2753dd16",
+        "encoded": "#%20CHANGE:%20Wait%20for%20UI%20to%20update,%20then%20verify%20state%20change%20in%20a%20separate%20call",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "283": {
+        "chunkId": "830a63",
+        "hash": "aa770326",
+        "encoded": "time.sleep(1)",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "285": {
+        "chunkId": "830a63",
+        "hash": "d66144b6",
+        "encoded": "#%20CHANGE:%20Verify%20the%20button%20state%20changed%20(separate%20JavaScript%20execution)",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "286": {
+        "chunkId": "830a63",
+        "hash": "dd79111d",
+        "encoded": "js_verify_state%20=%20%22%22%22",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "287": {
+        "chunkId": "830a63",
+        "hash": "fb00c99b",
+        "encoded": "(function()%20%7B",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "288": {
+        "chunkId": "830a63",
+        "hash": "5dac212c",
+        "encoded": "var%20buttons%20=%20document.querySelectorAll('button%5Baria-label*=%22Like%20this%20video%22%5D');",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "289": {
+        "chunkId": "830a63",
+        "hash": "c159e63a",
+        "encoded": "if%20(buttons.length%20%3E%200)%20%7B",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "290": {
+        "chunkId": "830a63",
+        "hash": "90c3f0db",
+        "encoded": "var%20isPressed%20=%20buttons%5B0%5D.getAttribute('aria-pressed');",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "291": {
+        "chunkId": "830a63",
+        "hash": "9fdc19f7",
+        "encoded": "if%20(isPressed%20===%20'true')%20%7B",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "292": {
+        "chunkId": "830a63",
+        "hash": "495e289d",
+        "encoded": "return%20'Like%20button%20state%20changed%20to%20pressed';",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "293": {
+        "chunkId": "830a63",
+        "hash": "5b6fd504",
+        "encoded": "%7D%20else%20%7B",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "294": {
+        "chunkId": "830a63",
+        "hash": "de04e2c3",
+        "encoded": "return%20'Like%20button%20state%20did%20not%20change%20(aria-pressed='%20+%20isPressed%20+%20')';",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "295": {
+        "chunkId": "830a63",
+        "hash": "522d2419",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "296": {
+        "chunkId": "830a63",
+        "hash": "7eacb58d",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "297": {
+        "chunkId": "830a63",
+        "hash": "2b6d5ab5",
+        "encoded": "return%20'Like%20button%20not%20found%20for%20verification';",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "298": {
+        "chunkId": "830a63",
+        "hash": "62493e9b",
+        "encoded": "%7D)();",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "299": {
+        "chunkId": "830a63",
+        "hash": "34ca07cc",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "301": {
+        "chunkId": "830a63",
+        "hash": "a921bd5b",
+        "encoded": "success,%20verify_result%20=%20execute_javascript_in_chrome(js_verify_state)",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "302": {
+        "chunkId": "830a63",
+        "hash": "fc5efff7",
+        "encoded": "if%20success:",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "303": {
+        "chunkId": "830a63",
+        "hash": "96110e9d",
+        "encoded": "logger.info(f%22Verification:%20%7Bverify_result%7D%22)",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "304": {
+        "chunkId": "830a63",
+        "hash": "6bb2d462",
+        "encoded": "else:",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "305": {
+        "chunkId": "830a63",
+        "hash": "66119162",
+        "encoded": "logger.warning(%22Could%20not%20verify%20like%20button%20state%20change%22)",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "307": {
+        "chunkId": "830a63",
+        "hash": "a6ea7d6a",
+        "encoded": "#%201%20second%20delay%20after%20action",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "308": {
+        "chunkId": "830a63",
+        "hash": "2bb35534",
+        "encoded": "time.sleep(1)",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "310": {
+        "chunkId": "830a63",
+        "hash": "7ac808e6",
+        "encoded": "return%20True",
+        "prevChunkIds": [
+          "830a63"
+        ]
+      },
+      "485": {
+        "chunkId": "5d6841",
+        "hash": "2d90e9d5",
+        "encoded": "def%20get_short_info()%20-%3E%20dict:",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "486": {
+        "chunkId": "057d69",
+        "hash": "44944a13",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "057d69"
+        ]
+      },
+      "487": {
+        "chunkId": "5d6841",
+        "hash": "50921e95",
+        "encoded": "Get%20information%20about%20the%20currently%20playing%20Short.",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "488": {
+        "chunkId": "5d6841",
+        "hash": "f80f2cb1",
+        "encoded": "Works%20for%20both%20desktop%20and%20mobile%20YouTube.",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "490": {
+        "chunkId": "8b1f7d",
+        "hash": "c15e4dad",
+        "encoded": "Returns:",
+        "prevChunkIds": [
+          "8b1f7d"
+        ]
+      },
+      "491": {
+        "chunkId": "5d6841",
+        "hash": "a40c0fcf",
+        "encoded": "Dictionary%20with%20Short%20info%20(title,%20duration,%20etc.)%20or%20empty%20dict%20if%20failed",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "492": {
+        "chunkId": "057d69",
+        "hash": "46dc0b2f",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "057d69"
+        ]
+      },
+      "493": {
+        "chunkId": "5d6841",
+        "hash": "5f1fd8bf",
+        "encoded": "js_get_info%20=%20%22%22%22",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "494": {
+        "chunkId": "057d69",
+        "hash": "670a9dd0",
+        "encoded": "(function()%20%7B",
+        "prevChunkIds": [
+          "057d69"
+        ]
+      },
+      "495": {
+        "chunkId": "5d6841",
+        "hash": "1459ebad",
+        "encoded": "var%20info%20=%20%7B%7D;",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "497": {
+        "chunkId": "5d6841",
+        "hash": "fc325b45",
+        "encoded": "//%20Get%20video%20element",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "498": {
+        "chunkId": "5d6841",
+        "hash": "8b5e9ef4",
+        "encoded": "var%20video%20=%20document.querySelector('video.html5-main-video')%20%7C%7C",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "499": {
+        "chunkId": "057d69",
+        "hash": "eaf6d2e9",
+        "encoded": "document.querySelector('video');",
+        "prevChunkIds": [
+          "057d69"
+        ]
+      },
+      "500": {
+        "chunkId": "5d6841",
+        "hash": "9f7ae1c8",
+        "encoded": "if%20(video)%20%7B",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "501": {
+        "chunkId": "5d6841",
+        "hash": "1ecc7786",
+        "encoded": "info.duration%20=%20video.duration;",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "502": {
+        "chunkId": "5d6841",
+        "hash": "6814c399",
+        "encoded": "info.currentTime%20=%20video.currentTime;",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "503": {
+        "chunkId": "5d6841",
+        "hash": "34f5c799",
+        "encoded": "info.paused%20=%20video.paused;",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "504": {
+        "chunkId": "057d69",
+        "hash": "97cce06c",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "057d69"
+        ]
+      },
+      "506": {
+        "chunkId": "5d6841",
+        "hash": "5a889384",
+        "encoded": "//%20Get%20title%20(try%20both%20desktop%20and%20mobile%20selectors)",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "507": {
+        "chunkId": "5d6841",
+        "hash": "09bbfed5",
+        "encoded": "var%20titleElement%20=%20document.querySelector('h2.title%20yt-formatted-string')%20%7C%7C",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "508": {
+        "chunkId": "5d6841",
+        "hash": "0168a010",
+        "encoded": "document.querySelector('h1.shortsLockupViewModelHostMetadataTitle')%20%7C%7C",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "509": {
+        "chunkId": "5d6841",
+        "hash": "3e7650ed",
+        "encoded": "document.querySelector('.shortsLockupViewModelHostMetadataTitle%20span');",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "510": {
+        "chunkId": "5d6841",
+        "hash": "1b52b91e",
+        "encoded": "if%20(titleElement)%20%7B",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "511": {
+        "chunkId": "5d6841",
+        "hash": "f0bab70a",
+        "encoded": "info.title%20=%20titleElement.textContent;",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "512": {
+        "chunkId": "057d69",
+        "hash": "4efc5562",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "057d69"
+        ]
+      },
+      "514": {
+        "chunkId": "5d6841",
+        "hash": "411b5fb0",
+        "encoded": "//%20Get%20Short%20URL",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "515": {
+        "chunkId": "5d6841",
+        "hash": "5fe54bb3",
+        "encoded": "info.url%20=%20window.location.href;",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "517": {
+        "chunkId": "5d6841",
+        "hash": "87b98e0d",
+        "encoded": "return%20JSON.stringify(info);",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "518": {
+        "chunkId": "057d69",
+        "hash": "beb8569a",
+        "encoded": "%7D)();",
+        "prevChunkIds": [
+          "057d69"
+        ]
+      },
+      "519": {
+        "chunkId": "057d69",
+        "hash": "1cb9a528",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "057d69"
+        ]
+      },
+      "521": {
+        "chunkId": "5d6841",
+        "hash": "1ce65bc7",
+        "encoded": "success,%20result%20=%20execute_javascript_in_chrome(js_get_info)",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "522": {
+        "chunkId": "5d6841",
+        "hash": "3c469e35",
+        "encoded": "if%20success:",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "523": {
+        "chunkId": "5d6841",
+        "hash": "3fa0a7c3",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "524": {
+        "chunkId": "5d6841",
+        "hash": "8a274ff3",
+        "encoded": "import%20json",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "526": {
+        "chunkId": "5d6841",
+        "hash": "77184795",
+        "encoded": "info%20=%20json.loads(result)",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "527": {
+        "chunkId": "5d6841",
+        "hash": "b4b34e08",
+        "encoded": "logger.info(f%22Short%20info:%20%7Binfo%7D%22)",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "528": {
+        "chunkId": "5d6841",
+        "hash": "d6277751",
+        "encoded": "return%20info",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "529": {
+        "chunkId": "5d6841",
+        "hash": "af09ad48",
+        "encoded": "except:",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "530": {
+        "chunkId": "5d6841",
+        "hash": "c5478075",
+        "encoded": "logger.error(%22Failed%20to%20parse%20Short%20info%22)",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "531": {
+        "chunkId": "5d6841",
+        "hash": "0769fead",
+        "encoded": "return%20%7B%7D",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "533": {
+        "chunkId": "5d6841",
+        "hash": "43b9ad2f",
+        "encoded": "logger.error(%22Failed%20to%20get%20Short%20info%22)",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      },
+      "534": {
+        "chunkId": "5d6841",
+        "hash": "fd4229a4",
+        "encoded": "return%20%7B%7D",
+        "prevChunkIds": [
+          "5d6841"
+        ]
+      }
+    }
+  }
+}

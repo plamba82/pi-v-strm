@@ -1,0 +1,31 @@
+{
+  "filename": "diagnostics.py",
+  "path": "diagnostics.py",
+  "version": "1.1",
+  "files": {
+    "9596048a": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "g.py",
+          "relativeFilePath": "g.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            184
+          ]
+        }
+      ]
+    }
+  },
+  "promptMessage": {
+    "a65824d8": {
+      "value": "it seems script is not running somehow"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

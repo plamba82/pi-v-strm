@@ -1,0 +1,189 @@
+{
+  "filename": "g.py",
+  "path": "g.py",
+  "version": "1.1",
+  "files": {
+    "01f6257b": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "g.py",
+          "relativeFilePath": "g.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            146
+          ]
+        }
+      ]
+    },
+    "9596048a": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "g.py",
+          "relativeFilePath": "g.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            184
+          ]
+        }
+      ]
+    },
+    "45d9a54b": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "g.py",
+          "relativeFilePath": "g.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            220
+          ]
+        }
+      ]
+    },
+    "09e08a54": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "g.py",
+          "relativeFilePath": "g.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            265
+          ]
+        },
+        {
+          "programming_language": "python",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            265
+          ],
+          "fileName": "g.py",
+          "relativeFilePath": "g.py"
+        }
+      ]
+    },
+    "ecb04b08": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "g.py",
+          "relativeFilePath": "g.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            353
+          ]
+        }
+      ]
+    },
+    "8c7e6bfb": {
+      "value": [
+        {
+          "programming_language": "JSON",
+          "fileName": "profiles.json",
+          "relativeFilePath": "profiles.json",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            11
+          ]
+        }
+      ]
+    },
+    "4adb9199": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "g.py",
+          "relativeFilePath": "g.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            503
+          ]
+        }
+      ]
+    },
+    "21dbe3b3": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "g.py",
+          "relativeFilePath": "g.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            629
+          ]
+        }
+      ]
+    },
+    "2d0c9ea3": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "g.py",
+          "relativeFilePath": "g.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            698
+          ]
+        }
+      ]
+    }
+  },
+  "promptMessage": {
+    "0fe95752": {
+      "value": "I want to modify or extend this program, once first google result is clicked, i want to click on first \"Shorts\" displayed on that page"
+    },
+    "1becfdeb": {
+      "value": "getting this eeror \"🔍 Search 'BhaktiSangeetPlus youtube channel' → FAILED\""
+    },
+    "fbf9cc2f": {
+      "value": "I am able to reach and load FIRST Google result page, hpever to play firsrt shorts viedo script is not workng"
+    },
+    "fe860af1": {
+      "value": "genertae the full code"
+    },
+    "74761a59": {
+      "value": "i am using google chrome to perform all the operation"
+    },
+    "f6e21e8e": {
+      "value": "Ok, I want to make sure every step is completed before next step is trigered. for example step1. loading youtube.com, once youtibe is rendered  then step2. search should performed"
+    },
+    "3bfe6d9b": {
+      "value": "genertae the full program"
+    },
+    "e39b16ae": {
+      "value": "ca you add step by steps logs for debugging, it seems click_first_shorts_in_active_tab is not triggered"
+    },
+    "19bbc1bd": {
+      "value": "Alright, this program is able to open URL, then able to perfrorm a google search rthen it is able to click first URL after 22 tabs. After that it is not able to play first shorts"
+    },
+    "c7669144": {
+      "value": "generate the full program"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

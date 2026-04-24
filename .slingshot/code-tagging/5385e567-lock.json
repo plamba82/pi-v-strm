@@ -1,0 +1,540 @@
+{
+  "diagnostics.py": {
+    "filename": "diagnostics.py",
+    "path": "diagnostics.py",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "5b3e00": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1775932578,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.3",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "a65824d8",
+          "files": "9596048a"
+        },
+        "hash": "ae4e26fb",
+        "messageId": "system_2605b350-35d5-11f1-8b4d-1d4588c34e2b",
+        "codeBlockId": "system_2605b350-35d5-11f1-8b4d-1d4588c34e2b-Codeblock-1",
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "5b3e00",
+        "hash": "acba5f1c",
+        "encoded": "#!/usr/bin/env%20python3",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "5b3e00",
+        "hash": "d0540184",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "5b3e00",
+        "hash": "7fb2644a",
+        "encoded": "Small%20diagnostic%20helper%20for%20macOS%20AppleScript%20automation.",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "5b3e00",
+        "hash": "a2f3d892",
+        "encoded": "Usage:",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "5b3e00",
+        "hash": "0a71a66b",
+        "encoded": "python3%20scripts/diagnostics.py%20--config%20profiles.json%20%20%20%20%20%20%20%20%20%20#%20quick%20checks",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "5b3e00",
+        "hash": "d2eec4a2",
+        "encoded": "python3%20scripts/diagnostics.py%20--config%20profiles.json%20--run-g%20%20#%20runs%20g.py%20--verbose%20and%20captures%20output",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "5b3e00",
+        "hash": "a466b5ed",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "5b3e00",
+        "hash": "3bffd588",
+        "encoded": "import%20argparse",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "5b3e00",
+        "hash": "9dbf7119",
+        "encoded": "import%20json",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "5b3e00",
+        "hash": "00271a3c",
+        "encoded": "import%20shutil",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "5b3e00",
+        "hash": "0b4bf537",
+        "encoded": "import%20subprocess",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "5b3e00",
+        "hash": "5fd21344",
+        "encoded": "import%20sys",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "5b3e00",
+        "hash": "cf01c345",
+        "encoded": "import%20os",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "5b3e00",
+        "hash": "ebcad8a7",
+        "encoded": "def%20check_python():",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "5b3e00",
+        "hash": "96555b88",
+        "encoded": "print(%22Python%20executable:%22,%20sys.executable)",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "5b3e00",
+        "hash": "c89d1e91",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "5b3e00",
+        "hash": "1a892470",
+        "encoded": "v%20=%20sys.version.splitlines()%5B0%5D",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "5b3e00",
+        "hash": "880e9ccc",
+        "encoded": "print(%22Python%20version:%22,%20v)",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "5b3e00",
+        "hash": "37d429a1",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "5b3e00",
+        "hash": "f1680c0c",
+        "encoded": "pass",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "5b3e00",
+        "hash": "7c66bd84",
+        "encoded": "def%20check_osascript():",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "5b3e00",
+        "hash": "a6807f97",
+        "encoded": "path%20=%20shutil.which(%22osascript%22)",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "5b3e00",
+        "hash": "6fe7f740",
+        "encoded": "print(%22osascript%20path:%22,%20path)",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "5b3e00",
+        "hash": "0df9b0f0",
+        "encoded": "if%20not%20path:",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "5b3e00",
+        "hash": "e936ecc2",
+        "encoded": "print(%22ERROR:%20osascript%20not%20found%20in%20PATH.%20On%20macOS%20it%20should%20exist%20at%20/usr/bin/osascript.%22)",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "5b3e00",
+        "hash": "a595293f",
+        "encoded": "return",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "5b3e00",
+        "hash": "443e1750",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "5b3e00",
+        "hash": "8c896e6f",
+        "encoded": "res%20=%20subprocess.run(%5B%22osascript%22,%20%22-e%22,%20'return%20%22OK%22'%5D,%20capture_output=True,%20text=True)",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "5b3e00",
+        "hash": "868b387e",
+        "encoded": "print(%22osascript%20returncode:%22,%20res.returncode)",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "5b3e00",
+        "hash": "1cc108eb",
+        "encoded": "print(%22osascript%20stdout:%22,%20repr(res.stdout.strip()))",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "5b3e00",
+        "hash": "7d79a410",
+        "encoded": "print(%22osascript%20stderr:%22,%20repr(res.stderr.strip()))",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "5b3e00",
+        "hash": "ba75afe0",
+        "encoded": "if%20res.returncode%20!=%200:",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "5b3e00",
+        "hash": "b5eaaae1",
+        "encoded": "print(%22WARN:%20osascript%20returned%20non-zero.%20Check%20Accessibility%20permissions%20and%20osascript%20output%20above.%22)",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "5b3e00",
+        "hash": "0b598b95",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "5b3e00",
+        "hash": "0b8aa0f7",
+        "encoded": "print(%22EXCEPTION%20running%20osascript:%22,%20e)",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "5b3e00",
+        "hash": "cd937371",
+        "encoded": "def%20check_profiles(config_path):",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "5b3e00",
+        "hash": "c423788a",
+        "encoded": "print(%22Checking%20config%20file:%22,%20config_path)",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "5b3e00",
+        "hash": "adccd470",
+        "encoded": "if%20not%20os.path.exists(config_path):",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "5b3e00",
+        "hash": "3f642823",
+        "encoded": "print(%22ERROR:%20Config%20file%20not%20found.%22)",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "5b3e00",
+        "hash": "f3e1a0fd",
+        "encoded": "return",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "5b3e00",
+        "hash": "1f938193",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "5b3e00",
+        "hash": "2750ecf7",
+        "encoded": "with%20open(config_path,%20%22r%22)%20as%20f:",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "5b3e00",
+        "hash": "ffe55e09",
+        "encoded": "cfg%20=%20json.load(f)",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "5b3e00",
+        "hash": "9306bd9b",
+        "encoded": "profiles%20=%20cfg.get(%22profiles%22,%20%5B%5D)",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "5b3e00",
+        "hash": "bc04ad03",
+        "encoded": "print(%22Loaded%20config.%20global_url:%22,%20cfg.get(%22global_url%22))",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "5b3e00",
+        "hash": "5b7a703b",
+        "encoded": "print(%22Profiles%20found%20(count):%22,%20len(profiles))",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "5b3e00",
+        "hash": "ce2b3a56",
+        "encoded": "for%20i,%20p%20in%20enumerate(profiles):",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "5b3e00",
+        "hash": "7c0653f2",
+        "encoded": "print(f%22%20%20%7Bi+1%7D.%20profile_name='%7Bp.get('profile_name')%7D',%20steps=%7Blen(p.get('automation_steps',%20%5B%5D))%7D%22)",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "5b3e00",
+        "hash": "32470980",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "5b3e00",
+        "hash": "acb982cd",
+        "encoded": "print(%22ERROR%20parsing%20config:%22,%20e)",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "5b3e00",
+        "hash": "438a2e50",
+        "encoded": "def%20run_g_script(g_path,%20config_path):",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "5b3e00",
+        "hash": "ec5849cd",
+        "encoded": "if%20not%20os.path.exists(g_path):",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "5b3e00",
+        "hash": "5e6ffb52",
+        "encoded": "print(%22ERROR:%20g.py%20not%20found%20at%22,%20g_path)",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "5b3e00",
+        "hash": "4a7516ac",
+        "encoded": "return",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "5b3e00",
+        "hash": "a011f52d",
+        "encoded": "cmd%20=%20%5Bsys.executable,%20g_path,%20%22--config%22,%20config_path,%20%22--verbose%22%5D",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "5b3e00",
+        "hash": "c8607486",
+        "encoded": "print(%22Running:%22,%20%22%20%22.join(cmd))",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "5b3e00",
+        "hash": "8aaa053e",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "5b3e00",
+        "hash": "83c4a285",
+        "encoded": "p%20=%20subprocess.run(cmd,%20capture_output=True,%20text=True,%20timeout=120)",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "5b3e00",
+        "hash": "51054235",
+        "encoded": "print(%22g.py%20exit%20code:%22,%20p.returncode)",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "5b3e00",
+        "hash": "aa501215",
+        "encoded": "print(%22g.py%20STDOUT:%22)",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "5b3e00",
+        "hash": "8e859dc9",
+        "encoded": "print(p.stdout%20or%20%22(no%20stdout)%22)",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "5b3e00",
+        "hash": "18f01c3a",
+        "encoded": "print(%22g.py%20STDERR:%22)",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "5b3e00",
+        "hash": "8402b6ef",
+        "encoded": "print(p.stderr%20or%20%22(no%20stderr)%22)",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "5b3e00",
+        "hash": "998fac3d",
+        "encoded": "except%20subprocess.TimeoutExpired:",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "5b3e00",
+        "hash": "f3487385",
+        "encoded": "print(%22ERROR:%20g.py%20timed%20out%20after%20120s.%22)",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "5b3e00",
+        "hash": "198081bb",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "5b3e00",
+        "hash": "1f6c8fc2",
+        "encoded": "print(%22ERROR%20running%20g.py:%22,%20e)",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "5b3e00",
+        "hash": "84341ba4",
+        "encoded": "def%20main():",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "5b3e00",
+        "hash": "0fc53c44",
+        "encoded": "ap%20=%20argparse.ArgumentParser()",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "5b3e00",
+        "hash": "67edf905",
+        "encoded": "ap.add_argument(%22--config%22,%20default=%22profiles.json%22,%20help=%22Path%20to%20profiles.json%22)",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "5b3e00",
+        "hash": "4853fdc6",
+        "encoded": "ap.add_argument(%22--run-g%22,%20action=%22store_true%22,%20help=%22Run%20g.py%20--verbose%20after%20checks%22)",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "5b3e00",
+        "hash": "dcf8fe27",
+        "encoded": "ap.add_argument(%22--g-path%22,%20default=%22g.py%22,%20help=%22Path%20to%20g.py%22)",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "5b3e00",
+        "hash": "7d2972fc",
+        "encoded": "args%20=%20ap.parse_args()",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "5b3e00",
+        "hash": "da55725d",
+        "encoded": "check_python()",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "5b3e00",
+        "hash": "0e89480c",
+        "encoded": "print(%22-----%22)",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "5b3e00",
+        "hash": "0a2fbaff",
+        "encoded": "check_osascript()",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "5b3e00",
+        "hash": "eab2a35d",
+        "encoded": "print(%22-----%22)",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "5b3e00",
+        "hash": "1a0fa9d3",
+        "encoded": "check_profiles(args.config)",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "5b3e00",
+        "hash": "ed666da8",
+        "encoded": "print(%22-----%22)",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "5b3e00",
+        "hash": "5afab80d",
+        "encoded": "print(%22Accessibility%20note:%20if%20System%20Events%20/%20Safari%20actions%20fail,%20grant%20Accessibility%20permissions%20(Terminal/Python)%20in%20System%20Settings%20%E2%86%92%20Privacy%20&%20Security%20%E2%86%92%20Accessibility.%22)",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "5b3e00",
+        "hash": "c7dee873",
+        "encoded": "if%20args.run_g:",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "5b3e00",
+        "hash": "07ebcc2d",
+        "encoded": "print(%22-----%20Running%20g.py%20now%20-----%22)",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "5b3e00",
+        "hash": "ca5515b1",
+        "encoded": "run_g_script(args.g_path,%20args.config)",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "5b3e00",
+        "hash": "c6869416",
+        "encoded": "if%20__name__%20==%20%22__main__%22:",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "5b3e00",
+        "hash": "222fee03",
+        "encoded": "main()",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

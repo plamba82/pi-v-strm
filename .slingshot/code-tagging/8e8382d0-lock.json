@@ -1,0 +1,3835 @@
+{
+  "safari-v1.py": {
+    "filename": "safari-v1.py",
+    "path": "safari-v1.py",
+    "version": "1.2",
+    "contextFile": "8e8382d0-context.json",
+    "chunks": {
+      "544117": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1775243883,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {},
+        "hash": "c2cdb989",
+        "messageId": "5b1ea5ef-fb31-4d85-afbd-8ba8d807a1bd",
+        "codeBlockId": null,
+        "isActive": false
+      },
+      "630362": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-4.1",
+        "timestamp": 1775159537,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "7aefdd35",
+          "files": "2185e67e"
+        },
+        "hash": "ca1e2c17",
+        "messageId": "system_37d0cc00-2ecd-11f1-8f89-6941bd58eb95",
+        "codeBlockId": null,
+        "isActive": false
+      },
+      "847852": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1775247093,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "8be38da5",
+          "files": "0b74445e"
+        },
+        "hash": "43de0fdb",
+        "messageId": "system_82546720-2f98-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_82546720-2f98-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": true
+      },
+      "c2b0c8": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774899837,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "4175a043",
+          "files": "252f2a14"
+        },
+        "hash": "519a2305",
+        "messageId": "system_a8507340-2c70-11f1-8f89-6941bd58eb95",
+        "codeBlockId": "system_a8507340-2c70-11f1-8f89-6941bd58eb95-Codeblock-1",
+        "isActive": false
+      },
+      "790dfe": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774899955,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "pasteCode",
+        "extraContext": {
+          "promptMessage": "723a0f53",
+          "files": "7f7d2301"
+        },
+        "hash": "f6c845c1",
+        "messageId": "system_e8e35d50-2c70-11f1-8f89-6941bd58eb95",
+        "codeBlockId": "system_e8e35d50-2c70-11f1-8f89-6941bd58eb95-Codeblock-3",
+        "isActive": false
+      },
+      "a8b6ed": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774900115,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "eab3e94f",
+          "files": "2ec8e14b"
+        },
+        "hash": "b6c08ee6",
+        "messageId": "system_3c6a6bd0-2c71-11f1-8f89-6941bd58eb95",
+        "codeBlockId": "system_3c6a6bd0-2c71-11f1-8f89-6941bd58eb95-Codeblock-1",
+        "isActive": false
+      },
+      "fc8b4d": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774900596,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "b7c73d21",
+          "files": "4a013c2c"
+        },
+        "hash": "d1ab084d",
+        "messageId": "system_5f991d80-2c72-11f1-8f89-6941bd58eb95",
+        "codeBlockId": "system_5f991d80-2c72-11f1-8f89-6941bd58eb95-Codeblock-1",
+        "isActive": false
+      },
+      "3108e1": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774900742,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "277fc3c7",
+          "files": "0b74445e"
+        },
+        "hash": "49b22dcb",
+        "messageId": "system_af447870-2c72-11f1-8f89-6941bd58eb95",
+        "codeBlockId": "system_af447870-2c72-11f1-8f89-6941bd58eb95-Codeblock-1",
+        "isActive": false
+      },
+      "291bc8": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774900952,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "ace2775c",
+          "files": "477730e8"
+        },
+        "hash": "ab4b6372",
+        "messageId": "system_24042a70-2c73-11f1-8f89-6941bd58eb95",
+        "codeBlockId": "system_24042a70-2c73-11f1-8f89-6941bd58eb95-Codeblock-1",
+        "isActive": false
+      },
+      "b7f367": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774901345,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "1e5a0041",
+          "files": "3dfc68ba"
+        },
+        "hash": "bd3498d5",
+        "messageId": "system_1f345d70-2c74-11f1-8f89-6941bd58eb95",
+        "codeBlockId": "system_1f345d70-2c74-11f1-8f89-6941bd58eb95-Codeblock-1",
+        "isActive": false
+      },
+      "25c111": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1774901719,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "afe43902",
+          "files": "d3670720"
+        },
+        "hash": "a2981f1d",
+        "messageId": "system_f1c5b310-2c74-11f1-8f89-6941bd58eb95",
+        "codeBlockId": "system_f1c5b310-2c74-11f1-8f89-6941bd58eb95-Codeblock-1",
+        "isActive": false
+      },
+      "8afdbd": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-4.1",
+        "timestamp": 1775156779,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "a89c6596",
+          "files": "39df89ba"
+        },
+        "hash": "c2f36d0b",
+        "messageId": "system_ed8f2660-2ec6-11f1-8f89-6941bd58eb95",
+        "codeBlockId": "system_ed8f2660-2ec6-11f1-8f89-6941bd58eb95-Codeblock-1",
+        "isActive": false
+      },
+      "f96c76": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-4.1",
+        "timestamp": 1775157026,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "bde44f3f",
+          "files": "03e95db0"
+        },
+        "hash": "d9c534d9",
+        "messageId": "system_83540fd0-2ec7-11f1-8f89-6941bd58eb95",
+        "codeBlockId": "system_83540fd0-2ec7-11f1-8f89-6941bd58eb95-Codeblock-1",
+        "isActive": false
+      },
+      "18fa9d": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-4.1",
+        "timestamp": 1775157029,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "bde44f3f",
+          "files": "03e95db0"
+        },
+        "hash": "d9c534d9",
+        "messageId": "system_83540fd0-2ec7-11f1-8f89-6941bd58eb95",
+        "codeBlockId": "system_83540fd0-2ec7-11f1-8f89-6941bd58eb95-Codeblock-1",
+        "isActive": false
+      },
+      "dfc523": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-4.1",
+        "timestamp": 1775157208,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "3e8a7f2c",
+          "files": "406e9eb5"
+        },
+        "hash": "5a799a9e",
+        "messageId": "system_e41c1010-2ec7-11f1-8f89-6941bd58eb95",
+        "codeBlockId": "system_e41c1010-2ec7-11f1-8f89-6941bd58eb95-Codeblock-1",
+        "isActive": false
+      },
+      "f9153b": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-4.1",
+        "timestamp": 1775157391,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "857e7e96",
+          "files": "9011dd6d"
+        },
+        "hash": "e5f245e2",
+        "messageId": "system_580b52b0-2ec8-11f1-8f89-6941bd58eb95",
+        "codeBlockId": "system_580b52b0-2ec8-11f1-8f89-6941bd58eb95-Codeblock-2",
+        "isActive": false
+      },
+      "e8ed6b": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5",
+        "timestamp": 1775186535,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "pasteCode",
+        "extraContext": {
+          "promptMessage": "329bbf23",
+          "files": "a2723b82"
+        },
+        "hash": "eed01227",
+        "messageId": "system_022b6f30-2f0c-11f1-8f89-6941bd58eb95",
+        "codeBlockId": "system_022b6f30-2f0c-11f1-8f89-6941bd58eb95-Codeblock-1",
+        "isActive": false
+      },
+      "2ac12e": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5",
+        "timestamp": 1775186738,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "eaf03e96",
+          "files": "6993adc2"
+        },
+        "hash": "a2d189e2",
+        "messageId": "system_9399a8b0-2f0c-11f1-8f89-6941bd58eb95",
+        "codeBlockId": "system_9399a8b0-2f0c-11f1-8f89-6941bd58eb95-Codeblock-1",
+        "isActive": false
+      },
+      "d36e21": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5",
+        "timestamp": 1775237225,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "c907edc7",
+          "files": "5e7761c1"
+        },
+        "hash": "8217529a",
+        "messageId": "system_1cceb9c0-2f82-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_1cceb9c0-2f82-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": false
+      },
+      "f6da13": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5",
+        "timestamp": 1775240746,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "eaf03e96",
+          "files": "3b882caa"
+        },
+        "hash": "de579751",
+        "messageId": "system_55f4e0a0-2f8a-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_55f4e0a0-2f8a-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": false
+      },
+      "d66d71": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1775241145,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "e75b7060",
+          "files": "3b882caa"
+        },
+        "hash": "3a3fc284",
+        "messageId": "system_3db8d900-2f8b-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_3db8d900-2f8b-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": false
+      },
+      "d1aeae": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1775241295,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "a90b185f",
+          "files": "305f0215"
+        },
+        "hash": "41669cc4",
+        "messageId": "system_9bcda020-2f8b-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_9bcda020-2f8b-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": false
+      },
+      "f0a3e8": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1775241341,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "a90b185f",
+          "files": "305f0215"
+        },
+        "hash": "41669cc4",
+        "messageId": "system_9bcda020-2f8b-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_9bcda020-2f8b-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": false
+      },
+      "029c94": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1775241416,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "e180ceca",
+          "files": "305f0215"
+        },
+        "hash": "7170327f",
+        "messageId": "system_f98f1720-2f8b-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_f98f1720-2f8b-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": false
+      },
+      "47aed3": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1775241419,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "e180ceca",
+          "files": "305f0215"
+        },
+        "hash": "7170327f",
+        "messageId": "system_f98f1720-2f8b-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_f98f1720-2f8b-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": false
+      },
+      "6ba4e0": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1775241651,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "e180ceca",
+          "files": "305f0215"
+        },
+        "hash": "7170327f",
+        "messageId": "system_f98f1720-2f8b-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_f98f1720-2f8b-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": false
+      },
+      "787f27": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1775241655,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "e180ceca",
+          "files": "305f0215"
+        },
+        "hash": "7170327f",
+        "messageId": "system_f98f1720-2f8b-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_f98f1720-2f8b-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": false
+      },
+      "8d3134": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1775241774,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "2a125003",
+          "files": "2396c4a9"
+        },
+        "hash": "25c11fa5",
+        "messageId": "system_b9baccb0-2f8c-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_b9baccb0-2f8c-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": false
+      },
+      "cb2b71": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1775241814,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {
+          "promptMessage": "2a125003",
+          "files": "2396c4a9"
+        },
+        "hash": "25c11fa5",
+        "messageId": "system_b9baccb0-2f8c-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_b9baccb0-2f8c-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": false
+      },
+      "73a95a": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1775242084,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "c3f091d8",
+          "files": "2396c4a9"
+        },
+        "hash": "457666ee",
+        "messageId": "system_7f477640-2f8d-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_7f477640-2f8d-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": false
+      },
+      "0d9b8d": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1775242249,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "pasteCode",
+        "extraContext": {
+          "promptMessage": "fdb60904",
+          "files": "f67586f3"
+        },
+        "hash": "ae8ddd9b",
+        "messageId": "system_e3278bf0-2f8d-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_e3278bf0-2f8d-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": false
+      },
+      "ab57dc": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1775242319,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {
+          "promptMessage": "fdb60904",
+          "files": "f67586f3"
+        },
+        "hash": "ae8ddd9b",
+        "messageId": "system_e3278bf0-2f8d-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_e3278bf0-2f8d-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": false
+      },
+      "8efa8e": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1775242374,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "fdb60904",
+          "files": "f67586f3"
+        },
+        "hash": "ae8ddd9b",
+        "messageId": "system_e3278bf0-2f8d-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_e3278bf0-2f8d-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": false
+      },
+      "1c3ae9": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1775242381,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "fdb60904",
+          "files": "f67586f3"
+        },
+        "hash": "ae8ddd9b",
+        "messageId": "system_e3278bf0-2f8d-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_e3278bf0-2f8d-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": false
+      },
+      "5456e4": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1775242995,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "91b69ea8",
+          "files": "f67586f3"
+        },
+        "hash": "60e6d72a",
+        "messageId": "system_810c6ce0-2f8f-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_810c6ce0-2f8f-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": false
+      },
+      "066361": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1775243739,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "50cfd30a",
+          "files": "a2723b82"
+        },
+        "hash": "0febcc80",
+        "messageId": "system_4b06b450-2f91-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_4b06b450-2f91-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": true
+      },
+      "5c57dc": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1775243919,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {
+          "promptMessage": "35672d37",
+          "files": "3a6c1895"
+        },
+        "hash": "c2cdb989",
+        "messageId": "system_bc404cd0-2f91-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_bc404cd0-2f91-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": false
+      },
+      "5f87f0": {
+        "user": "Pinkoo Lamba 2",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1775243975,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "pasteCode",
+        "extraContext": {
+          "promptMessage": "35672d37",
+          "files": "3a6c1895"
+        },
+        "hash": "bcab4660",
+        "messageId": "system_bc404cd0-2f91-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_bc404cd0-2f91-11f1-b8d4-ad09f5789ffa-Codeblock-2",
+        "isActive": false
+      },
+      "6fa9f5": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1775247348,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "bbc9e554",
+          "files": "f67586f3"
+        },
+        "hash": "f35e8574",
+        "messageId": "system_8a37a3c0-2f99-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_8a37a3c0-2f99-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": true
+      },
+      "1aa999": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1775247710,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "822e3566",
+          "files": "5ec8b5c2"
+        },
+        "hash": "90ffe21d",
+        "messageId": "system_67daaf10-2f9a-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_67daaf10-2f9a-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": true
+      },
+      "d47ad0": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1775248189,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "6b94c479",
+          "files": "1053d992"
+        },
+        "hash": "0978b366",
+        "messageId": "system_9e9cf980-2f9b-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_9e9cf980-2f9b-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": true
+      },
+      "49f9e5": {
+        "user": "Pinkoo Lamba 2",
+        "model": "gpt-5-mini",
+        "timestamp": 1775248793,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.1",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "0b7a054b",
+          "files": "596645be"
+        },
+        "hash": "2c9c1eab",
+        "messageId": "system_10959c40-2f9c-11f1-b8d4-ad09f5789ffa",
+        "codeBlockId": "system_10959c40-2f9c-11f1-b8d4-ad09f5789ffa-Codeblock-1",
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "066361",
+        "hash": "acba5f1c",
+        "encoded": "#!/usr/bin/env%20python3",
+        "prevChunkIds": [
+          "066361"
+        ]
+      },
+      "1": {
+        "chunkId": "066361",
+        "hash": "31f3437a",
+        "encoded": "import%20subprocess",
+        "prevChunkIds": [
+          "066361"
+        ]
+      },
+      "2": {
+        "chunkId": "066361",
+        "hash": "1024c088",
+        "encoded": "import%20time",
+        "prevChunkIds": [
+          "066361"
+        ]
+      },
+      "3": {
+        "chunkId": "847852",
+        "hash": "1e33b823",
+        "encoded": "import%20json",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "066361",
+        "hash": "ee2a828b",
+        "encoded": "import%20sys",
+        "prevChunkIds": [
+          "066361"
+        ]
+      },
+      "5": {
+        "chunkId": "066361",
+        "hash": "88a6c664",
+        "encoded": "import%20argparse",
+        "prevChunkIds": [
+          "066361"
+        ]
+      },
+      "6": {
+        "chunkId": "847852",
+        "hash": "bf8f9e35",
+        "encoded": "from%20typing%20import%20List,%20Dict,%20Any,%20Optional",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "847852",
+        "hash": "d8e541bd",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "847852",
+        "hash": "f07df413",
+        "encoded": "#%20AppleScript%20helper",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "847852",
+        "hash": "e633fbc9",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "847852",
+        "hash": "140c40f6",
+        "encoded": "def%20_run_osascript(cmd:%20str,%20capture:%20bool%20=%20True)%20-%3E%20subprocess.CompletedProcess:",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "847852",
+        "hash": "d7d2435f",
+        "encoded": "return%20subprocess.run(",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "847852",
+        "hash": "c8c1eb0c",
+        "encoded": "%5B%22osascript%22,%20%22-e%22,%20cmd%5D,",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "847852",
+        "hash": "e08614b6",
+        "encoded": "check=False,",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "847852",
+        "hash": "19c37ef5",
+        "encoded": "capture_output=capture,",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "847852",
+        "hash": "1ad7ada4",
+        "encoded": "text=True,",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "847852",
+        "hash": "98327f2d",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "847852",
+        "hash": "43565478",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "847852",
+        "hash": "523d7f47",
+        "encoded": "#%20Safari%20helpers",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "847852",
+        "hash": "7d7347cb",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "847852",
+        "hash": "f9cfa5a3",
+        "encoded": "def%20_activate_safari(verbose=False)%20-%3E%20bool:",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "847852",
+        "hash": "b9a3c494",
+        "encoded": "res%20=%20_run_osascript('tell%20application%20%22Safari%22%20to%20activate')",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "847852",
+        "hash": "e52ccb1f",
+        "encoded": "if%20res.returncode%20!=%200:",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "847852",
+        "hash": "f6f06e85",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "847852",
+        "hash": "c326d9ad",
+        "encoded": "print(%22DEBUG:%20Failed%20to%20activate%20Safari:%22,%20res.stderr)",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "847852",
+        "hash": "d11f2980",
+        "encoded": "return%20False",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "847852",
+        "hash": "6fd5e6bc",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "847852",
+        "hash": "864b002a",
+        "encoded": "print(%22DEBUG:%20Safari%20activated%22)",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "847852",
+        "hash": "37163e7c",
+        "encoded": "return%20True",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "847852",
+        "hash": "334a8653",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "847852",
+        "hash": "731a897c",
+        "encoded": "Returns%20None%20on%20failure.",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "847852",
+        "hash": "cb3e2b24",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "6fa9f5",
+        "hash": "41721b5a",
+        "encoded": "#%20sanitize%20profile_name%20to%20safely%20embed%20inside%20AppleScript%20double-quoted%20JS%20string",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "6fa9f5",
+        "hash": "c9c35218",
+        "encoded": "safe_title%20=%20%22%22",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "6fa9f5",
+        "hash": "87f57dc8",
+        "encoded": "if%20profile_name:",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "6fa9f5",
+        "hash": "988c791e",
+        "encoded": "safe_title%20=%20profile_name.replace(%22%5C%5C%22,%20%22%5C%5C%5C%5C%22).replace('%22',%20'%5C%5C%22')",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "6fa9f5",
+        "hash": "0bafaa78",
+        "encoded": "script%20=%20f%22%22%22",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "847852",
+        "hash": "b980e0ea",
+        "encoded": "tell%20application%20%22Safari%22",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "847852",
+        "hash": "cb8267ba",
+        "encoded": "activate",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "1aa999",
+        "hash": "af9a469a",
+        "encoded": "delay%200.25",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "847852",
+        "hash": "d8177fe3",
+        "encoded": "try",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "1aa999",
+        "hash": "11c0b637",
+        "encoded": "set%20URL%20of%20t%20to%20%22about:blank%22",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "1aa999",
+        "hash": "4ed343b7",
+        "encoded": "do%20JavaScript%20%22document.title%20=%20%5C%5C%22%7Bsafe_title%7D%5C%5C%22%22%20in%20t",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "847852",
+        "hash": "db52f536",
+        "encoded": "end%20try",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "847852",
+        "hash": "d632f0dd",
+        "encoded": "return%20idx",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "847852",
+        "hash": "bd3fe94c",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "847852",
+        "hash": "201cb4b5",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "847852",
+        "hash": "8bdf0d62",
+        "encoded": "res%20=%20_run_osascript(script)",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "847852",
+        "hash": "90eb9c10",
+        "encoded": "if%20res.returncode%20!=%200:",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "847852",
+        "hash": "c21390dd",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "847852",
+        "hash": "2e78f8c0",
+        "encoded": "print(%22DEBUG:%20create_window_for_profile%20failed:%22,%20res.stderr)",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "847852",
+        "hash": "a0fc056e",
+        "encoded": "return%20None",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "847852",
+        "hash": "33894867",
+        "encoded": "out%20=%20(res.stdout%20or%20%22%22).strip()",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "847852",
+        "hash": "3a2b01b1",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "847852",
+        "hash": "e8913a42",
+        "encoded": "return%20int(out)",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "847852",
+        "hash": "7932490b",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "847852",
+        "hash": "dc5b1161",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "847852",
+        "hash": "32e2deea",
+        "encoded": "print(%22DEBUG:%20create_window_for_profile%20parse%20failed,%20stdout:%22,%20out)",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "847852",
+        "hash": "eb288be6",
+        "encoded": "return%20None",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "847852",
+        "hash": "b86d005f",
+        "encoded": "def%20open_url(url:%20str,%20window_index:%20Optional%5Bint%5D%20=%20None,%20verbose=False)%20-%3E%20bool:",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "847852",
+        "hash": "14ea1488",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "847852",
+        "hash": "8d426b8b",
+        "encoded": "Open%20URL%20in%20the%20specified%20Safari%20window%20(current%20tab).",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "847852",
+        "hash": "df9ad4a4",
+        "encoded": "If%20window_index%20is%20None,%20uses%20window%201%20(original%20behavior).",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "847852",
+        "hash": "b2cd48b4",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "847852",
+        "hash": "43f30e92",
+        "encoded": "win%20=%20window_index%20if%20window_index%20is%20not%20None%20else%201",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "6fa9f5",
+        "hash": "a907f11e",
+        "encoded": "script%20=%20f%22%22%22",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "847852",
+        "hash": "53e31efa",
+        "encoded": "tell%20application%20%22Safari%22",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "847852",
+        "hash": "540e72e1",
+        "encoded": "activate",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "847852",
+        "hash": "3d88e010",
+        "encoded": "if%20(count%20of%20windows)%20=%200%20then",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "847852",
+        "hash": "cf0c6db7",
+        "encoded": "make%20new%20document",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "847852",
+        "hash": "911c9da3",
+        "encoded": "end%20if",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "847852",
+        "hash": "a6cbde3d",
+        "encoded": "set%20URL%20of%20current%20tab%20of%20window%20%7Bwin%7D%20to%20%22%7Burl%7D%22",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "847852",
+        "hash": "0433c0b6",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "847852",
+        "hash": "a3112ed8",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "847852",
+        "hash": "e8050afe",
+        "encoded": "res%20=%20_run_osascript(script)",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "847852",
+        "hash": "d4e43808",
+        "encoded": "success%20=%20res.returncode%20==%200",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "847852",
+        "hash": "05542b71",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "847852",
+        "hash": "72f29fc7",
+        "encoded": "print(f%22DEBUG:%20Open%20URL%20%7Burl%7D%20in%20window%20%7Bwin%7D%20result:%20%7Bsuccess%7D%22)",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "847852",
+        "hash": "c09d76d8",
+        "encoded": "if%20not%20success:",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "847852",
+        "hash": "c7e09cad",
+        "encoded": "print(%22DEBUG:%20stderr:%22,%20res.stderr)",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "847852",
+        "hash": "dc00d097",
+        "encoded": "return%20success",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "847852",
+        "hash": "35c7943f",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "847852",
+        "hash": "3315524e",
+        "encoded": "Bring%20the%20target%20window%20to%20front%20(so%20keystrokes%20go%20to%20it),%20then%20use%20System%20Events%20to%20type%20into%20address%20bar%20and%20submit.",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "d47ad0",
+        "hash": "352ff5ba",
+        "encoded": "Note:%20GUI-focus%20is%20global%20%E2%80%94%20accessibility%20keystrokes%20will%20route%20to%20the%20frontmost%20window.",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "847852",
+        "hash": "d5fd0f9c",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "847852",
+        "hash": "b6ddd4fb",
+        "encoded": "win%20=%20window_index%20if%20window_index%20is%20not%20None%20else%201",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "6fa9f5",
+        "hash": "770dbed6",
+        "encoded": "script%20=%20f%22%22%22",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "847852",
+        "hash": "f38fe8b7",
+        "encoded": "tell%20application%20%22Safari%22",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "847852",
+        "hash": "46f35c36",
+        "encoded": "activate",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "847852",
+        "hash": "88147a29",
+        "encoded": "try",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "847852",
+        "hash": "413e46e3",
+        "encoded": "set%20index%20of%20window%20%7Bwin%7D%20to%201",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "847852",
+        "hash": "77c40e3c",
+        "encoded": "end%20try",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "847852",
+        "hash": "40763a56",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "847852",
+        "hash": "fd5116b9",
+        "encoded": "tell%20application%20%22System%20Events%22",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "847852",
+        "hash": "47b3c5b5",
+        "encoded": "tell%20process%20%22Safari%22",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "847852",
+        "hash": "034d1310",
+        "encoded": "try",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "847852",
+        "hash": "57dbe9fb",
+        "encoded": "keystroke%20%22l%22%20using%20%7B%7Bcommand%20down%7D%7D%20--%20focus%20address%20bar",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "847852",
+        "hash": "ec3f07cb",
+        "encoded": "delay%200.3",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "847852",
+        "hash": "7bcadb52",
+        "encoded": "keystroke%20%22%7Bsearch_term%7D%22",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "847852",
+        "hash": "2e09fa2c",
+        "encoded": "delay%200.3",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "847852",
+        "hash": "ff11ce9f",
+        "encoded": "key%20code%2036%20--%20Enter",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "847852",
+        "hash": "6f082ca4",
+        "encoded": "delay%202%20--%20wait%20for%20results%20to%20load",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "847852",
+        "hash": "72d58fc2",
+        "encoded": "return%20true",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "847852",
+        "hash": "9f8fc617",
+        "encoded": "on%20error",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "847852",
+        "hash": "e52c68fd",
+        "encoded": "return%20false",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "847852",
+        "hash": "cd61f0ab",
+        "encoded": "end%20try",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "847852",
+        "hash": "012cd7b2",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "847852",
+        "hash": "26cf55df",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "847852",
+        "hash": "c3087121",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "847852",
+        "hash": "4c7d3cc0",
+        "encoded": "res%20=%20_run_osascript(script)",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "847852",
+        "hash": "59f89571",
+        "encoded": "out%20=%20(res.stdout%20or%20%22%22).strip().lower()",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "847852",
+        "hash": "fd3fabc1",
+        "encoded": "success%20=%20%22true%22%20in%20out",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "847852",
+        "hash": "5a35f344",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "847852",
+        "hash": "c57aa15b",
+        "encoded": "if%20not%20success:",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "847852",
+        "hash": "10d64a35",
+        "encoded": "print(%22DEBUG:%20stderr:%22,%20res.stderr)",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "847852",
+        "hash": "a3eda931",
+        "encoded": "return%20success",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "847852",
+        "hash": "917f1802",
+        "encoded": "def%20play_video(window_index:%20Optional%5Bint%5D%20=%20None,%20verbose=False)%20-%3E%20bool:",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "6fa9f5",
+        "hash": "7740ab71",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "144": {
+        "chunkId": "847852",
+        "hash": "3721f6af",
+        "encoded": "Bring%20the%20target%20window%20to%20front%20and%20attempt%20to%20click%20a%20Play%20button%20using%20Accessibility.",
+        "prevChunkIds": []
+      },
+      "146": {
+        "chunkId": "6fa9f5",
+        "hash": "9f24bd20",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "147": {
+        "chunkId": "847852",
+        "hash": "c6f7ffab",
+        "encoded": "win%20=%20window_index%20if%20window_index%20is%20not%20None%20else%201",
+        "prevChunkIds": []
+      },
+      "148": {
+        "chunkId": "6fa9f5",
+        "hash": "5558b61a",
+        "encoded": "script%20=%20f%22%22%22",
+        "prevChunkIds": []
+      },
+      "149": {
+        "chunkId": "847852",
+        "hash": "94ee942e",
+        "encoded": "tell%20application%20%22Safari%22",
+        "prevChunkIds": []
+      },
+      "150": {
+        "chunkId": "847852",
+        "hash": "2a903f10",
+        "encoded": "activate",
+        "prevChunkIds": []
+      },
+      "151": {
+        "chunkId": "6fa9f5",
+        "hash": "13440ea4",
+        "encoded": "try",
+        "prevChunkIds": []
+      },
+      "152": {
+        "chunkId": "847852",
+        "hash": "8122818a",
+        "encoded": "set%20index%20of%20window%20%7Bwin%7D%20to%201",
+        "prevChunkIds": []
+      },
+      "153": {
+        "chunkId": "847852",
+        "hash": "31f46c73",
+        "encoded": "end%20try",
+        "prevChunkIds": []
+      },
+      "154": {
+        "chunkId": "847852",
+        "hash": "82bd0158",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "156": {
+        "chunkId": "847852",
+        "hash": "5c7b55e3",
+        "encoded": "tell%20application%20%22System%20Events%22",
+        "prevChunkIds": []
+      },
+      "157": {
+        "chunkId": "847852",
+        "hash": "0fe4d672",
+        "encoded": "tell%20process%20%22Safari%22",
+        "prevChunkIds": []
+      },
+      "158": {
+        "chunkId": "847852",
+        "hash": "52cf7ec1",
+        "encoded": "try",
+        "prevChunkIds": []
+      },
+      "160": {
+        "chunkId": "847852",
+        "hash": "8dde3008",
+        "encoded": "repeat%20with%20btn%20in%20playButtons",
+        "prevChunkIds": []
+      },
+      "161": {
+        "chunkId": "847852",
+        "hash": "e5c49604",
+        "encoded": "try",
+        "prevChunkIds": []
+      },
+      "162": {
+        "chunkId": "847852",
+        "hash": "1f28659a",
+        "encoded": "if%20(name%20of%20btn%20contains%20%22Play%22%20or%20name%20of%20btn%20contains%20%22play%22)%20then",
+        "prevChunkIds": []
+      },
+      "163": {
+        "chunkId": "847852",
+        "hash": "2a7cc4a4",
+        "encoded": "click%20btn",
+        "prevChunkIds": []
+      },
+      "164": {
+        "chunkId": "847852",
+        "hash": "6257c34d",
+        "encoded": "exit%20repeat",
+        "prevChunkIds": []
+      },
+      "165": {
+        "chunkId": "847852",
+        "hash": "6b8dfef2",
+        "encoded": "end%20if",
+        "prevChunkIds": []
+      },
+      "166": {
+        "chunkId": "847852",
+        "hash": "541bbb4a",
+        "encoded": "end%20try",
+        "prevChunkIds": []
+      },
+      "167": {
+        "chunkId": "847852",
+        "hash": "96b59b11",
+        "encoded": "end%20repeat",
+        "prevChunkIds": []
+      },
+      "168": {
+        "chunkId": "847852",
+        "hash": "66096c71",
+        "encoded": "return%20true",
+        "prevChunkIds": []
+      },
+      "169": {
+        "chunkId": "847852",
+        "hash": "af9361ce",
+        "encoded": "on%20error",
+        "prevChunkIds": []
+      },
+      "170": {
+        "chunkId": "847852",
+        "hash": "8d1c00f6",
+        "encoded": "return%20false",
+        "prevChunkIds": []
+      },
+      "171": {
+        "chunkId": "6fa9f5",
+        "hash": "363f4492",
+        "encoded": "end%20try",
+        "prevChunkIds": []
+      },
+      "172": {
+        "chunkId": "847852",
+        "hash": "80bd7095",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "173": {
+        "chunkId": "847852",
+        "hash": "4eec6bcf",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "174": {
+        "chunkId": "6fa9f5",
+        "hash": "9ea7d2b9",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "175": {
+        "chunkId": "847852",
+        "hash": "cc86f100",
+        "encoded": "res%20=%20_run_osascript(script)",
+        "prevChunkIds": []
+      },
+      "176": {
+        "chunkId": "847852",
+        "hash": "7e8b0270",
+        "encoded": "out%20=%20(res.stdout%20or%20%22%22).strip().lower()",
+        "prevChunkIds": []
+      },
+      "177": {
+        "chunkId": "847852",
+        "hash": "0c10f518",
+        "encoded": "success%20=%20%22true%22%20in%20out",
+        "prevChunkIds": []
+      },
+      "178": {
+        "chunkId": "847852",
+        "hash": "67c4fc4f",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "179": {
+        "chunkId": "847852",
+        "hash": "037ae0c3",
+        "encoded": "print(f%22DEBUG:%20play%20video%20in%20window%20%7Bwin%7D%20result:%20%7Bsuccess%7D%22)",
+        "prevChunkIds": []
+      },
+      "180": {
+        "chunkId": "847852",
+        "hash": "91e352f1",
+        "encoded": "if%20not%20success:",
+        "prevChunkIds": []
+      },
+      "181": {
+        "chunkId": "847852",
+        "hash": "1af9a695",
+        "encoded": "print(%22DEBUG:%20stderr:%22,%20res.stderr)",
+        "prevChunkIds": []
+      },
+      "182": {
+        "chunkId": "847852",
+        "hash": "ea0977e9",
+        "encoded": "return%20success",
+        "prevChunkIds": []
+      },
+      "185": {
+        "chunkId": "847852",
+        "hash": "cfbbd455",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "186": {
+        "chunkId": "847852",
+        "hash": "756e7514",
+        "encoded": "#%20Automation%20executor",
+        "prevChunkIds": []
+      },
+      "187": {
+        "chunkId": "847852",
+        "hash": "e43922fb",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "189": {
+        "chunkId": "847852",
+        "hash": "68d568bc",
+        "encoded": "for%20i,%20step%20in%20enumerate(steps):",
+        "prevChunkIds": []
+      },
+      "190": {
+        "chunkId": "847852",
+        "hash": "d91266dd",
+        "encoded": "step_type%20=%20step.get(%22type%22)",
+        "prevChunkIds": []
+      },
+      "191": {
+        "chunkId": "847852",
+        "hash": "da99ae22",
+        "encoded": "success%20=%20False",
+        "prevChunkIds": []
+      },
+      "193": {
+        "chunkId": "847852",
+        "hash": "dd69fc81",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "196": {
+        "chunkId": "847852",
+        "hash": "0252a40d",
+        "encoded": "if%20step_type%20==%20%22open_url%22:",
+        "prevChunkIds": []
+      },
+      "197": {
+        "chunkId": "847852",
+        "hash": "d977abb0",
+        "encoded": "url%20=%20step.get(%22url%22)",
+        "prevChunkIds": []
+      },
+      "198": {
+        "chunkId": "847852",
+        "hash": "b41e1d66",
+        "encoded": "if%20url:",
+        "prevChunkIds": []
+      },
+      "199": {
+        "chunkId": "847852",
+        "hash": "42f8d979",
+        "encoded": "success%20=%20open_url(url,%20window_index,%20verbose)",
+        "prevChunkIds": []
+      },
+      "201": {
+        "chunkId": "847852",
+        "hash": "423461e9",
+        "encoded": "elif%20step_type%20==%20%22search%22:",
+        "prevChunkIds": []
+      },
+      "202": {
+        "chunkId": "847852",
+        "hash": "467a2157",
+        "encoded": "search_term%20=%20step.get(%22search_term%22)",
+        "prevChunkIds": []
+      },
+      "203": {
+        "chunkId": "847852",
+        "hash": "8debadec",
+        "encoded": "if%20search_term:",
+        "prevChunkIds": []
+      },
+      "206": {
+        "chunkId": "847852",
+        "hash": "20eef99d",
+        "encoded": "elif%20step_type%20==%20%22go_to_absolute_url%22:",
+        "prevChunkIds": []
+      },
+      "207": {
+        "chunkId": "847852",
+        "hash": "b27d05fe",
+        "encoded": "abs_url%20=%20step.get(%22url%22)",
+        "prevChunkIds": []
+      },
+      "208": {
+        "chunkId": "847852",
+        "hash": "bc383de5",
+        "encoded": "if%20abs_url:",
+        "prevChunkIds": []
+      },
+      "209": {
+        "chunkId": "847852",
+        "hash": "0579fb59",
+        "encoded": "success%20=%20open_url(abs_url,%20window_index,%20verbose)",
+        "prevChunkIds": []
+      },
+      "211": {
+        "chunkId": "847852",
+        "hash": "a4274484",
+        "encoded": "elif%20step_type%20==%20%22play_video%22:",
+        "prevChunkIds": []
+      },
+      "212": {
+        "chunkId": "847852",
+        "hash": "39f929f0",
+        "encoded": "success%20=%20play_video(window_index,%20verbose)",
+        "prevChunkIds": []
+      },
+      "214": {
+        "chunkId": "847852",
+        "hash": "bb81319f",
+        "encoded": "else:",
+        "prevChunkIds": []
+      },
+      "215": {
+        "chunkId": "847852",
+        "hash": "a6f2b212",
+        "encoded": "print(f%22%E2%9D%8C%20Unknown%20step%20type:%20%7Bstep_type%7D%22)",
+        "prevChunkIds": []
+      },
+      "216": {
+        "chunkId": "847852",
+        "hash": "3c595c60",
+        "encoded": "return%20False",
+        "prevChunkIds": []
+      },
+      "218": {
+        "chunkId": "847852",
+        "hash": "f56b6e40",
+        "encoded": "if%20not%20success:",
+        "prevChunkIds": []
+      },
+      "219": {
+        "chunkId": "847852",
+        "hash": "cccc4629",
+        "encoded": "print(f%22%E2%9D%8C%20Failed%20at%20step%20%7Bi+1%7D:%20%7Bstep_type%7D%22)",
+        "prevChunkIds": []
+      },
+      "220": {
+        "chunkId": "847852",
+        "hash": "253d643f",
+        "encoded": "return%20False",
+        "prevChunkIds": []
+      },
+      "222": {
+        "chunkId": "847852",
+        "hash": "c9b299c3",
+        "encoded": "#%20Fixed%203-second%20delay%20between%20steps",
+        "prevChunkIds": []
+      },
+      "223": {
+        "chunkId": "847852",
+        "hash": "95a93a92",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "225": {
+        "chunkId": "847852",
+        "hash": "83b47a5e",
+        "encoded": "time.sleep(3)",
+        "prevChunkIds": []
+      },
+      "227": {
+        "chunkId": "847852",
+        "hash": "5b77c519",
+        "encoded": "return%20True",
+        "prevChunkIds": []
+      },
+      "230": {
+        "chunkId": "847852",
+        "hash": "009dcb3a",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "232": {
+        "chunkId": "847852",
+        "hash": "b025d1fb",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "234": {
+        "chunkId": "d47ad0",
+        "hash": "9ad7607d",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "236": {
+        "chunkId": "d47ad0",
+        "hash": "ab381594",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "239": {
+        "chunkId": "847852",
+        "hash": "8f19fcc0",
+        "encoded": "automation_steps%20=%20profile.get(%22automation_steps%22,%20%5B%5D)",
+        "prevChunkIds": []
+      },
+      "241": {
+        "chunkId": "d47ad0",
+        "hash": "eff09878",
+        "encoded": "#%20Fill%20in%20default%20URLs%20if%20missing%20(profile-level%20or%20global%20fallback%20handled%20by%20caller)",
+        "prevChunkIds": []
+      },
+      "242": {
+        "chunkId": "847852",
+        "hash": "9ac64d9a",
+        "encoded": "for%20step%20in%20automation_steps:",
+        "prevChunkIds": []
+      },
+      "243": {
+        "chunkId": "d47ad0",
+        "hash": "adf59b7b",
+        "encoded": "if%20step.get(%22type%22)%20in%20%5B%22open_url%22,%20%22go_to_absolute_url%22%5D%20and%20%22url%22%20not%20in%20step:",
+        "prevChunkIds": []
+      },
+      "245": {
+        "chunkId": "d47ad0",
+        "hash": "768aa7ca",
+        "encoded": "step%5B%22url%22%5D%20=%20step.get(%22url%22)",
+        "prevChunkIds": []
+      },
+      "249": {
+        "chunkId": "847852",
+        "hash": "34d935b9",
+        "encoded": "if%20not%20_activate_safari(verbose):",
+        "prevChunkIds": []
+      },
+      "250": {
+        "chunkId": "847852",
+        "hash": "9b8fe295",
+        "encoded": "print(f%22%E2%9D%8C%20%5B%7Bprofile_name%7D%5D%20Failed%20to%20activate%20Safari%22)",
+        "prevChunkIds": []
+      },
+      "251": {
+        "chunkId": "847852",
+        "hash": "4307d340",
+        "encoded": "return",
+        "prevChunkIds": []
+      },
+      "254": {
+        "chunkId": "6fa9f5",
+        "hash": "ac6d19c8",
+        "encoded": "win_index%20=%20create_window_for_profile(profile_name=profile_name,%20verbose=verbose)",
+        "prevChunkIds": []
+      },
+      "255": {
+        "chunkId": "847852",
+        "hash": "2274286c",
+        "encoded": "if%20win_index%20is%20None:",
+        "prevChunkIds": []
+      },
+      "256": {
+        "chunkId": "847852",
+        "hash": "6901a27b",
+        "encoded": "print(f%22%E2%9D%8C%20%5B%7Bprofile_name%7D%5D%20Failed%20to%20create%20a%20new%20Safari%20window%22)",
+        "prevChunkIds": []
+      },
+      "257": {
+        "chunkId": "847852",
+        "hash": "3976b0ad",
+        "encoded": "return",
+        "prevChunkIds": []
+      },
+      "259": {
+        "chunkId": "6fa9f5",
+        "hash": "2ad0e543",
+        "encoded": "#%20Execute%20automation%20steps%20targeting%20this%20window",
+        "prevChunkIds": []
+      },
+      "262": {
+        "chunkId": "847852",
+        "hash": "42fc5d35",
+        "encoded": "if%20success:",
+        "prevChunkIds": []
+      },
+      "263": {
+        "chunkId": "847852",
+        "hash": "8cecfd8f",
+        "encoded": "print(f%22%E2%9C%85%20%5B%7Bprofile_name%7D%5D%20Profile%20completed%22)",
+        "prevChunkIds": []
+      },
+      "264": {
+        "chunkId": "847852",
+        "hash": "513f3655",
+        "encoded": "else:",
+        "prevChunkIds": []
+      },
+      "265": {
+        "chunkId": "847852",
+        "hash": "ce28699f",
+        "encoded": "print(f%22%E2%9D%8C%20%5B%7Bprofile_name%7D%5D%20Profile%20failed%22)",
+        "prevChunkIds": []
+      },
+      "268": {
+        "chunkId": "847852",
+        "hash": "dac65e31",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "270": {
+        "chunkId": "847852",
+        "hash": "84ee50b2",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "271": {
+        "chunkId": "847852",
+        "hash": "9f43c6ee",
+        "encoded": "def%20run_profiles_from_json(json_path:%20str,%20verbose=False):",
+        "prevChunkIds": []
+      },
+      "272": {
+        "chunkId": "847852",
+        "hash": "66e17ddd",
+        "encoded": "with%20open(json_path,%20%22r%22)%20as%20f:",
+        "prevChunkIds": []
+      },
+      "273": {
+        "chunkId": "847852",
+        "hash": "d34eae1d",
+        "encoded": "config%20=%20json.load(f)",
+        "prevChunkIds": []
+      },
+      "275": {
+        "chunkId": "847852",
+        "hash": "08da5e03",
+        "encoded": "global_url%20=%20config.get(%22global_url%22)",
+        "prevChunkIds": []
+      },
+      "276": {
+        "chunkId": "847852",
+        "hash": "0f858dd4",
+        "encoded": "profiles%20=%20config.get(%22profiles%22,%20%5B%5D)",
+        "prevChunkIds": []
+      },
+      "278": {
+        "chunkId": "847852",
+        "hash": "9609ad3e",
+        "encoded": "#%20Pre-fill%20missing%20step%20urls%20with%20profile.url%20or%20global_url",
+        "prevChunkIds": []
+      },
+      "279": {
+        "chunkId": "847852",
+        "hash": "c74ec474",
+        "encoded": "for%20prof%20in%20profiles:",
+        "prevChunkIds": []
+      },
+      "280": {
+        "chunkId": "847852",
+        "hash": "af2b6769",
+        "encoded": "for%20step%20in%20prof.get(%22automation_steps%22,%20%5B%5D):",
+        "prevChunkIds": []
+      },
+      "282": {
+        "chunkId": "847852",
+        "hash": "01ea97fc",
+        "encoded": "step%5B%22url%22%5D%20=%20prof.get(%22url%22,%20global_url)",
+        "prevChunkIds": []
+      },
+      "287": {
+        "chunkId": "847852",
+        "hash": "0d5f7bdb",
+        "encoded": "for%20idx,%20prof%20in%20enumerate(profiles):",
+        "prevChunkIds": []
+      },
+      "304": {
+        "chunkId": "847852",
+        "hash": "39f80b71",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "305": {
+        "chunkId": "847852",
+        "hash": "203db355",
+        "encoded": "#%20Argument%20parser",
+        "prevChunkIds": []
+      },
+      "306": {
+        "chunkId": "847852",
+        "hash": "4148bd8e",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "307": {
+        "chunkId": "847852",
+        "hash": "b5dc04cd",
+        "encoded": "def%20parse_args(argv):",
+        "prevChunkIds": []
+      },
+      "310": {
+        "chunkId": "847852",
+        "hash": "0a43e96c",
+        "encoded": "p.add_argument(%22--verbose%22,%20%22-v%22,%20action=%22store_true%22,%20help=%22Enable%20debug%20output%22)",
+        "prevChunkIds": []
+      },
+      "311": {
+        "chunkId": "847852",
+        "hash": "4fba8d9f",
+        "encoded": "return%20p.parse_args(argv)",
+        "prevChunkIds": []
+      },
+      "314": {
+        "chunkId": "847852",
+        "hash": "e1eb7553",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "315": {
+        "chunkId": "847852",
+        "hash": "093d385b",
+        "encoded": "#%20Main",
+        "prevChunkIds": []
+      },
+      "316": {
+        "chunkId": "847852",
+        "hash": "aa8bab59",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "317": {
+        "chunkId": "847852",
+        "hash": "0ee39946",
+        "encoded": "def%20main(argv):",
+        "prevChunkIds": []
+      },
+      "318": {
+        "chunkId": "847852",
+        "hash": "aa55be0f",
+        "encoded": "args%20=%20parse_args(argv)",
+        "prevChunkIds": []
+      },
+      "319": {
+        "chunkId": "847852",
+        "hash": "94c19e44",
+        "encoded": "run_profiles_from_json(args.config,%20args.verbose)",
+        "prevChunkIds": []
+      },
+      "322": {
+        "chunkId": "847852",
+        "hash": "64a13d74",
+        "encoded": "if%20__name__%20==%20%22__main__%22:",
+        "prevChunkIds": []
+      },
+      "323": {
+        "chunkId": "49f9e5",
+        "hash": "c0bc72e2",
+        "encoded": "#!/usr/bin/env%20python3",
+        "prevChunkIds": []
+      },
+      "324": {
+        "chunkId": "49f9e5",
+        "hash": "81cf4245",
+        "encoded": "import%20subprocess",
+        "prevChunkIds": []
+      },
+      "325": {
+        "chunkId": "49f9e5",
+        "hash": "fd414320",
+        "encoded": "import%20time",
+        "prevChunkIds": []
+      },
+      "326": {
+        "chunkId": "49f9e5",
+        "hash": "732abc71",
+        "encoded": "import%20json",
+        "prevChunkIds": []
+      },
+      "327": {
+        "chunkId": "49f9e5",
+        "hash": "56750112",
+        "encoded": "import%20sys",
+        "prevChunkIds": []
+      },
+      "328": {
+        "chunkId": "49f9e5",
+        "hash": "b86b091b",
+        "encoded": "import%20argparse",
+        "prevChunkIds": []
+      },
+      "329": {
+        "chunkId": "49f9e5",
+        "hash": "73d200da",
+        "encoded": "from%20typing%20import%20List,%20Dict,%20Any,%20Optional",
+        "prevChunkIds": []
+      },
+      "330": {
+        "chunkId": "49f9e5",
+        "hash": "e2142142",
+        "encoded": "from%20multiprocessing%20import%20Process",
+        "prevChunkIds": []
+      },
+      "333": {
+        "chunkId": "49f9e5",
+        "hash": "18f636c0",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "334": {
+        "chunkId": "49f9e5",
+        "hash": "a106e3da",
+        "encoded": "#%20AppleScript%20helper",
+        "prevChunkIds": []
+      },
+      "335": {
+        "chunkId": "49f9e5",
+        "hash": "788952b4",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "336": {
+        "chunkId": "49f9e5",
+        "hash": "71572082",
+        "encoded": "def%20_run_osascript(cmd:%20str,%20capture:%20bool%20=%20True)%20-%3E%20subprocess.CompletedProcess:",
+        "prevChunkIds": []
+      },
+      "337": {
+        "chunkId": "49f9e5",
+        "hash": "7583aec9",
+        "encoded": "return%20subprocess.run(",
+        "prevChunkIds": []
+      },
+      "338": {
+        "chunkId": "49f9e5",
+        "hash": "283d620f",
+        "encoded": "%5B%22osascript%22,%20%22-e%22,%20cmd%5D,",
+        "prevChunkIds": []
+      },
+      "339": {
+        "chunkId": "49f9e5",
+        "hash": "c88cd39e",
+        "encoded": "check=False,",
+        "prevChunkIds": []
+      },
+      "340": {
+        "chunkId": "49f9e5",
+        "hash": "0f0852af",
+        "encoded": "capture_output=capture,",
+        "prevChunkIds": []
+      },
+      "341": {
+        "chunkId": "49f9e5",
+        "hash": "1389604a",
+        "encoded": "text=True,",
+        "prevChunkIds": []
+      },
+      "342": {
+        "chunkId": "49f9e5",
+        "hash": "f9880f8f",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "345": {
+        "chunkId": "49f9e5",
+        "hash": "86b19bac",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "346": {
+        "chunkId": "49f9e5",
+        "hash": "134097a3",
+        "encoded": "#%20Safari%20helpers",
+        "prevChunkIds": []
+      },
+      "347": {
+        "chunkId": "49f9e5",
+        "hash": "38d8f99e",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "348": {
+        "chunkId": "49f9e5",
+        "hash": "ec38eef5",
+        "encoded": "def%20_activate_safari(verbose=False)%20-%3E%20bool:",
+        "prevChunkIds": []
+      },
+      "349": {
+        "chunkId": "49f9e5",
+        "hash": "61f99d69",
+        "encoded": "res%20=%20_run_osascript('tell%20application%20%22Safari%22%20to%20activate')",
+        "prevChunkIds": []
+      },
+      "350": {
+        "chunkId": "49f9e5",
+        "hash": "197758a3",
+        "encoded": "if%20res.returncode%20!=%200:",
+        "prevChunkIds": []
+      },
+      "351": {
+        "chunkId": "49f9e5",
+        "hash": "41864c8c",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "352": {
+        "chunkId": "49f9e5",
+        "hash": "93a71258",
+        "encoded": "print(%22DEBUG:%20Failed%20to%20activate%20Safari:%22,%20res.stderr)",
+        "prevChunkIds": []
+      },
+      "353": {
+        "chunkId": "49f9e5",
+        "hash": "ce27eb2c",
+        "encoded": "return%20False",
+        "prevChunkIds": []
+      },
+      "354": {
+        "chunkId": "49f9e5",
+        "hash": "8f269bb5",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "355": {
+        "chunkId": "49f9e5",
+        "hash": "976b7794",
+        "encoded": "print(%22DEBUG:%20Safari%20activated%22)",
+        "prevChunkIds": []
+      },
+      "356": {
+        "chunkId": "49f9e5",
+        "hash": "c920e125",
+        "encoded": "return%20True",
+        "prevChunkIds": []
+      },
+      "359": {
+        "chunkId": "49f9e5",
+        "hash": "11596d7d",
+        "encoded": "def%20create_window_for_profile(profile_name:%20Optional%5Bstr%5D%20=%20None,%20verbose=False)%20-%3E%20Optional%5Bint%5D:",
+        "prevChunkIds": []
+      },
+      "360": {
+        "chunkId": "49f9e5",
+        "hash": "8e28cdea",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "361": {
+        "chunkId": "49f9e5",
+        "hash": "f2bd2015",
+        "encoded": "Create%20a%20new%20Safari%20window%20(document)%20and%20return%20its%20index.",
+        "prevChunkIds": []
+      },
+      "362": {
+        "chunkId": "49f9e5",
+        "hash": "d8c40106",
+        "encoded": "IMPORTANT%20CHANGE:%20create%20the%20new%20document%20and%20capture%20it%20into%20a%20variable%20(nw)",
+        "prevChunkIds": []
+      },
+      "363": {
+        "chunkId": "49f9e5",
+        "hash": "39d3758e",
+        "encoded": "then%20operate%20on%20that%20'nw'%20window%20instance%20so%20title%20setting%20is%20deterministic.",
+        "prevChunkIds": []
+      },
+      "364": {
+        "chunkId": "49f9e5",
+        "hash": "935cdf3d",
+        "encoded": "Returns%20None%20on%20failure.",
+        "prevChunkIds": []
+      },
+      "365": {
+        "chunkId": "49f9e5",
+        "hash": "ff026496",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "366": {
+        "chunkId": "49f9e5",
+        "hash": "1daae9e4",
+        "encoded": "#%20sanitize%20profile_name%20to%20safely%20embed%20inside%20AppleScript%20double-quoted%20JS%20string",
+        "prevChunkIds": []
+      },
+      "367": {
+        "chunkId": "49f9e5",
+        "hash": "fac75adf",
+        "encoded": "safe_title%20=%20%22%22",
+        "prevChunkIds": []
+      },
+      "368": {
+        "chunkId": "49f9e5",
+        "hash": "12b175aa",
+        "encoded": "if%20profile_name:",
+        "prevChunkIds": []
+      },
+      "369": {
+        "chunkId": "49f9e5",
+        "hash": "aa23d68d",
+        "encoded": "safe_title%20=%20profile_name.replace(%22%5C%5C%22,%20%22%5C%5C%5C%5C%22).replace('%22',%20'%5C%5C%22')",
+        "prevChunkIds": []
+      },
+      "371": {
+        "chunkId": "49f9e5",
+        "hash": "672a59a1",
+        "encoded": "#%20Use%20local%20variable%20'nw'%20for%20the%20newly-created%20window%20so%20another%20process/window",
+        "prevChunkIds": []
+      },
+      "372": {
+        "chunkId": "49f9e5",
+        "hash": "9b6b0902",
+        "encoded": "#%20becoming%20front%20does%20not%20change%20which%20window%20we%20operate%20on.",
+        "prevChunkIds": []
+      },
+      "373": {
+        "chunkId": "49f9e5",
+        "hash": "edecfd7a",
+        "encoded": "script%20=%20f%22%22%22",
+        "prevChunkIds": []
+      },
+      "374": {
+        "chunkId": "49f9e5",
+        "hash": "aff15da4",
+        "encoded": "tell%20application%20%22Safari%22",
+        "prevChunkIds": []
+      },
+      "375": {
+        "chunkId": "49f9e5",
+        "hash": "b5f8e440",
+        "encoded": "activate",
+        "prevChunkIds": []
+      },
+      "376": {
+        "chunkId": "49f9e5",
+        "hash": "40865bea",
+        "encoded": "set%20nw%20to%20make%20new%20document",
+        "prevChunkIds": []
+      },
+      "377": {
+        "chunkId": "49f9e5",
+        "hash": "ebabcc75",
+        "encoded": "delay%200.25",
+        "prevChunkIds": []
+      },
+      "378": {
+        "chunkId": "49f9e5",
+        "hash": "dc926366",
+        "encoded": "try",
+        "prevChunkIds": []
+      },
+      "379": {
+        "chunkId": "49f9e5",
+        "hash": "a6cfbbf0",
+        "encoded": "set%20t%20to%20current%20tab%20of%20nw",
+        "prevChunkIds": []
+      },
+      "380": {
+        "chunkId": "49f9e5",
+        "hash": "9407d977",
+        "encoded": "set%20URL%20of%20t%20to%20%22about:blank%22",
+        "prevChunkIds": []
+      },
+      "381": {
+        "chunkId": "49f9e5",
+        "hash": "1724618f",
+        "encoded": "do%20JavaScript%20%22document.title%20=%20%5C%5C%22%7Bsafe_title%7D%5C%5C%22%22%20in%20t",
+        "prevChunkIds": []
+      },
+      "382": {
+        "chunkId": "49f9e5",
+        "hash": "4c145144",
+        "encoded": "end%20try",
+        "prevChunkIds": []
+      },
+      "383": {
+        "chunkId": "49f9e5",
+        "hash": "002a1bbd",
+        "encoded": "set%20idx%20to%20index%20of%20nw",
+        "prevChunkIds": []
+      },
+      "384": {
+        "chunkId": "49f9e5",
+        "hash": "0a128873",
+        "encoded": "return%20idx",
+        "prevChunkIds": []
+      },
+      "385": {
+        "chunkId": "49f9e5",
+        "hash": "8b6f0946",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "386": {
+        "chunkId": "49f9e5",
+        "hash": "5f876f81",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "387": {
+        "chunkId": "49f9e5",
+        "hash": "89daa577",
+        "encoded": "res%20=%20_run_osascript(script)",
+        "prevChunkIds": []
+      },
+      "388": {
+        "chunkId": "49f9e5",
+        "hash": "1bf205fb",
+        "encoded": "if%20res.returncode%20!=%200:",
+        "prevChunkIds": []
+      },
+      "389": {
+        "chunkId": "49f9e5",
+        "hash": "5a72ec64",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "390": {
+        "chunkId": "49f9e5",
+        "hash": "7f0c8a43",
+        "encoded": "print(%22DEBUG:%20create_window_for_profile%20failed:%22,%20res.stderr)",
+        "prevChunkIds": []
+      },
+      "391": {
+        "chunkId": "49f9e5",
+        "hash": "e7766b4a",
+        "encoded": "return%20None",
+        "prevChunkIds": []
+      },
+      "392": {
+        "chunkId": "49f9e5",
+        "hash": "10bae01c",
+        "encoded": "out%20=%20(res.stdout%20or%20%22%22).strip()",
+        "prevChunkIds": []
+      },
+      "393": {
+        "chunkId": "49f9e5",
+        "hash": "dee77ae7",
+        "encoded": "try:",
+        "prevChunkIds": []
+      },
+      "394": {
+        "chunkId": "49f9e5",
+        "hash": "5cc6d720",
+        "encoded": "return%20int(out)",
+        "prevChunkIds": []
+      },
+      "395": {
+        "chunkId": "49f9e5",
+        "hash": "703f9f3e",
+        "encoded": "except%20Exception:",
+        "prevChunkIds": []
+      },
+      "396": {
+        "chunkId": "49f9e5",
+        "hash": "4cd8c139",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "397": {
+        "chunkId": "49f9e5",
+        "hash": "9d0ab544",
+        "encoded": "print(%22DEBUG:%20create_window_for_profile%20parse%20failed,%20stdout:%22,%20out)",
+        "prevChunkIds": []
+      },
+      "398": {
+        "chunkId": "49f9e5",
+        "hash": "917a4806",
+        "encoded": "return%20None",
+        "prevChunkIds": []
+      },
+      "401": {
+        "chunkId": "49f9e5",
+        "hash": "d0025fc5",
+        "encoded": "def%20open_url(url:%20str,%20window_index:%20Optional%5Bint%5D%20=%20None,%20verbose=False)%20-%3E%20bool:",
+        "prevChunkIds": []
+      },
+      "402": {
+        "chunkId": "49f9e5",
+        "hash": "000beb75",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "403": {
+        "chunkId": "49f9e5",
+        "hash": "9a2e2e60",
+        "encoded": "Open%20URL%20in%20the%20specified%20Safari%20window%20(current%20tab).",
+        "prevChunkIds": []
+      },
+      "404": {
+        "chunkId": "49f9e5",
+        "hash": "cb364393",
+        "encoded": "If%20window_index%20is%20None,%20uses%20window%201%20(original%20behavior).",
+        "prevChunkIds": []
+      },
+      "405": {
+        "chunkId": "49f9e5",
+        "hash": "c95c2d48",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "406": {
+        "chunkId": "49f9e5",
+        "hash": "42d246f1",
+        "encoded": "win%20=%20window_index%20if%20window_index%20is%20not%20None%20else%201",
+        "prevChunkIds": []
+      },
+      "407": {
+        "chunkId": "49f9e5",
+        "hash": "74920e68",
+        "encoded": "script%20=%20f%22%22%22",
+        "prevChunkIds": []
+      },
+      "408": {
+        "chunkId": "49f9e5",
+        "hash": "b3c14c14",
+        "encoded": "tell%20application%20%22Safari%22",
+        "prevChunkIds": []
+      },
+      "409": {
+        "chunkId": "49f9e5",
+        "hash": "e1bea61b",
+        "encoded": "activate",
+        "prevChunkIds": []
+      },
+      "410": {
+        "chunkId": "49f9e5",
+        "hash": "c7e99e10",
+        "encoded": "if%20(count%20of%20windows)%20=%200%20then",
+        "prevChunkIds": []
+      },
+      "411": {
+        "chunkId": "49f9e5",
+        "hash": "c0644fc3",
+        "encoded": "make%20new%20document",
+        "prevChunkIds": []
+      },
+      "412": {
+        "chunkId": "49f9e5",
+        "hash": "c0bef157",
+        "encoded": "end%20if",
+        "prevChunkIds": []
+      },
+      "413": {
+        "chunkId": "49f9e5",
+        "hash": "15ff2471",
+        "encoded": "set%20URL%20of%20current%20tab%20of%20window%20%7Bwin%7D%20to%20%22%7Burl%7D%22",
+        "prevChunkIds": []
+      },
+      "414": {
+        "chunkId": "49f9e5",
+        "hash": "e4128561",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "415": {
+        "chunkId": "49f9e5",
+        "hash": "eeae7774",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "416": {
+        "chunkId": "49f9e5",
+        "hash": "24b4e205",
+        "encoded": "res%20=%20_run_osascript(script)",
+        "prevChunkIds": []
+      },
+      "417": {
+        "chunkId": "49f9e5",
+        "hash": "1ecf38ca",
+        "encoded": "success%20=%20res.returncode%20==%200",
+        "prevChunkIds": []
+      },
+      "418": {
+        "chunkId": "49f9e5",
+        "hash": "8ab7a2b3",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "419": {
+        "chunkId": "49f9e5",
+        "hash": "d422165d",
+        "encoded": "print(f%22DEBUG:%20Open%20URL%20%7Burl%7D%20in%20window%20%7Bwin%7D%20result:%20%7Bsuccess%7D%22)",
+        "prevChunkIds": []
+      },
+      "420": {
+        "chunkId": "49f9e5",
+        "hash": "91ba23c6",
+        "encoded": "if%20not%20success:",
+        "prevChunkIds": []
+      },
+      "421": {
+        "chunkId": "49f9e5",
+        "hash": "f00ca428",
+        "encoded": "print(%22DEBUG:%20stderr:%22,%20res.stderr)",
+        "prevChunkIds": []
+      },
+      "422": {
+        "chunkId": "49f9e5",
+        "hash": "a9ca124d",
+        "encoded": "return%20success",
+        "prevChunkIds": []
+      },
+      "425": {
+        "chunkId": "49f9e5",
+        "hash": "e356c39c",
+        "encoded": "def%20perform_search_accessibility(search_term:%20str,%20window_index:%20Optional%5Bint%5D%20=%20None,%20verbose=False)%20-%3E%20bool:",
+        "prevChunkIds": []
+      },
+      "426": {
+        "chunkId": "49f9e5",
+        "hash": "68c2fa3c",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "427": {
+        "chunkId": "49f9e5",
+        "hash": "84c0c184",
+        "encoded": "Bring%20the%20target%20window%20to%20front%20(so%20keystrokes%20go%20to%20it),%20then%20use%20System%20Events%20to%20type%20into%20address%20bar%20and%20submit.",
+        "prevChunkIds": []
+      },
+      "428": {
+        "chunkId": "49f9e5",
+        "hash": "0e2ddb29",
+        "encoded": "Note:%20GUI-focus%20is%20global%20%E2%80%94%20accessibility%20keystrokes%20will%20route%20to%20the%20frontmost%20window.",
+        "prevChunkIds": []
+      },
+      "429": {
+        "chunkId": "49f9e5",
+        "hash": "4be77440",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "430": {
+        "chunkId": "49f9e5",
+        "hash": "f9454ecb",
+        "encoded": "win%20=%20window_index%20if%20window_index%20is%20not%20None%20else%201",
+        "prevChunkIds": []
+      },
+      "431": {
+        "chunkId": "49f9e5",
+        "hash": "d6eb54eb",
+        "encoded": "script%20=%20f%22%22%22",
+        "prevChunkIds": []
+      },
+      "432": {
+        "chunkId": "49f9e5",
+        "hash": "98833c6a",
+        "encoded": "tell%20application%20%22Safari%22",
+        "prevChunkIds": []
+      },
+      "433": {
+        "chunkId": "49f9e5",
+        "hash": "71bb8571",
+        "encoded": "activate",
+        "prevChunkIds": []
+      },
+      "434": {
+        "chunkId": "49f9e5",
+        "hash": "e5d1b0e7",
+        "encoded": "try",
+        "prevChunkIds": []
+      },
+      "435": {
+        "chunkId": "49f9e5",
+        "hash": "045cd839",
+        "encoded": "set%20index%20of%20window%20%7Bwin%7D%20to%201",
+        "prevChunkIds": []
+      },
+      "436": {
+        "chunkId": "49f9e5",
+        "hash": "194a23c4",
+        "encoded": "end%20try",
+        "prevChunkIds": []
+      },
+      "437": {
+        "chunkId": "49f9e5",
+        "hash": "9f7fc9f0",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "438": {
+        "chunkId": "49f9e5",
+        "hash": "820a1e2a",
+        "encoded": "delay%200.25",
+        "prevChunkIds": []
+      },
+      "439": {
+        "chunkId": "49f9e5",
+        "hash": "257ac966",
+        "encoded": "tell%20application%20%22System%20Events%22",
+        "prevChunkIds": []
+      },
+      "440": {
+        "chunkId": "49f9e5",
+        "hash": "b1cc8964",
+        "encoded": "tell%20process%20%22Safari%22",
+        "prevChunkIds": []
+      },
+      "441": {
+        "chunkId": "49f9e5",
+        "hash": "f24ead04",
+        "encoded": "try",
+        "prevChunkIds": []
+      },
+      "442": {
+        "chunkId": "49f9e5",
+        "hash": "592eca53",
+        "encoded": "keystroke%20%22l%22%20using%20%7B%7Bcommand%20down%7D%7D%20--%20focus%20address%20bar",
+        "prevChunkIds": []
+      },
+      "443": {
+        "chunkId": "49f9e5",
+        "hash": "415e9788",
+        "encoded": "delay%200.3",
+        "prevChunkIds": []
+      },
+      "444": {
+        "chunkId": "49f9e5",
+        "hash": "73debff7",
+        "encoded": "keystroke%20%22%7Bsearch_term%7D%22",
+        "prevChunkIds": []
+      },
+      "445": {
+        "chunkId": "49f9e5",
+        "hash": "7ce2eb64",
+        "encoded": "delay%200.3",
+        "prevChunkIds": []
+      },
+      "446": {
+        "chunkId": "49f9e5",
+        "hash": "05049d43",
+        "encoded": "key%20code%2036%20--%20Enter",
+        "prevChunkIds": []
+      },
+      "447": {
+        "chunkId": "49f9e5",
+        "hash": "2ce97cc5",
+        "encoded": "delay%202%20--%20wait%20for%20results%20to%20load",
+        "prevChunkIds": []
+      },
+      "448": {
+        "chunkId": "49f9e5",
+        "hash": "aba25d9f",
+        "encoded": "return%20true",
+        "prevChunkIds": []
+      },
+      "449": {
+        "chunkId": "49f9e5",
+        "hash": "230d561a",
+        "encoded": "on%20error",
+        "prevChunkIds": []
+      },
+      "450": {
+        "chunkId": "49f9e5",
+        "hash": "23c36cd2",
+        "encoded": "return%20false",
+        "prevChunkIds": []
+      },
+      "451": {
+        "chunkId": "49f9e5",
+        "hash": "a0af68df",
+        "encoded": "end%20try",
+        "prevChunkIds": []
+      },
+      "452": {
+        "chunkId": "49f9e5",
+        "hash": "5c6e8412",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "453": {
+        "chunkId": "49f9e5",
+        "hash": "e59759e0",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "454": {
+        "chunkId": "49f9e5",
+        "hash": "ecf4ee09",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "455": {
+        "chunkId": "49f9e5",
+        "hash": "f9a0fdae",
+        "encoded": "res%20=%20_run_osascript(script)",
+        "prevChunkIds": []
+      },
+      "456": {
+        "chunkId": "49f9e5",
+        "hash": "36f94a5a",
+        "encoded": "out%20=%20(res.stdout%20or%20%22%22).strip().lower()",
+        "prevChunkIds": []
+      },
+      "457": {
+        "chunkId": "49f9e5",
+        "hash": "9d96cdf1",
+        "encoded": "success%20=%20%22true%22%20in%20out",
+        "prevChunkIds": []
+      },
+      "458": {
+        "chunkId": "49f9e5",
+        "hash": "09604303",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "459": {
+        "chunkId": "49f9e5",
+        "hash": "cf084799",
+        "encoded": "print(f%22DEBUG:%20Accessibility%20search%20'%7Bsearch_term%7D'%20in%20window%20%7Bwin%7D%20result:%20%7Bsuccess%7D%22)",
+        "prevChunkIds": []
+      },
+      "460": {
+        "chunkId": "49f9e5",
+        "hash": "9cbd0f19",
+        "encoded": "if%20not%20success:",
+        "prevChunkIds": []
+      },
+      "461": {
+        "chunkId": "49f9e5",
+        "hash": "39421cc6",
+        "encoded": "print(%22DEBUG:%20stderr:%22,%20res.stderr)",
+        "prevChunkIds": []
+      },
+      "462": {
+        "chunkId": "49f9e5",
+        "hash": "9ac08683",
+        "encoded": "return%20success",
+        "prevChunkIds": []
+      },
+      "465": {
+        "chunkId": "49f9e5",
+        "hash": "9e1925a2",
+        "encoded": "def%20play_video(window_index:%20Optional%5Bint%5D%20=%20None,%20verbose=False)%20-%3E%20bool:",
+        "prevChunkIds": []
+      },
+      "466": {
+        "chunkId": "49f9e5",
+        "hash": "6fe2ad28",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "467": {
+        "chunkId": "49f9e5",
+        "hash": "91956767",
+        "encoded": "Bring%20the%20target%20window%20to%20front%20and%20attempt%20to%20click%20a%20Play%20button%20using%20Accessibility.",
+        "prevChunkIds": []
+      },
+      "468": {
+        "chunkId": "49f9e5",
+        "hash": "7b502de7",
+        "encoded": "Use%20the%20same%20window%20index%20when%20locating%20buttons%20so%20we%20target%20the%20correct%20window.",
+        "prevChunkIds": []
+      },
+      "469": {
+        "chunkId": "49f9e5",
+        "hash": "63b8f2e3",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "470": {
+        "chunkId": "49f9e5",
+        "hash": "9b539cd2",
+        "encoded": "win%20=%20window_index%20if%20window_index%20is%20not%20None%20else%201",
+        "prevChunkIds": []
+      },
+      "471": {
+        "chunkId": "49f9e5",
+        "hash": "9cdc71ee",
+        "encoded": "script%20=%20f%22%22%22",
+        "prevChunkIds": []
+      },
+      "472": {
+        "chunkId": "49f9e5",
+        "hash": "eb5faf34",
+        "encoded": "tell%20application%20%22Safari%22",
+        "prevChunkIds": []
+      },
+      "473": {
+        "chunkId": "49f9e5",
+        "hash": "3c1316ac",
+        "encoded": "activate",
+        "prevChunkIds": []
+      },
+      "474": {
+        "chunkId": "49f9e5",
+        "hash": "efb6450c",
+        "encoded": "try",
+        "prevChunkIds": []
+      },
+      "475": {
+        "chunkId": "49f9e5",
+        "hash": "41fb4e85",
+        "encoded": "set%20index%20of%20window%20%7Bwin%7D%20to%201",
+        "prevChunkIds": []
+      },
+      "476": {
+        "chunkId": "49f9e5",
+        "hash": "9936d461",
+        "encoded": "end%20try",
+        "prevChunkIds": []
+      },
+      "477": {
+        "chunkId": "49f9e5",
+        "hash": "687fa092",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "478": {
+        "chunkId": "49f9e5",
+        "hash": "5e4a1708",
+        "encoded": "delay%200.25",
+        "prevChunkIds": []
+      },
+      "479": {
+        "chunkId": "49f9e5",
+        "hash": "aa8dac0d",
+        "encoded": "tell%20application%20%22System%20Events%22",
+        "prevChunkIds": []
+      },
+      "480": {
+        "chunkId": "49f9e5",
+        "hash": "4bb1e7ee",
+        "encoded": "tell%20process%20%22Safari%22",
+        "prevChunkIds": []
+      },
+      "481": {
+        "chunkId": "49f9e5",
+        "hash": "ad55ce65",
+        "encoded": "try",
+        "prevChunkIds": []
+      },
+      "482": {
+        "chunkId": "49f9e5",
+        "hash": "e6a5ef0a",
+        "encoded": "set%20playButtons%20to%20buttons%20of%20window%20%7Bwin%7D",
+        "prevChunkIds": []
+      },
+      "483": {
+        "chunkId": "49f9e5",
+        "hash": "7e0237f5",
+        "encoded": "repeat%20with%20btn%20in%20playButtons",
+        "prevChunkIds": []
+      },
+      "484": {
+        "chunkId": "49f9e5",
+        "hash": "8ee35dd9",
+        "encoded": "try",
+        "prevChunkIds": []
+      },
+      "485": {
+        "chunkId": "49f9e5",
+        "hash": "a6270954",
+        "encoded": "if%20(name%20of%20btn%20contains%20%22Play%22%20or%20name%20of%20btn%20contains%20%22play%22)%20then",
+        "prevChunkIds": []
+      },
+      "486": {
+        "chunkId": "49f9e5",
+        "hash": "f2f806a9",
+        "encoded": "click%20btn",
+        "prevChunkIds": []
+      },
+      "487": {
+        "chunkId": "49f9e5",
+        "hash": "2f6f5e92",
+        "encoded": "exit%20repeat",
+        "prevChunkIds": []
+      },
+      "488": {
+        "chunkId": "49f9e5",
+        "hash": "6f232764",
+        "encoded": "end%20if",
+        "prevChunkIds": []
+      },
+      "489": {
+        "chunkId": "49f9e5",
+        "hash": "ede88508",
+        "encoded": "end%20try",
+        "prevChunkIds": []
+      },
+      "490": {
+        "chunkId": "49f9e5",
+        "hash": "30f5231a",
+        "encoded": "end%20repeat",
+        "prevChunkIds": []
+      },
+      "491": {
+        "chunkId": "49f9e5",
+        "hash": "1df340b9",
+        "encoded": "return%20true",
+        "prevChunkIds": []
+      },
+      "492": {
+        "chunkId": "49f9e5",
+        "hash": "545371cc",
+        "encoded": "on%20error",
+        "prevChunkIds": []
+      },
+      "493": {
+        "chunkId": "49f9e5",
+        "hash": "257d992e",
+        "encoded": "return%20false",
+        "prevChunkIds": []
+      },
+      "494": {
+        "chunkId": "49f9e5",
+        "hash": "750ded3a",
+        "encoded": "end%20try",
+        "prevChunkIds": []
+      },
+      "495": {
+        "chunkId": "49f9e5",
+        "hash": "4482f49e",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "496": {
+        "chunkId": "49f9e5",
+        "hash": "3a20c2c6",
+        "encoded": "end%20tell",
+        "prevChunkIds": []
+      },
+      "497": {
+        "chunkId": "49f9e5",
+        "hash": "712f33b4",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "498": {
+        "chunkId": "49f9e5",
+        "hash": "41381d70",
+        "encoded": "res%20=%20_run_osascript(script)",
+        "prevChunkIds": []
+      },
+      "499": {
+        "chunkId": "49f9e5",
+        "hash": "12840bc6",
+        "encoded": "out%20=%20(res.stdout%20or%20%22%22).strip().lower()",
+        "prevChunkIds": []
+      },
+      "500": {
+        "chunkId": "49f9e5",
+        "hash": "6d506eec",
+        "encoded": "success%20=%20%22true%22%20in%20out",
+        "prevChunkIds": []
+      },
+      "501": {
+        "chunkId": "49f9e5",
+        "hash": "89dee25c",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "502": {
+        "chunkId": "49f9e5",
+        "hash": "9b8d7a71",
+        "encoded": "print(f%22DEBUG:%20play%20video%20in%20window%20%7Bwin%7D%20result:%20%7Bsuccess%7D%22)",
+        "prevChunkIds": []
+      },
+      "503": {
+        "chunkId": "49f9e5",
+        "hash": "5174ab11",
+        "encoded": "if%20not%20success:",
+        "prevChunkIds": []
+      },
+      "504": {
+        "chunkId": "49f9e5",
+        "hash": "68a245b9",
+        "encoded": "print(%22DEBUG:%20stderr:%22,%20res.stderr)",
+        "prevChunkIds": []
+      },
+      "505": {
+        "chunkId": "49f9e5",
+        "hash": "ca0e5784",
+        "encoded": "return%20success",
+        "prevChunkIds": []
+      },
+      "508": {
+        "chunkId": "49f9e5",
+        "hash": "df65825c",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "509": {
+        "chunkId": "49f9e5",
+        "hash": "838b5bc6",
+        "encoded": "#%20Automation%20executor",
+        "prevChunkIds": []
+      },
+      "510": {
+        "chunkId": "49f9e5",
+        "hash": "6120e397",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "511": {
+        "chunkId": "49f9e5",
+        "hash": "589f6954",
+        "encoded": "def%20execute_automation_steps(steps:%20List%5BDict%5Bstr,%20Any%5D%5D,%20window_index:%20Optional%5Bint%5D%20=%20None,%20verbose=False)%20-%3E%20bool:",
+        "prevChunkIds": []
+      },
+      "512": {
+        "chunkId": "49f9e5",
+        "hash": "c367d794",
+        "encoded": "for%20i,%20step%20in%20enumerate(steps):",
+        "prevChunkIds": []
+      },
+      "513": {
+        "chunkId": "49f9e5",
+        "hash": "c18c58c1",
+        "encoded": "step_type%20=%20step.get(%22type%22)",
+        "prevChunkIds": []
+      },
+      "514": {
+        "chunkId": "49f9e5",
+        "hash": "54f44554",
+        "encoded": "success%20=%20False",
+        "prevChunkIds": []
+      },
+      "516": {
+        "chunkId": "49f9e5",
+        "hash": "8c711c93",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "517": {
+        "chunkId": "49f9e5",
+        "hash": "f1ad2c59",
+        "encoded": "print(f%22DEBUG:%20Executing%20step%20%7Bi+1%7D/%7Blen(steps)%7D:%20%7Bstep_type%7D%20(window%20%7Bwindow_index%7D)%22)",
+        "prevChunkIds": []
+      },
+      "519": {
+        "chunkId": "49f9e5",
+        "hash": "f44e0d4d",
+        "encoded": "if%20step_type%20==%20%22open_url%22:",
+        "prevChunkIds": []
+      },
+      "520": {
+        "chunkId": "49f9e5",
+        "hash": "be63e141",
+        "encoded": "url%20=%20step.get(%22url%22)",
+        "prevChunkIds": []
+      },
+      "521": {
+        "chunkId": "49f9e5",
+        "hash": "a5b4536c",
+        "encoded": "if%20url:",
+        "prevChunkIds": []
+      },
+      "522": {
+        "chunkId": "49f9e5",
+        "hash": "b845c634",
+        "encoded": "success%20=%20open_url(url,%20window_index,%20verbose)",
+        "prevChunkIds": []
+      },
+      "524": {
+        "chunkId": "49f9e5",
+        "hash": "52ab691d",
+        "encoded": "elif%20step_type%20==%20%22search%22:",
+        "prevChunkIds": []
+      },
+      "525": {
+        "chunkId": "49f9e5",
+        "hash": "dce964d1",
+        "encoded": "search_term%20=%20step.get(%22search_term%22)",
+        "prevChunkIds": []
+      },
+      "526": {
+        "chunkId": "49f9e5",
+        "hash": "4ab31c22",
+        "encoded": "if%20search_term:",
+        "prevChunkIds": []
+      },
+      "527": {
+        "chunkId": "49f9e5",
+        "hash": "813961da",
+        "encoded": "success%20=%20perform_search_accessibility(search_term,%20window_index,%20verbose)",
+        "prevChunkIds": []
+      },
+      "529": {
+        "chunkId": "49f9e5",
+        "hash": "9a96ed3d",
+        "encoded": "elif%20step_type%20==%20%22go_to_absolute_url%22:",
+        "prevChunkIds": []
+      },
+      "530": {
+        "chunkId": "49f9e5",
+        "hash": "b1e2d7ed",
+        "encoded": "abs_url%20=%20step.get(%22url%22)",
+        "prevChunkIds": []
+      },
+      "531": {
+        "chunkId": "49f9e5",
+        "hash": "c26222d9",
+        "encoded": "if%20abs_url:",
+        "prevChunkIds": []
+      },
+      "532": {
+        "chunkId": "49f9e5",
+        "hash": "6bd4e51f",
+        "encoded": "success%20=%20open_url(abs_url,%20window_index,%20verbose)",
+        "prevChunkIds": []
+      },
+      "534": {
+        "chunkId": "49f9e5",
+        "hash": "2c0f43a1",
+        "encoded": "elif%20step_type%20==%20%22play_video%22:",
+        "prevChunkIds": []
+      },
+      "535": {
+        "chunkId": "49f9e5",
+        "hash": "ee1cbabf",
+        "encoded": "success%20=%20play_video(window_index,%20verbose)",
+        "prevChunkIds": []
+      },
+      "537": {
+        "chunkId": "49f9e5",
+        "hash": "d58811b2",
+        "encoded": "else:",
+        "prevChunkIds": []
+      },
+      "538": {
+        "chunkId": "49f9e5",
+        "hash": "3cc10fc5",
+        "encoded": "print(f%22%E2%9D%8C%20Unknown%20step%20type:%20%7Bstep_type%7D%22)",
+        "prevChunkIds": []
+      },
+      "539": {
+        "chunkId": "49f9e5",
+        "hash": "7acaefd4",
+        "encoded": "return%20False",
+        "prevChunkIds": []
+      },
+      "541": {
+        "chunkId": "49f9e5",
+        "hash": "bb1745ec",
+        "encoded": "if%20not%20success:",
+        "prevChunkIds": []
+      },
+      "542": {
+        "chunkId": "49f9e5",
+        "hash": "f23c9b4c",
+        "encoded": "print(f%22%E2%9D%8C%20Failed%20at%20step%20%7Bi+1%7D:%20%7Bstep_type%7D%22)",
+        "prevChunkIds": []
+      },
+      "543": {
+        "chunkId": "49f9e5",
+        "hash": "c6a0c1dc",
+        "encoded": "return%20False",
+        "prevChunkIds": []
+      },
+      "545": {
+        "chunkId": "49f9e5",
+        "hash": "f421dd7e",
+        "encoded": "#%20Fixed%203-second%20delay%20between%20steps",
+        "prevChunkIds": []
+      },
+      "546": {
+        "chunkId": "49f9e5",
+        "hash": "5f2e77f6",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "547": {
+        "chunkId": "49f9e5",
+        "hash": "f369bfee",
+        "encoded": "print(%22DEBUG:%20Waiting%203s%20before%20next%20step%22)",
+        "prevChunkIds": []
+      },
+      "548": {
+        "chunkId": "49f9e5",
+        "hash": "71d5baa4",
+        "encoded": "time.sleep(3)",
+        "prevChunkIds": []
+      },
+      "550": {
+        "chunkId": "49f9e5",
+        "hash": "72d50e33",
+        "encoded": "return%20True",
+        "prevChunkIds": []
+      },
+      "553": {
+        "chunkId": "49f9e5",
+        "hash": "9fa54f5f",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "554": {
+        "chunkId": "49f9e5",
+        "hash": "04876f81",
+        "encoded": "#%20Per-profile%20runner%20(worker)",
+        "prevChunkIds": []
+      },
+      "555": {
+        "chunkId": "49f9e5",
+        "hash": "78adec31",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "556": {
+        "chunkId": "49f9e5",
+        "hash": "58794921",
+        "encoded": "def%20run_single_profile(profile:%20Dict%5Bstr,%20Any%5D,%20profile_index:%20int,%20profile_name:%20Optional%5Bstr%5D%20=%20None,%20verbose=False):",
+        "prevChunkIds": []
+      },
+      "557": {
+        "chunkId": "49f9e5",
+        "hash": "0deb8c47",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "558": {
+        "chunkId": "49f9e5",
+        "hash": "283253a2",
+        "encoded": "profile_name%20is%20explicitly%20passed%20in%20from%20the%20parent%20to%20avoid%20any%20loop-capture%20issues.",
+        "prevChunkIds": []
+      },
+      "559": {
+        "chunkId": "49f9e5",
+        "hash": "76d53980",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "560": {
+        "chunkId": "49f9e5",
+        "hash": "38603477",
+        "encoded": "#%20Prefer%20explicitly%20passed%20profile_name;%20fallback%20to%20profile%20dict",
+        "prevChunkIds": []
+      },
+      "561": {
+        "chunkId": "49f9e5",
+        "hash": "6a62d6ca",
+        "encoded": "profile_name%20=%20profile_name%20or%20profile.get(%22profile_name%22,%20f%22profile_%7Bprofile_index%7D%22)",
+        "prevChunkIds": []
+      },
+      "562": {
+        "chunkId": "49f9e5",
+        "hash": "7cc4932e",
+        "encoded": "automation_steps%20=%20profile.get(%22automation_steps%22,%20%5B%5D)",
+        "prevChunkIds": []
+      },
+      "564": {
+        "chunkId": "49f9e5",
+        "hash": "0dc050a9",
+        "encoded": "#%20Fill%20in%20default%20URLs%20if%20missing%20(profile-level%20or%20global%20fallback%20handled%20by%20caller)",
+        "prevChunkIds": []
+      },
+      "565": {
+        "chunkId": "49f9e5",
+        "hash": "92aab13b",
+        "encoded": "for%20step%20in%20automation_steps:",
+        "prevChunkIds": []
+      },
+      "566": {
+        "chunkId": "49f9e5",
+        "hash": "37b10351",
+        "encoded": "if%20step.get(%22type%22)%20in%20%5B%22open_url%22,%20%22go_to_absolute_url%22%5D%20and%20%22url%22%20not%20in%20step:",
+        "prevChunkIds": []
+      },
+      "567": {
+        "chunkId": "49f9e5",
+        "hash": "b3c8aa2a",
+        "encoded": "#%20parent%20pre-filled%20with%20profile/global%20fallback;%20leave%20as-is%20if%20still%20missing",
+        "prevChunkIds": []
+      },
+      "568": {
+        "chunkId": "49f9e5",
+        "hash": "216d35c7",
+        "encoded": "step%5B%22url%22%5D%20=%20step.get(%22url%22)",
+        "prevChunkIds": []
+      },
+      "570": {
+        "chunkId": "49f9e5",
+        "hash": "14ff495a",
+        "encoded": "print(f%22%F0%9F%9A%80%20%5B%7Bprofile_name%7D%5D%20Starting%20(worker)%22)",
+        "prevChunkIds": []
+      },
+      "572": {
+        "chunkId": "49f9e5",
+        "hash": "4d83bd65",
+        "encoded": "if%20not%20_activate_safari(verbose):",
+        "prevChunkIds": []
+      },
+      "573": {
+        "chunkId": "49f9e5",
+        "hash": "09be1b64",
+        "encoded": "print(f%22%E2%9D%8C%20%5B%7Bprofile_name%7D%5D%20Failed%20to%20activate%20Safari%22)",
+        "prevChunkIds": []
+      },
+      "574": {
+        "chunkId": "49f9e5",
+        "hash": "3777a9d6",
+        "encoded": "return",
+        "prevChunkIds": []
+      },
+      "576": {
+        "chunkId": "49f9e5",
+        "hash": "9a9c6c50",
+        "encoded": "#%20Create%20a%20dedicated%20window%20for%20this%20profile%20(pass%20profile_name%20so%20document.title%20is%20set)",
+        "prevChunkIds": []
+      },
+      "577": {
+        "chunkId": "49f9e5",
+        "hash": "b6911869",
+        "encoded": "win_index%20=%20create_window_for_profile(profile_name=profile_name,%20verbose=verbose)",
+        "prevChunkIds": []
+      },
+      "578": {
+        "chunkId": "49f9e5",
+        "hash": "c8d1d4f5",
+        "encoded": "if%20win_index%20is%20None:",
+        "prevChunkIds": []
+      },
+      "579": {
+        "chunkId": "49f9e5",
+        "hash": "72370c78",
+        "encoded": "print(f%22%E2%9D%8C%20%5B%7Bprofile_name%7D%5D%20Failed%20to%20create%20a%20new%20Safari%20window%22)",
+        "prevChunkIds": []
+      },
+      "580": {
+        "chunkId": "49f9e5",
+        "hash": "06f2342c",
+        "encoded": "return",
+        "prevChunkIds": []
+      },
+      "582": {
+        "chunkId": "49f9e5",
+        "hash": "01b57fa8",
+        "encoded": "#%20Execute%20automation%20steps%20targeting%20this%20window",
+        "prevChunkIds": []
+      },
+      "583": {
+        "chunkId": "49f9e5",
+        "hash": "78b4d3d3",
+        "encoded": "success%20=%20execute_automation_steps(automation_steps,%20window_index=win_index,%20verbose=verbose)",
+        "prevChunkIds": []
+      },
+      "585": {
+        "chunkId": "49f9e5",
+        "hash": "f0e2d022",
+        "encoded": "if%20success:",
+        "prevChunkIds": []
+      },
+      "586": {
+        "chunkId": "49f9e5",
+        "hash": "679d544e",
+        "encoded": "print(f%22%E2%9C%85%20%5B%7Bprofile_name%7D%5D%20Profile%20completed%22)",
+        "prevChunkIds": []
+      },
+      "587": {
+        "chunkId": "49f9e5",
+        "hash": "effd898f",
+        "encoded": "else:",
+        "prevChunkIds": []
+      },
+      "588": {
+        "chunkId": "49f9e5",
+        "hash": "a4a9f9fa",
+        "encoded": "print(f%22%E2%9D%8C%20%5B%7Bprofile_name%7D%5D%20Profile%20failed%22)",
+        "prevChunkIds": []
+      },
+      "591": {
+        "chunkId": "49f9e5",
+        "hash": "18cac2b6",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "592": {
+        "chunkId": "49f9e5",
+        "hash": "9d19a04c",
+        "encoded": "#%20Profile%20runner%20(spawns%20workers)",
+        "prevChunkIds": []
+      },
+      "593": {
+        "chunkId": "49f9e5",
+        "hash": "5369e934",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "594": {
+        "chunkId": "49f9e5",
+        "hash": "71785891",
+        "encoded": "def%20run_profiles_from_json(json_path:%20str,%20verbose=False):",
+        "prevChunkIds": []
+      },
+      "595": {
+        "chunkId": "49f9e5",
+        "hash": "62575ed5",
+        "encoded": "with%20open(json_path,%20%22r%22)%20as%20f:",
+        "prevChunkIds": []
+      },
+      "596": {
+        "chunkId": "49f9e5",
+        "hash": "9ca68b82",
+        "encoded": "config%20=%20json.load(f)",
+        "prevChunkIds": []
+      },
+      "598": {
+        "chunkId": "49f9e5",
+        "hash": "ed3c1c45",
+        "encoded": "global_url%20=%20config.get(%22global_url%22)",
+        "prevChunkIds": []
+      },
+      "599": {
+        "chunkId": "49f9e5",
+        "hash": "6ac3fad9",
+        "encoded": "profiles%20=%20config.get(%22profiles%22,%20%5B%5D)",
+        "prevChunkIds": []
+      },
+      "601": {
+        "chunkId": "49f9e5",
+        "hash": "cc5f2394",
+        "encoded": "#%20Pre-fill%20missing%20step%20urls%20with%20profile.url%20or%20global_url",
+        "prevChunkIds": []
+      },
+      "602": {
+        "chunkId": "49f9e5",
+        "hash": "c19cca42",
+        "encoded": "for%20prof%20in%20profiles:",
+        "prevChunkIds": []
+      },
+      "603": {
+        "chunkId": "49f9e5",
+        "hash": "79091505",
+        "encoded": "for%20step%20in%20prof.get(%22automation_steps%22,%20%5B%5D):",
+        "prevChunkIds": []
+      },
+      "604": {
+        "chunkId": "49f9e5",
+        "hash": "7125a254",
+        "encoded": "if%20(step.get(%22type%22)%20in%20%5B%22open_url%22,%20%22go_to_absolute_url%22%5D%20and%20%22url%22%20not%20in%20step):",
+        "prevChunkIds": []
+      },
+      "605": {
+        "chunkId": "49f9e5",
+        "hash": "71ee2f25",
+        "encoded": "step%5B%22url%22%5D%20=%20prof.get(%22url%22,%20global_url)",
+        "prevChunkIds": []
+      },
+      "607": {
+        "chunkId": "49f9e5",
+        "hash": "b0b26d6b",
+        "encoded": "#%20Spawn%20one%20worker%20Process%20per%20profile%20to%20run%20concurrently.",
+        "prevChunkIds": []
+      },
+      "608": {
+        "chunkId": "49f9e5",
+        "hash": "df6edbaa",
+        "encoded": "#%20Stagger%20process%20starts%20by%203%20seconds%20so%20each%20profile%20window%20is%20launched%203s%20apart.",
+        "prevChunkIds": []
+      },
+      "609": {
+        "chunkId": "49f9e5",
+        "hash": "06f1dab1",
+        "encoded": "processes:%20List%5BProcess%5D%20=%20%5B%5D",
+        "prevChunkIds": []
+      },
+      "610": {
+        "chunkId": "49f9e5",
+        "hash": "1990270f",
+        "encoded": "for%20idx,%20prof%20in%20enumerate(profiles):",
+        "prevChunkIds": []
+      },
+      "611": {
+        "chunkId": "49f9e5",
+        "hash": "cb5af314",
+        "encoded": "profile_name%20=%20prof.get(%22profile_name%22,%20f%22profile_%7Bidx%7D%22)",
+        "prevChunkIds": []
+      },
+      "612": {
+        "chunkId": "49f9e5",
+        "hash": "fd8b166b",
+        "encoded": "p%20=%20Process(target=run_single_profile,%20args=(prof,%20idx,%20profile_name,%20verbose))",
+        "prevChunkIds": []
+      },
+      "613": {
+        "chunkId": "49f9e5",
+        "hash": "3c22d510",
+        "encoded": "p.start()",
+        "prevChunkIds": []
+      },
+      "614": {
+        "chunkId": "49f9e5",
+        "hash": "055711e9",
+        "encoded": "processes.append(p)",
+        "prevChunkIds": []
+      },
+      "615": {
+        "chunkId": "49f9e5",
+        "hash": "feb503ba",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "616": {
+        "chunkId": "49f9e5",
+        "hash": "96ccc30b",
+        "encoded": "print(f%22DEBUG:%20Spawned%20worker%20PID=%7Bp.pid%7D%20for%20profile%20idx=%7Bidx%7D%20(%7Bprofile_name%7D)%22)",
+        "prevChunkIds": []
+      },
+      "617": {
+        "chunkId": "49f9e5",
+        "hash": "7b04c7ef",
+        "encoded": "#%20delay%203s%20between%20spawning%20processes%20so%20Safari%20window%20creations%20are%20staggered",
+        "prevChunkIds": []
+      },
+      "618": {
+        "chunkId": "49f9e5",
+        "hash": "ce02d33c",
+        "encoded": "time.sleep(3)",
+        "prevChunkIds": []
+      },
+      "620": {
+        "chunkId": "49f9e5",
+        "hash": "5a27a6ac",
+        "encoded": "#%20Wait%20for%20all%20to%20finish",
+        "prevChunkIds": []
+      },
+      "621": {
+        "chunkId": "49f9e5",
+        "hash": "8885d3f8",
+        "encoded": "for%20p%20in%20processes:",
+        "prevChunkIds": []
+      },
+      "622": {
+        "chunkId": "49f9e5",
+        "hash": "da811c9d",
+        "encoded": "p.join()",
+        "prevChunkIds": []
+      },
+      "623": {
+        "chunkId": "49f9e5",
+        "hash": "203c4038",
+        "encoded": "if%20verbose:",
+        "prevChunkIds": []
+      },
+      "624": {
+        "chunkId": "49f9e5",
+        "hash": "fc9e806c",
+        "encoded": "print(f%22DEBUG:%20Worker%20PID=%7Bp.pid%7D%20exited%20with%20code%20%7Bp.exitcode%7D%22)",
+        "prevChunkIds": []
+      },
+      "627": {
+        "chunkId": "49f9e5",
+        "hash": "cc6258ab",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "628": {
+        "chunkId": "49f9e5",
+        "hash": "a362968f",
+        "encoded": "#%20Argument%20parser",
+        "prevChunkIds": []
+      },
+      "629": {
+        "chunkId": "49f9e5",
+        "hash": "681b96e4",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "630": {
+        "chunkId": "49f9e5",
+        "hash": "bcb7463a",
+        "encoded": "def%20parse_args(argv):",
+        "prevChunkIds": []
+      },
+      "631": {
+        "chunkId": "49f9e5",
+        "hash": "ec9e3d87",
+        "encoded": "p%20=%20argparse.ArgumentParser(description=%22Open%20Safari%20profiles%20from%20JSON%20config%20(concurrent).%22)",
+        "prevChunkIds": []
+      },
+      "632": {
+        "chunkId": "49f9e5",
+        "hash": "b6bb0bfb",
+        "encoded": "p.add_argument(%22--config%22,%20%22-c%22,%20default=%22profiles.json%22,%20help=%22Path%20to%20JSON%20config%20file%22)",
+        "prevChunkIds": []
+      },
+      "633": {
+        "chunkId": "49f9e5",
+        "hash": "66eedeb2",
+        "encoded": "p.add_argument(%22--verbose%22,%20%22-v%22,%20action=%22store_true%22,%20help=%22Enable%20debug%20output%22)",
+        "prevChunkIds": []
+      },
+      "634": {
+        "chunkId": "49f9e5",
+        "hash": "0de2863c",
+        "encoded": "return%20p.parse_args(argv)",
+        "prevChunkIds": []
+      },
+      "637": {
+        "chunkId": "49f9e5",
+        "hash": "8ee70b62",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "638": {
+        "chunkId": "49f9e5",
+        "hash": "11f05fd4",
+        "encoded": "#%20Main",
+        "prevChunkIds": []
+      },
+      "639": {
+        "chunkId": "49f9e5",
+        "hash": "ba21f60d",
+        "encoded": "#%20----------------------------",
+        "prevChunkIds": []
+      },
+      "640": {
+        "chunkId": "49f9e5",
+        "hash": "98ba969e",
+        "encoded": "def%20main(argv):",
+        "prevChunkIds": []
+      },
+      "641": {
+        "chunkId": "49f9e5",
+        "hash": "2b25788e",
+        "encoded": "args%20=%20parse_args(argv)",
+        "prevChunkIds": []
+      },
+      "642": {
+        "chunkId": "49f9e5",
+        "hash": "751e1767",
+        "encoded": "run_profiles_from_json(args.config,%20args.verbose)",
+        "prevChunkIds": []
+      },
+      "645": {
+        "chunkId": "49f9e5",
+        "hash": "f77e5cdf",
+        "encoded": "if%20__name__%20==%20%22__main__%22:",
+        "prevChunkIds": []
+      },
+      "646": {
+        "chunkId": "49f9e5",
+        "hash": "17cbe0b6",
+        "encoded": "main(sys.argv%5B1:%5D)",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

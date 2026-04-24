@@ -1,0 +1,244 @@
+{
+  "filename": "main.py",
+  "path": "src/chrome/main.py",
+  "version": "1.1",
+  "files": {
+    "38ba885a": {
+      "value": [
+        {
+          "programming_language": "JSON",
+          "fileName": "profiles.json",
+          "relativeFilePath": "profiles.json",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            11
+          ]
+        },
+        {
+          "programming_language": "Python",
+          "fileName": "main.py",
+          "relativeFilePath": "src/chrome/main.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            1
+          ]
+        }
+      ]
+    },
+    "ed2ff0c3": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "main.py",
+          "relativeFilePath": "src/chrome/main.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            154
+          ]
+        }
+      ]
+    },
+    "8399e637": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "main.py",
+          "relativeFilePath": "src/chrome/main.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            262
+          ]
+        }
+      ]
+    },
+    "8c7e6bfb": {
+      "value": [
+        {
+          "programming_language": "JSON",
+          "fileName": "profiles.json",
+          "relativeFilePath": "profiles.json",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            11
+          ]
+        }
+      ]
+    },
+    "17a41c6a": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "step1.py",
+          "relativeFilePath": "src/chrome/step1.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            276
+          ]
+        },
+        {
+          "programming_language": "Python",
+          "fileName": "main.py",
+          "relativeFilePath": "src/chrome/main.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            235
+          ]
+        }
+      ]
+    },
+    "dc50b5a6": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "step2.py",
+          "relativeFilePath": "src/chrome/step2.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            527
+          ]
+        }
+      ]
+    },
+    "c686a771": {
+      "value": [
+        {
+          "programming_language": "text",
+          "fileName": "comments.txt",
+          "relativeFilePath": "comments.txt",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            301
+          ]
+        },
+        {
+          "programming_language": "Python",
+          "fileName": "main.py",
+          "relativeFilePath": "src/chrome/main.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            264
+          ]
+        },
+        {
+          "programming_language": "Python",
+          "fileName": "step3.py",
+          "relativeFilePath": "src/chrome/step3.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            469
+          ]
+        }
+      ]
+    },
+    "8da5d678": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "main.py",
+          "relativeFilePath": "src/chrome/main.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            320
+          ]
+        },
+        {
+          "programming_language": "JSON",
+          "fileName": "keywords.json",
+          "relativeFilePath": "src/chrome/keywords.json",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            177
+          ]
+        },
+        {
+          "programming_language": "Python",
+          "fileName": "step1.py",
+          "relativeFilePath": "src/chrome/step1.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            305
+          ]
+        }
+      ]
+    },
+    "c2c40ef0": {
+      "value": [
+        {
+          "programming_language": "Python",
+          "fileName": "step3.py",
+          "relativeFilePath": "src/chrome/step3.py",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            500
+          ]
+        }
+      ]
+    }
+  },
+  "promptMessage": {
+    "5709d83c": {
+      "value": "I want to create a python program which read from profiles.json, it has a URL and list of prifiles, for each profile it open a browser , type you.com and clpse tjhe broser after 30 second."
+    },
+    "0cc5cf08": {
+      "value": "Okay, i wnated to use apple system event and accessibility features and java scripts for action on the page"
+    },
+    "a00864aa": {
+      "value": "regenerate full program"
+    },
+    "944fa03d": {
+      "value": "thanks , now i want to add setp and create this step in  seperate  file say step1.py: the scope of step1 is to search a keyword in youtube search box and hit search, and wait for page to be loaded"
+    },
+    "0b67a831": {
+      "value": "this is great, now on step 1, typing make it like human typoing ad then add 1 sec declay for every action ., now create a new file step2. where once the page is loaded from step1 succwssfull, look for shorts section and click on forst short and play it and wait till page is loaded"
+    },
+    "fc87ac53": {
+      "value": "good, now i see like is working, now i want to add a new capability as step 3 in step3.py file. once step 2 (like button is cliked) we shoud wait for 1 sec and then click on comment button (<button-view-model class=\"ytSpecButtonViewModelHost ytwReelActionBarViewModelHostDesktopActionButton\"><label class=\"ytSpecButtonShapeWithLabelHost ytSpecButtonShapeWithLabelIsOverlay\"><button class=\"ytSpecButtonShapeNextHost ytSpecButtonShapeNextTonal ytSpecButtonShapeNextOverlayDark ytSpecButtonShapeNextSize"
+    },
+    "7e92674f": {
+      "value": "I want to make some optimization, here are the changes : 1. main,py should read comments.text and load all the comments in an array at application scoipe. 2. it then randmly selct one ohje message from an array and pass that to step3.py file in click_comment_button_and_add_comment function dynamically"
+    },
+    "f41edb62": {
+      "value": "I want to extend the main.py to read keywords.json, based on current time dtamp,1.  find  the day and then for that day get the array of values from JSON fine 2. Select a random value from array of valyes and pass that value to step 1 for searchbox"
+    },
+    "a5331f3c": {
+      "value": "now i want to make changes on main.py file so that 1. it doesn't cose the browser after duration defined in profiles.json 2. after step3. It repeat step1 , this cycle go on in sequence for 100 times."
+    },
+    "56cc6a9e": {
+      "value": "can you generate the full step3.py file"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}
