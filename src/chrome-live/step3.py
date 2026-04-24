@@ -6,6 +6,122 @@ import random
 
 logger = logging.getLogger(__name__)
 
+# Core roots (expandable mythology base)
+roots = [
+    "narayan",
+    "hari",
+    "hari hari",
+    "bhajman",
+    "teri",
+    "nayri",
+    "badri",
+    "bolo",
+    "bhagwan",
+    "lakshmi",
+    "mahadev",
+    "bhole",
+    "parvati",
+    "krishna",
+    "dev",
+    "devta",
+    "guru",
+    "deva",
+    "nath",
+    "narayan",
+    "govind",
+    "gopal",
+]
+
+# Divine prefixes
+prefixes = ["jai", "om", "shree", "har har", "jai jai", "om namo", "jai ho"]
+
+# Divine suffix/epithets (this is what expands into 1000+)
+epithets = [
+    "dev",
+    "nath",
+    "bhagwan",
+    "swami",
+    "prabhu",
+    "ishwar",
+    "mahadev",
+    "avatar",
+    "kripa",
+    "shakti",
+    "roop",
+    "sena",
+    "dhar",
+    "pati",
+    "raj",
+    "giri",
+    "lal",
+    "anand",
+    "maya",
+    "jyoti",
+    "teja",
+    "sagar",
+]
+emojis = [
+    "🙏",
+    "❤️",
+    "🔥",
+    "✨",
+    "💫",
+    "🕉️",
+    "🌸",
+    "⚡",
+    "💖",
+    "😇",
+    "🌺",
+    "🌼",
+    "🌿",
+    "🌞",
+    "🌙",
+    "⭐",
+    "🌈",
+    "💥",
+    "🪔",
+    "🔱",
+    "☀️",
+    "🌊",
+    "🌷",
+    "🍀",
+    "🌻",
+    "🪷",
+    "💎",
+    "🧿",
+    "📿",
+    "🛕",
+    "🕊️",
+    "💐",
+    "🌟",
+    "🔥",
+    "💓",
+    "💞",
+    "💝",
+    "💗",
+    "💘",
+    "💟",
+    "💤",
+    "🌌",
+    "🌠",
+    "🪶",
+    "🧡",
+    "💛",
+    "💚",
+    "💙",
+    "🤍",
+    "💜",
+]
+
+
+def generate_gods_name() -> str:
+    prefix = random.choice(prefixes)
+    root = random.choice(roots)
+    epithet = random.choice(epithets)
+    emoji = random.choice(emojis)
+    name = f"{prefix} {root} {emoji}"
+    return name.strip()
+
 
 def execute_applescript(script: str) -> Tuple[bool, str]:
     try:
@@ -155,7 +271,6 @@ def wait_for_live_chat_input(max_wait=30):
                 input.focus();
                 input.click();
                 
-                // CHANGE: Only use textContent to avoid TrustedHTML policy violation
                 input.textContent = '';
                 
                 var events = ['mousedown', 'mouseup', 'click', 'focus', 'focusin'];
@@ -207,120 +322,127 @@ def wait_for_live_chat_input(max_wait=30):
     return False, None
 
 
-def type_like_human(text: str, target_selector: str) -> bool:
+# CHANGE: Modified to accept lock parameter for typing synchronization
+def type_like_human(
+    text: str, target_selector: str, lock=None, profile_index=0
+) -> bool:
     """Type text character by character with human-like timing."""
     logger.info(f"Typing '{text}' character by character...")
 
-    for i, char in enumerate(text):
-        escaped_char = (
-            char.replace("\\", "\\\\").replace("'", "\\'").replace('"', '\\"')
-        )
+    # CHANGE: Acquire lock only during typing operation
+    if lock:
+        logger.info(f"[Profile-{profile_index + 1}] 🔒 Waiting for typing lock...")
+        lock.acquire()
+        logger.info(f"[Profile-{profile_index + 1}] ✅ Acquired typing lock")
 
-        js_type_char = f"""
-        (function() {{
-            try {{
-                // Access the iframe and its document
-                let iframe = document.querySelector("iframe#chatframe");
-                if (!iframe) return 'ERROR: Iframe not found';
-                
-                let doc = iframe.contentDocument || iframe.contentWindow.document;
-                if (!doc) return 'ERROR: Iframe document not accessible';
-                
-                var input = doc.querySelector('{target_selector}');
-                if (!input) {{
-                    return 'ERROR: Input not found';
-                }}
-                
-                // Focus the input first
-                input.focus();
-                
-                // Add character to the content
-                if (input.contentEditable === 'true' || input.contentEditable === '') {{
-                    // For contenteditable div - use more robust method
-                    var currentText = input.textContent || '';
-                    input.textContent = currentText + '{escaped_char}';
-                    
-                    // Move cursor to end
-                    var range = doc.createRange();
-                    var sel = iframe.contentWindow.getSelection();
-                    range.selectNodeContents(input);
-                    range.collapse(false);
-                    sel.removeAllRanges();
-                    sel.addRange(range);
-                    
-                    // Trigger comprehensive input events
-                    var inputEvent = new InputEvent('input', {{ 
-                        bubbles: true, 
-                        cancelable: true,
-                        inputType: 'insertText',
-                        data: '{escaped_char}'
-                    }});
-                    input.dispatchEvent(inputEvent);
-                    
-                    var changeEvent = new Event('change', {{ bubbles: true }});
-                    input.dispatchEvent(changeEvent);
-                    
-                    // Also trigger keydown/keyup for better compatibility
-                    var keydownEvent = new KeyboardEvent('keydown', {{ 
-                        bubbles: true, 
-                        key: '{escaped_char}',
-                        code: 'Key' + '{escaped_char}'.toUpperCase()
-                    }});
-                    input.dispatchEvent(keydownEvent);
-                    
-                    var keyupEvent = new KeyboardEvent('keyup', {{ 
-                        bubbles: true, 
-                        key: '{escaped_char}',
-                        code: 'Key' + '{escaped_char}'.toUpperCase()
-                    }});
-                    input.dispatchEvent(keyupEvent);
-                    
-                }} else {{
-                    // For regular input fields
-                    input.value += '{escaped_char}';
-                    
-                    var inputEvent = new Event('input', {{ bubbles: true }});
-                    input.dispatchEvent(inputEvent);
-                }}
-                
-                return 'SUCCESS: Typed char at position ' + {i} + ', total length: ' + input.textContent.length;
-            }} catch(e) {{
-                return 'EXCEPTION: ' + e.message;
-            }}
-        }})();
-        """
-
-        success, result = execute_javascript_in_chrome(js_type_char)
-
-        # Enhanced logging
-        if not success:
-            logger.error(
-                f"JavaScript execution failed for character '{char}' at position {i}: {result}"
+    try:
+        for i, char in enumerate(text):
+            escaped_char = (
+                char.replace("\\", "\\\\").replace("'", "\\'").replace('"', '\\"')
             )
-            return False
 
-        if result.startswith("ERROR") or result.startswith("EXCEPTION"):
-            logger.error(f"Failed to type character '{char}' at position {i}: {result}")
-            return False
+            js_type_char = f"""
+            (function() {{
+                try {{
+                    let iframe = document.querySelector("iframe#chatframe");
+                    if (!iframe) return 'ERROR: Iframe not found';
+                    
+                    let doc = iframe.contentDocument || iframe.contentWindow.document;
+                    if (!doc) return 'ERROR: Iframe document not accessible';
+                    
+                    var input = doc.querySelector('{target_selector}');
+                    if (!input) {{
+                        return 'ERROR: Input not found';
+                    }}
+                    
+                    input.focus();
+                    
+                    if (input.contentEditable === 'true' || input.contentEditable === '') {{
+                        var currentText = input.textContent || '';
+                        input.textContent = currentText + '{escaped_char}';
+                        
+                        var range = doc.createRange();
+                        var sel = iframe.contentWindow.getSelection();
+                        range.selectNodeContents(input);
+                        range.collapse(false);
+                        sel.removeAllRanges();
+                        sel.addRange(range);
+                        
+                        var inputEvent = new InputEvent('input', {{ 
+                            bubbles: true, 
+                            cancelable: true,
+                            inputType: 'insertText',
+                            data: '{escaped_char}'
+                        }});
+                        input.dispatchEvent(inputEvent);
+                        
+                        var changeEvent = new Event('change', {{ bubbles: true }});
+                        input.dispatchEvent(changeEvent);
+                        
+                        var keydownEvent = new KeyboardEvent('keydown', {{ 
+                            bubbles: true, 
+                            key: '{escaped_char}',
+                            code: 'Key' + '{escaped_char}'.toUpperCase()
+                        }});
+                        input.dispatchEvent(keydownEvent);
+                        
+                        var keyupEvent = new KeyboardEvent('keyup', {{ 
+                            bubbles: true, 
+                            key: '{escaped_char}',
+                            code: 'Key' + '{escaped_char}'.toUpperCase()
+                        }});
+                        input.dispatchEvent(keyupEvent);
+                        
+                    }} else {{
+                        input.value += '{escaped_char}';
+                        
+                        var inputEvent = new Event('input', {{ bubbles: true }});
+                        input.dispatchEvent(inputEvent);
+                    }}
+                    
+                    return 'SUCCESS: Typed char at position ' + {i} + ', total length: ' + input.textContent.length;
+                }} catch(e) {{
+                    return 'EXCEPTION: ' + e.message;
+                }}
+            }})();
+            """
 
-        if result.startswith("SUCCESS"):
-            logger.debug(result)
-        else:
-            logger.warning(f"Unexpected result for character '{char}': {result}")
+            success, result = execute_javascript_in_chrome(js_type_char)
 
-        # Human-like typing delays
-        base_delay = random.uniform(0.08, 0.15)
+            if not success:
+                logger.error(
+                    f"JavaScript execution failed for character '{char}' at position {i}: {result}"
+                )
+                return False
 
-        if random.random() < 0.1:
-            base_delay += random.uniform(0.3, 0.8)
+            if result.startswith("ERROR") or result.startswith("EXCEPTION"):
+                logger.error(
+                    f"Failed to type character '{char}' at position {i}: {result}"
+                )
+                return False
 
-        if char == " ":
-            base_delay += random.uniform(0.05, 0.1)
+            if result.startswith("SUCCESS"):
+                logger.debug(result)
+            else:
+                logger.warning(f"Unexpected result for character '{char}': {result}")
 
-        time.sleep(base_delay)
+            base_delay = random.uniform(0.08, 0.15)
 
-    logger.info(f"Finished typing: {text}")
-    return True
+            if random.random() < 0.1:
+                base_delay += random.uniform(0.3, 0.8)
+
+            if char == " ":
+                base_delay += random.uniform(0.05, 0.1)
+
+            time.sleep(base_delay)
+
+        logger.info(f"Finished typing: {text}")
+        return True
+    finally:
+        # CHANGE: Release lock immediately after typing completes
+        if lock:
+            lock.release()
+            logger.info(f"[Profile-{profile_index + 1}] 🔓 Released typing lock")
 
 
 def wait_for_send_button_enabled(max_wait=15):
@@ -333,14 +455,12 @@ def wait_for_send_button_enabled(max_wait=15):
     while waited < max_wait:
         js_check_button = """
         (function() {
-            // Access the iframe and its document
             let iframe = document.querySelector("iframe#chatframe");
             if (!iframe) return 'chat_iframe_not_found';
             
             let doc = iframe.contentDocument || iframe.contentWindow.document;
             if (!doc) return 'iframe_not_ready';
             
-            // Look for send button in the iframe
             var selectors = [
                 'button[aria-label="Send"]:not([disabled])',
                 '#send-button button[aria-label="Send"]:not([disabled])',
@@ -373,15 +493,17 @@ def wait_for_send_button_enabled(max_wait=15):
     return False, None
 
 
-def send_live_chat_message():
+# CHANGE: Modified to accept lock parameter
+def send_live_chat_message(msg="jai ho", lock=None, profile_index=0):
     """
-    Find the live chat input in iframe, activate it, type 'jai ho' with human-like behavior, and send the message.
+    Find the live chat input in iframe, activate it, type message with human-like behavior, and send the message.
     """
     logger.info("Starting live chat message process...")
 
     logger.info("Waiting for page to fully load...")
     time.sleep(3)
 
+    # CHANGE: No lock needed for waiting/finding input
     input_found, selector_used = wait_for_live_chat_input(max_wait=45)
     if not input_found:
         logger.error("Live chat input field never appeared")
@@ -406,6 +528,7 @@ def send_live_chat_message():
     logger.info("Waiting for iframe to stabilize...")
     time.sleep(2)
 
+    # CHANGE: No lock needed for preparing input
     js_prepare_input = f"""
     (function() {{
         try {{
@@ -435,7 +558,6 @@ def send_live_chat_message():
             input.click();
             input.focus();
             
-            // CHANGE: Only use textContent to avoid TrustedHTML policy violation
             input.textContent = '';
             
             var events = ['mousedown', 'mouseup', 'click', 'focus', 'focusin'];
@@ -460,11 +582,13 @@ def send_live_chat_message():
 
     logger.info("Input field prepared and activated, starting to type message...")
 
-    message = "jai ho"
-    if not type_like_human(message, selector_used):
+    # CHANGE: Lock is acquired inside type_like_human function
+    message = msg
+    if not type_like_human(message, selector_used, lock, profile_index):
         logger.error("Failed to type message")
         return False
 
+    # CHANGE: No lock needed for verification
     js_verify_text = f"""
     (function() {{
         try {{
@@ -498,10 +622,11 @@ def send_live_chat_message():
     success, result = execute_javascript_in_chrome(js_verify_text)
     logger.info(f"Text verification: {result}")
 
-    if not success or "jai ho" not in result.lower():
+    if not success or msg.lower() not in result.lower():
         logger.error(f"Text was not properly entered. Current content: {result}")
         return False
 
+    # CHANGE: No lock needed for waiting for button
     button_ready, button_selector = wait_for_send_button_enabled(max_wait=15)
     if not button_ready:
         logger.error("Send button never became enabled")
@@ -509,6 +634,7 @@ def send_live_chat_message():
 
     time.sleep(random.uniform(0.5, 1.0))
 
+    # CHANGE: No lock needed for clicking button
     js_click_send = f"""
     (function() {{
         try {{
@@ -616,7 +742,78 @@ def send_live_chat_message():
     return True
 
 
+# CHANGE: New wrapper function that accepts lock parameter
+def send_messages_in_loop_with_lock(
+    count=1000, min_delay_ms=1, max_delay_ms=999, lock=None, profile_index=0
+):
+    """
+    Send live chat messages in a loop with randomized delays.
+    Lock is only acquired during typing operations.
+
+    Args:
+        count: Number of messages to send (default: 1000)
+        min_delay_ms: Minimum delay in milliseconds between messages (default: 1)
+        max_delay_ms: Maximum delay in milliseconds between messages (default: 999)
+        lock: Threading lock for typing synchronization (optional)
+        profile_index: Profile index for logging (default: 0)
+    """
+    logger.info(
+        f"Starting loop to send {count} messages with {min_delay_ms}-{max_delay_ms}ms delays"
+    )
+
+    successful_sends = 0
+    failed_sends = 0
+
+    for i in range(1, count + 1):
+        try:
+            message = generate_gods_name()
+            logger.info(f"[{i}/{count}] Attempting to send: {message}")
+
+            # CHANGE: Pass lock to send_live_chat_message
+            success = send_live_chat_message(
+                msg=message, lock=lock, profile_index=profile_index
+            )
+
+            if success:
+                successful_sends += 1
+                logger.info(f"[{i}/{count}] ✓ Message sent successfully")
+            else:
+                failed_sends += 1
+                logger.warning(f"[{i}/{count}] ✗ Message send failed")
+
+            if i < count:
+                delay_ms = random.randint(min_delay_ms, max_delay_ms)
+                delay_seconds = delay_ms / 1000.0
+                logger.info(f"Waiting {delay_ms}ms before next message...")
+                time.sleep(delay_seconds)
+
+        except KeyboardInterrupt:
+            logger.warning(f"Loop interrupted by user at iteration {i}/{count}")
+            break
+        except Exception as e:
+            failed_sends += 1
+            logger.error(f"[{i}/{count}] Unexpected error: {e}")
+            continue
+
+    logger.info("=" * 60)
+    logger.info(
+        f"Loop completed: {successful_sends} successful, {failed_sends} failed out of {i} attempts"
+    )
+    logger.info("=" * 60)
+
+    return successful_sends, failed_sends
+
+
+# CHANGE: Keep original function for backward compatibility
+def send_messages_in_loop(count=1000, min_delay_ms=1, max_delay_ms=999):
+    return send_messages_in_loop_with_lock(count, min_delay_ms, max_delay_ms, None, 0)
+
+
 # Example usage (for direct test/run)
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO)
-    send_live_chat_message()
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    )
+
+    send_messages_in_loop(count=1000, min_delay_ms=1, max_delay_ms=999)

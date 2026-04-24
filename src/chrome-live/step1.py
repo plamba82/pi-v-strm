@@ -37,36 +37,55 @@ def execute_javascript_in_chrome(js_code: str) -> Tuple[bool, str]:
     return execute_applescript(script)
 
 
-def type_like_human(text: str, target_selector: str) -> bool:
+# CHANGE: Modified to accept lock parameter for typing synchronization
+def type_like_human(
+    text: str, target_selector: str, lock=None, profile_index=0
+) -> bool:
     logger.info(f"Typing '{text}' character by character...")
-    for char in text:
-        escaped_char = (
-            char.replace("\\", "\\\\").replace("'", "\\'").replace('"', '\\"')
-        )
-        js_type_char = f"""
-        (function() {{
-            var input = document.querySelector('{target_selector}');
-            if (!input) {{
-                return 'Input not found';
-            }}
-            input.value += '{escaped_char}';
-            var inputEvent = new Event('input', {{ bubbles: true }});
-            input.dispatchEvent(inputEvent);
-            return 'Typed: ' + '{escaped_char}';
-        }})();
-        """
-        success, result = execute_javascript_in_chrome(js_type_char)
-        if not success or "not found" in result:
-            logger.error(f"Failed to type character: {char}")
-            return False
-        time.sleep(random.uniform(0.04, 0.14))
-        if random.random() < 0.15:
-            time.sleep(random.uniform(0.2, 0.6))
-    logger.info(f"Finished typing: {text}")
-    return True
+
+    # CHANGE: Acquire lock only during typing operation
+    if lock:
+        logger.info(f"[Profile-{profile_index + 1}] 🔒 Waiting for typing lock...")
+        lock.acquire()
+        logger.info(f"[Profile-{profile_index + 1}] ✅ Acquired typing lock")
+
+    try:
+        for char in text:
+            escaped_char = (
+                char.replace("\\", "\\\\").replace("'", "\\'").replace('"', '\\"')
+            )
+            js_type_char = f"""
+            (function() {{
+                var input = document.querySelector('{target_selector}');
+                if (!input) {{
+                    return 'Input not found';
+                }}
+                input.value += '{escaped_char}';
+                var inputEvent = new Event('input', {{ bubbles: true }});
+                input.dispatchEvent(inputEvent);
+                return 'Typed: ' + '{escaped_char}';
+            }})();
+            """
+            success, result = execute_javascript_in_chrome(js_type_char)
+            if not success or "not found" in result:
+                logger.error(f"Failed to type character: {char}")
+                return False
+            time.sleep(random.uniform(0.04, 0.14))
+            if random.random() < 0.15:
+                time.sleep(random.uniform(0.2, 0.6))
+        logger.info(f"Finished typing: {text}")
+        return True
+    finally:
+        # CHANGE: Release lock immediately after typing completes
+        if lock:
+            lock.release()
+            logger.info(f"[Profile-{profile_index + 1}] 🔓 Released typing lock")
 
 
-def search_and_click_first_channel(search_term="@bhaktisangeetplus channel"):
+# CHANGE: New wrapper function that accepts lock parameter
+def search_and_click_first_channel_with_lock(
+    lock=None, profile_index=0, search_term="@bhaktisangeetplus channel"
+):
     """
     1. Focuses YouTube search box, types the search term as a human, submits.
     2. Waits for search results to load.
@@ -74,7 +93,7 @@ def search_and_click_first_channel(search_term="@bhaktisangeetplus channel"):
     """
     logger.info(f"Searching for: {search_term}")
 
-    # Step 1: Focus search box
+    # Step 1: Focus search box (no lock needed)
     selectors = [
         "input#search",
         'input[name="search_query"]',
@@ -106,13 +125,13 @@ def search_and_click_first_channel(search_term="@bhaktisangeetplus channel"):
         return False
     time.sleep(0.5)
 
-    # Step 2: Type search term as human
-    if not type_like_human(search_term, working_selector):
+    # Step 2: Type search term with lock (ONLY typing is locked)
+    if not type_like_human(search_term, working_selector, lock, profile_index):
         logger.error("Failed to type search term.")
         return False
     time.sleep(0.5)
 
-    # Step 3: Submit search (press Enter)
+    # Step 3: Submit search (no lock needed)
     js_press_enter = f"""
     (function() {{
         var el = document.querySelector('{working_selector}');
@@ -133,7 +152,7 @@ def search_and_click_first_channel(search_term="@bhaktisangeetplus channel"):
     logger.info("Submitted search.")
     time.sleep(2)
 
-    # Step 4: Wait for search results to load (look for channel renderer)
+    # Step 4: Wait for search results (no lock needed)
     max_wait = 10
     waited = 0
     found = False
@@ -154,12 +173,11 @@ def search_and_click_first_channel(search_term="@bhaktisangeetplus channel"):
         logger.error("Channel search result not found.")
         return False
 
-    # Step 5: Click the first channel result (using provided DOM)
+    # Step 5: Click the first channel result (no lock needed)
     js_click_channel = """
     (function() {
         var channel = document.querySelector('ytd-channel-renderer');
         if (!channel) return 'Channel not found';
-        // Prefer avatar-section link, fallback to main-link
         var link = channel.querySelector('a.channel-link[href^="/@BhaktiSangeetPlus"]')
             || channel.querySelector('a#main-link[href^="/@BhaktiSangeetPlus"]');
         if (!link) return 'Channel link not found';
@@ -175,6 +193,11 @@ def search_and_click_first_channel(search_term="@bhaktisangeetplus channel"):
     else:
         logger.error(f"Failed to click channel: {result}")
         return False
+
+
+# CHANGE: Keep original function for backward compatibility
+def search_and_click_first_channel(search_term="@bhaktisangeetplus channel"):
+    return search_and_click_first_channel_with_lock(None, 0, search_term)
 
 
 # Example usage (for direct test/run)

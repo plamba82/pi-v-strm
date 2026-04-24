@@ -4,11 +4,22 @@ import platform
 import subprocess
 import time
 from pathlib import Path
+import threading
+from typing import Dict, List, Tuple
+import queue
 
 # Import the step modules
 from step1 import search_and_click_first_channel
 from step2 import click_channel_avatar_and_wait
-from step3 import send_live_chat_message
+from step3 import send_messages_in_loop
+
+# CHANGE: Replace global lock with a typing-specific lock and queue for round-robin access
+typing_lock = threading.Lock()
+typing_queue = queue.Queue()  # Profiles register here to wait for typing access
+
+# Thread-safe result tracking
+profile_results: Dict[str, Dict] = {}
+results_lock = threading.Lock()
 
 
 def load_config(path="config.json"):
@@ -41,17 +52,13 @@ def get_screen_dimensions():
     """Get screen dimensions for window positioning."""
     try:
         if platform.system().lower() == "darwin":
-            # macOS - get screen size using system_profiler
             result = subprocess.run(
                 ["system_profiler", "SPDisplaysDataType"],
                 capture_output=True,
                 text=True,
             )
-            # Parse for resolution - this is a simplified approach
-            # For production, consider using pyobjc or other libraries
             return 1920, 1080  # Default fallback
         else:
-            # Windows - could use wmi or other methods
             return 1920, 1080  # Default fallback
     except:
         return 1920, 1080  # Default fallback
@@ -61,15 +68,12 @@ def calculate_window_position(profile_index, total_profiles=6):
     """Calculate window position and size for 3x2 grid layout."""
     screen_width, screen_height = get_screen_dimensions()
 
-    # Window dimensions: 1/3 screen width, 1/2 screen height
     window_width = screen_width // 3
     window_height = screen_height // 2
 
-    # Create 3x2 grid (3 columns, 2 rows)
     cols = 3
     rows = 2
 
-    # Calculate position based on profile index
     col = profile_index % cols
     row = profile_index // cols
 
@@ -85,14 +89,12 @@ def calculate_window_position(profile_index, total_profiles=6):
 
 def position_chrome_window_macos(profile_index, x, y, width, height):
     """Position Chrome window using AppleScript on macOS."""
-    # Wait for window to be created and get the most recent window
-    time.sleep(2)  # Allow window creation to complete
+    time.sleep(2)
 
     script = f"""
     tell application "Google Chrome"
         set windowCount to count of windows
         if windowCount > 0 then
-            -- Get the most recently created window (last in the list)
             set targetWindow to window 1
             set bounds of targetWindow to {{{x}, {y}, {x + width}, {y + height}}}
             return "Window positioned at " & {x} & "," & {y}
@@ -169,7 +171,6 @@ def wait_for_page_stability(timeout=15):
     """Wait for page to stabilize after navigation with adaptive timing."""
     print("⏳ Waiting for page to stabilize...")
 
-    # Check page load state multiple times
     stable_checks = 0
     max_checks = 3
     check_interval = 2
@@ -177,24 +178,20 @@ def wait_for_page_stability(timeout=15):
     for attempt in range(timeout // check_interval):
         js_check_stability = """
         (function() {
-            // Check if page is still loading
             if (document.readyState !== 'complete') {
                 return 'loading';
             }
             
-            // Check for YouTube-specific loading indicators
             var loadingSpinners = document.querySelectorAll('[role="progressbar"], .loading, .spinner');
             if (loadingSpinners.length > 0) {
                 return 'loading';
             }
             
-            // Check if we're on a search results page with channel results
             var channelResults = document.querySelectorAll('ytd-channel-renderer, .ytd-channel-renderer');
             if (channelResults.length > 0) {
                 return 'search_results_ready';
             }
             
-            // Check if we're on a channel page
             var channelPage = document.querySelector('#channel-header, ytd-c4-tabbed-header-renderer');
             if (channelPage) {
                 return 'channel_page_ready';
@@ -215,7 +212,7 @@ def wait_for_page_stability(timeout=15):
                     print(f"✅ Page stabilized: {result}")
                     return True
             else:
-                stable_checks = 0  # Reset counter if page is still loading
+                stable_checks = 0
 
         except Exception as e:
             print(f"⚠️ Error checking page stability: {e}")
@@ -224,11 +221,6 @@ def wait_for_page_stability(timeout=15):
 
     print("⚠️ Page stability timeout reached")
     return False
-
-
-# -----------------------------
-# Chrome Launcher
-# -----------------------------
 
 
 def build_command(config, profile, os_type, profile_index=0):
@@ -250,14 +242,13 @@ def build_command(config, profile, os_type, profile_index=0):
             chrome_bin,
             f"--user-data-dir={user_data_dir}",
             f"--profile-directory={chrome_profile}",
-            "--new-window",  # Force new window instead of tab
+            "--new-window",
         ]
 
     elif os_type == "windows":
         chrome_bin = chrome_paths["windows"]
         user_data_dir = expand_path(profile["user_data_dir_windows"])
 
-        # Calculate window position for this profile (3x2 grid)
         x, y, width, height = calculate_window_position(profile_index)
 
         cmd = [
@@ -269,13 +260,11 @@ def build_command(config, profile, os_type, profile_index=0):
             "--new-window",
         ]
 
-    # Add global flags (remove --start-maximized as it conflicts with positioning)
     filtered_flags = [
         flag for flag in flags if not flag.startswith("--start-maximized")
     ]
     cmd.extend(filtered_flags)
 
-    # Add URL last
     cmd.append(url)
 
     return cmd
@@ -286,9 +275,6 @@ def launch_profile(cmd):
     subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 
-# -----------------------------
-# Main Runner
-# -----------------------------
 def maximize_chrome_window():
     """Maximize the active Chrome window using AppleScript on macOS."""
     if platform.system().lower() != "darwin":
@@ -323,110 +309,202 @@ def maximize_chrome_window():
         return False
 
 
+def process_profile(config, profile, profile_index, os_type):
+    """
+    Process a single profile in a dedicated thread.
+    CHANGE: Only lock during typing operations, allow parallel execution for all other steps.
+    """
+    profile_name = profile["name"]
+
+    with results_lock:
+        profile_results[profile_name] = {
+            "status": "starting",
+            "step1": None,
+            "step2": None,
+            "step3": None,
+            "error": None,
+        }
+
+    try:
+        print(
+            f"\n[Thread-{profile_index + 1}] Starting automation for profile: {profile_name}"
+        )
+
+        # CHANGE: Parallel preparation - stagger Chrome launches
+        launch_delay = profile_index * 3
+        if launch_delay > 0:
+            print(
+                f"[Thread-{profile_index + 1}] Waiting {launch_delay}s before launch..."
+            )
+            time.sleep(launch_delay)
+
+        # CHANGE: Parallel - Build and launch Chrome (no lock)
+        cmd = build_command(config, profile, os_type, profile_index)
+        launch_profile(cmd)
+
+        print(f"[Thread-{profile_index + 1}] ⏳ Waiting for Chrome to load...")
+        time.sleep(5)
+
+        # CHANGE: Parallel - Position window (no lock)
+        if os_type == "mac":
+            x, y, width, height = calculate_window_position(profile_index)
+            print(f"[Thread-{profile_index + 1}] 🔧 Positioning window...")
+            position_chrome_window_macos(profile_index, x, y, width, height)
+            time.sleep(1)
+
+        # CHANGE: Parallel - Step 1 (search and click) - NO LOCK
+        print(f"[Thread-{profile_index + 1}] 🤖 Starting Step 1 automation...")
+        try:
+            maximize_chrome_window()
+
+            # CHANGE: Step 1 uses typing, so we need to acquire lock only for typing portion
+            # Import the modified step1 function that accepts a lock parameter
+            from step1 import search_and_click_first_channel_with_lock
+
+            step1_success = search_and_click_first_channel_with_lock(
+                typing_lock, profile_index
+            )
+
+            with results_lock:
+                profile_results[profile_name]["step1"] = step1_success
+
+            if step1_success:
+                print(f"[Thread-{profile_index + 1}] ✅ Step 1 completed successfully")
+
+                # CHANGE: Parallel - Page stabilization (no lock)
+                print(
+                    f"[Thread-{profile_index + 1}] ⏳ Waiting for page stabilization..."
+                )
+                wait_for_page_stability(timeout=20)
+                time.sleep(2)
+
+                # CHANGE: Parallel - Step 2 (click channel avatar) - NO LOCK
+                print(f"[Thread-{profile_index + 1}] 🎯 Starting Step 2 automation...")
+                try:
+                    step2_success = click_channel_avatar_and_wait()
+
+                    with results_lock:
+                        profile_results[profile_name]["step2"] = step2_success
+
+                    if step2_success:
+                        print(
+                            f"[Thread-{profile_index + 1}] ✅ Step 2 completed successfully"
+                        )
+
+                        print(
+                            f"[Thread-{profile_index + 1}] ⏳ Waiting for channel page..."
+                        )
+                        time.sleep(5)
+
+                        # CHANGE: Step 3 - Only lock during typing in send_messages_in_loop
+                        print(
+                            f"[Thread-{profile_index + 1}] 💬 Starting Step 3 automation..."
+                        )
+                        try:
+                            # CHANGE: Import modified step3 function that accepts lock parameter
+                            from step3 import send_messages_in_loop_with_lock
+
+                            step3_success = send_messages_in_loop_with_lock(
+                                1000, 1, 999, typing_lock, profile_index
+                            )
+
+                            with results_lock:
+                                profile_results[profile_name]["step3"] = step3_success
+                                profile_results[profile_name]["status"] = "completed"
+
+                            if step3_success:
+                                print(
+                                    f"[Thread-{profile_index + 1}] ✅ Step 3 completed successfully"
+                                )
+                            else:
+                                print(f"[Thread-{profile_index + 1}] ⚠️ Step 3 failed")
+                        except Exception as step3_error:
+                            error_msg = f"Step 3 error: {step3_error}"
+                            print(f"[Thread-{profile_index + 1}] ❌ {error_msg}")
+                            with results_lock:
+                                profile_results[profile_name]["error"] = error_msg
+                                profile_results[profile_name]["status"] = "failed"
+                    else:
+                        print(
+                            f"[Thread-{profile_index + 1}] ⚠️ Step 2 failed - skipping Step 3"
+                        )
+                        with results_lock:
+                            profile_results[profile_name]["status"] = "failed"
+                except Exception as step2_error:
+                    error_msg = f"Step 2 error: {step2_error}"
+                    print(f"[Thread-{profile_index + 1}] ❌ {error_msg}")
+                    with results_lock:
+                        profile_results[profile_name]["error"] = error_msg
+                        profile_results[profile_name]["status"] = "failed"
+            else:
+                print(
+                    f"[Thread-{profile_index + 1}] ⚠️ Step 1 failed - skipping Steps 2 and 3"
+                )
+                with results_lock:
+                    profile_results[profile_name]["status"] = "failed"
+        except Exception as step1_error:
+            error_msg = f"Step 1 error: {step1_error}"
+            print(f"[Thread-{profile_index + 1}] ❌ {error_msg}")
+            with results_lock:
+                profile_results[profile_name]["error"] = error_msg
+                profile_results[profile_name]["status"] = "failed"
+
+    except Exception as e:
+        error_msg = f"Profile processing error: {e}"
+        print(f"[Thread-{profile_index + 1}] ❌ {error_msg}")
+        with results_lock:
+            profile_results[profile_name]["error"] = error_msg
+            profile_results[profile_name]["status"] = "failed"
+
+
 def main():
     config = load_config("config.json")
     os_type = get_os()
 
     print(f"Detected OS: {os_type}")
 
-    # Launch all profiles
+    threads: List[threading.Thread] = []
+
+    # CHANGE: Launch all profiles in parallel threads
+    # Typing operations will be serialized via typing_lock in round-robin fashion
     for profile_index, profile in enumerate(config["profiles"]):
-        try:
-            cmd = build_command(config, profile, os_type, profile_index)
-            launch_profile(cmd)
+        thread = threading.Thread(
+            target=process_profile,
+            args=(config, profile, profile_index, os_type),
+            name=f"Profile-{profile_index + 1}-{profile['name']}",
+        )
+        thread.daemon = False
+        thread.start()
+        threads.append(thread)
 
-            # Wait for Chrome to fully load
-            print(f"⏳ Waiting for Chrome to load for profile: {profile['name']}")
-            time.sleep(5)  # Initial load time
+        print(f"✅ Started thread for profile: {profile['name']}")
 
-            # Position window using system-level commands (macOS only)
-            if os_type == "mac":
-                x, y, width, height = calculate_window_position(profile_index)
-                print(f"🔧 Positioning window for Profile {profile_index + 1}")
-                position_chrome_window_macos(profile_index, x, y, width, height)
-                time.sleep(1)  # Allow positioning to complete
+    print(f"\n⏳ Waiting for all {len(threads)} profile threads to complete...")
+    for thread in threads:
+        thread.join()
 
-            # Execute Step 1: Search and click first channel
-            print(f"🤖 Starting Step 1 automation for profile: {profile['name']}")
-            try:
-                maximize_chrome_window()
-                step1_success = search_and_click_first_channel()
-                if step1_success:
-                    print(
-                        f"✅ Step 1 completed successfully for profile: {profile['name']}"
-                    )
+    print("\n✅ All profile threads completed")
 
-                    # Wait for page to stabilize after Step 1
-                    print(
-                        f"⏳ Waiting for page stabilization after Step 1 for profile: {profile['name']}"
-                    )
-                    wait_for_page_stability(
-                        timeout=20
-                    )  # Extended timeout for slow connections
+    print("\n" + "=" * 60)
+    print("AUTOMATION SUMMARY")
+    print("=" * 60)
 
-                    # Additional wait for slow connections
-                    time.sleep(2)
+    with results_lock:
+        for profile_name, result in profile_results.items():
+            status_emoji = "✅" if result["status"] == "completed" else "❌"
+            print(f"\n{status_emoji} Profile: {profile_name}")
+            print(f"   Status: {result['status']}")
+            print(f"   Step 1: {'✓' if result['step1'] else '✗'}")
+            print(f"   Step 2: {'✓' if result['step2'] else '✗'}")
+            print(f"   Step 3: {'✓' if result['step3'] else '✗'}")
+            if result["error"]:
+                print(f"   Error: {result['error']}")
 
-                    # Execute Step 2: Click channel avatar and wait for page load
-                    print(
-                        f"🎯 Starting Step 2 automation for profile: {profile['name']}"
-                    )
+    print("\n" + "=" * 60)
 
-                    try:
-                        step2_success = click_channel_avatar_and_wait()
-                        if step2_success:
-                            print(
-                                f"✅ Step 2 completed successfully for profile: {profile['name']}"
-                            )
-
-                            # Wait for channel page to fully load before Step 3
-                            print(
-                                f"⏳ Waiting for channel page stabilization for profile: {profile['name']}"
-                            )
-                            time.sleep(5)  # Allow channel page to fully load
-
-                            # Execute Step 3: Send live chat message
-                            print(
-                                f"💬 Starting Step 3 automation for profile: {profile['name']}"
-                            )
-
-                            try:
-                                step3_success = send_live_chat_message()
-                                if step3_success:
-                                    print(
-                                        f"✅ Step 3 completed successfully for profile: {profile['name']}"
-                                    )
-                                else:
-                                    print(
-                                        f"⚠️ Step 3 failed for profile: {profile['name']}"
-                                    )
-                            except Exception as step3_error:
-                                print(
-                                    f"❌ Step 3 error for profile {profile['name']}: {step3_error}"
-                                )
-                        else:
-                            print(
-                                f"⚠️ Step 2 failed for profile: {profile['name']} - skipping Step 3"
-                            )
-                    except Exception as step2_error:
-                        print(
-                            f"❌ Step 2 error for profile {profile['name']}: {step2_error}"
-                        )
-                else:
-                    print(
-                        f"⚠️ Step 1 failed for profile: {profile['name']} - skipping Steps 2 and 3"
-                    )
-            except Exception as step1_error:
-                print(f"❌ Step 1 error for profile {profile['name']}: {step1_error}")
-
-        except Exception as e:
-            print(f"❌ Failed for profile {profile['name']}: {e}")
-
-    # After all profiles are launched, start profile cycling
     print(f"\n⏳ Waiting 10 seconds before starting profile cycling...")
     time.sleep(10)
 
-    # Start cycling through profiles for keyboard input
     cycle_through_profiles(len(config["profiles"]), delay=5)
 
 
