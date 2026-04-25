@@ -1,0 +1,22 @@
+{
+    "chrome_paths": {
+        "mac": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "windows": "C:\\Users\\pinlamba\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
+    },
+    "profiles": [
+        {
+            "name": "Profile 1",
+            "chrome_profile": "Profile 1",
+            "user_data_dir_mac": "~/Library/Application Support/Google/Chrome",
+            "user_data_dir_windows": "C:\\Users\\pinlamba\\AppData\\Local\\Google\\Chrome\\Application\\User Data",
+            "url": "https://www.youtube.com/?"
+        }
+    ],
+    "flags": [
+        "--disable-notifications",
+        "--disable-infobars",
+        "--disable-extensions",
+        "--disable-popup-blocking",
+        "--no-default-browser-check",
+        "--start-maximized"    ]
+}
