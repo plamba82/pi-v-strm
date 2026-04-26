@@ -37,17 +37,23 @@ def execute_javascript_in_chrome(js_code: str) -> Tuple[bool, str]:
     return execute_applescript(script)
 
 
-# CHANGE: Modified to accept lock parameter for typing synchronization
+# CHANGE: Modified to accept lock and profile_index for synchronized typing
 def type_like_human(
     text: str, target_selector: str, lock=None, profile_index=0
 ) -> bool:
     logger.info(f"Typing '{text}' character by character...")
 
-    # CHANGE: Acquire lock only during typing operation
+    # CHANGE: Acquire lock and switch to this profile's window before typing
     if lock:
         logger.info(f"[Profile-{profile_index + 1}] 🔒 Waiting for typing lock...")
         lock.acquire()
         logger.info(f"[Profile-{profile_index + 1}] ✅ Acquired typing lock")
+
+        # CHANGE: Switch focus to this profile's Chrome window
+        from main import switch_to_profile
+
+        switch_to_profile(profile_index)
+        time.sleep(0.5)  # Allow window switch to complete
 
     try:
         for char in text:
@@ -76,13 +82,13 @@ def type_like_human(
         logger.info(f"Finished typing: {text}")
         return True
     finally:
-        # CHANGE: Release lock immediately after typing completes
+        # CHANGE: Release lock after typing completes
         if lock:
             lock.release()
             logger.info(f"[Profile-{profile_index + 1}] 🔓 Released typing lock")
 
 
-# CHANGE: New wrapper function that accepts lock parameter
+# CHANGE: New wrapper function that accepts lock and profile_index
 def search_and_click_first_channel_with_lock(
     lock=None, profile_index=0, search_term="@bhaktisangeetplus channel"
 ):
@@ -93,7 +99,6 @@ def search_and_click_first_channel_with_lock(
     """
     logger.info(f"Searching for: {search_term}")
 
-    # Step 1: Focus search box (no lock needed)
     selectors = [
         "input#search",
         'input[name="search_query"]',
@@ -125,13 +130,12 @@ def search_and_click_first_channel_with_lock(
         return False
     time.sleep(0.5)
 
-    # Step 2: Type search term with lock (ONLY typing is locked)
+    # CHANGE: Pass lock and profile_index to type_like_human
     if not type_like_human(search_term, working_selector, lock, profile_index):
         logger.error("Failed to type search term.")
         return False
     time.sleep(0.5)
 
-    # Step 3: Submit search (no lock needed)
     js_press_enter = f"""
     (function() {{
         var el = document.querySelector('{working_selector}');
@@ -152,7 +156,6 @@ def search_and_click_first_channel_with_lock(
     logger.info("Submitted search.")
     time.sleep(2)
 
-    # Step 4: Wait for search results (no lock needed)
     max_wait = 10
     waited = 0
     found = False
@@ -173,7 +176,6 @@ def search_and_click_first_channel_with_lock(
         logger.error("Channel search result not found.")
         return False
 
-    # Step 5: Click the first channel result (no lock needed)
     js_click_channel = """
     (function() {
         var channel = document.querySelector('ytd-channel-renderer');
@@ -200,7 +202,6 @@ def search_and_click_first_channel(search_term="@bhaktisangeetplus channel"):
     return search_and_click_first_channel_with_lock(None, 0, search_term)
 
 
-# Example usage (for direct test/run)
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     search_and_click_first_channel()

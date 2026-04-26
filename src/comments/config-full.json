@@ -1,0 +1,57 @@
+{
+    "chrome_paths": {
+        "mac": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "windows": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+    },
+    "profiles": [
+        {
+            "name": "Profile 19",
+            "chrome_profile": "Profile 19",
+            "user_data_dir_mac": "~/Library/Application Support/Google/Chrome",
+            "user_data_dir_windows": "%LOCALAPPDATA%\\Google\\Chrome\\User Data",
+            "url": "https://www.youtube.com/live/WXMTKy5JqyI?si=gUJ1m4dHPQp51pQB"
+        },
+        {
+            "name": "Profile 22",
+            "chrome_profile": "Profile 22",
+            "user_data_dir_mac": "~/Library/Application Support/Google/Chrome",
+            "user_data_dir_windows": "%LOCALAPPDATA%\\Google\\Chrome\\User Data",
+            "url": "https://www.youtube.com/live/WXMTKy5JqyI?si=gUJ1m4dHPQp51pQB"
+        },
+        {
+            "name": "Profile 21",
+            "chrome_profile": "Profile 21",
+            "user_data_dir_mac": "~/Library/Application Support/Google/Chrome",
+            "user_data_dir_windows": "%LOCALAPPDATA%\\Google\\Chrome\\User Data",
+            "url": "https://www.youtube.com/live/WXMTKy5JqyI?si=gUJ1m4dHPQp51pQB"
+        },
+        {
+            "name": "Profile 1",
+            "chrome_profile": "Profile 1",
+            "user_data_dir_mac": "~/Library/Application Support/Google/Chrome",
+            "user_data_dir_windows": "%LOCALAPPDATA%\\Google\\Chrome\\User Data",
+            "url": "https://www.youtube.com/live/WXMTKy5JqyI?si=gUJ1m4dHPQp51pQB"
+        },
+        {
+            "name": "Profile 9",
+            "chrome_profile": "Profile 9",
+            "user_data_dir_mac": "~/Library/Application Support/Google/Chrome",
+            "user_data_dir_windows": "%LOCALAPPDATA%\\Google\\Chrome\\User Data",
+            "url": "https://www.youtube.com/live/WXMTKy5JqyI?si=gUJ1m4dHPQp51pQB"
+        },
+        {
+            "name": "Profile 10",
+            "chrome_profile": "Profile 10",
+            "user_data_dir_mac": "~/Library/Application Support/Google/Chrome",
+            "user_data_dir_windows": "%LOCALAPPDATA%\\Google\\Chrome\\User Data",
+            "url": "https://www.youtube.com/live/WXMTKy5JqyI?si=gUJ1m4dHPQp51pQB"
+        }
+    ],
+    "flags": [
+        "--disable-notifications",
+        "--disable-infobars",
+        "--disable-extensions",
+        "--disable-popup-blocking",
+        "--no-default-browser-check"
+    ]
+}

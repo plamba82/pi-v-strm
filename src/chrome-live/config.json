@@ -5,15 +5,8 @@
     },
     "profiles": [
         {
-            "name": "Profile 9",
-            "chrome_profile": "Profile 9",
-            "user_data_dir_mac": "~/Library/Application Support/Google/Chrome",
-            "user_data_dir_windows": "C:\\Users\\your_user\\AppData\\Local\\Google\\Chrome\\User Data",
-            "url": "https://www.youtube.com/?"
-        },
-        {
-            "name": "Profile 9",
-            "chrome_profile": "Profile 9",
+            "name": "Profile 2",
+            "chrome_profile": "Profile 2",
             "user_data_dir_mac": "~/Library/Application Support/Google/Chrome",
             "user_data_dir_windows": "C:\\Users\\your_user\\AppData\\Local\\Google\\Chrome\\User Data",
             "url": "https://www.youtube.com/?"

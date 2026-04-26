@@ -6,16 +6,14 @@ import time
 from pathlib import Path
 import threading
 from typing import Dict, List, Tuple
-import queue
 
 # Import the step modules
 from step1 import search_and_click_first_channel
 from step2 import click_channel_avatar_and_wait
 from step3 import send_messages_in_loop
 
-# CHANGE: Replace global lock with a typing-specific lock and queue for round-robin access
+# CHANGE: Global lock for typing synchronization across profiles
 typing_lock = threading.Lock()
-typing_queue = queue.Queue()  # Profiles register here to wait for typing access
 
 # Thread-safe result tracking
 profile_results: Dict[str, Dict] = {}
@@ -57,11 +55,11 @@ def get_screen_dimensions():
                 capture_output=True,
                 text=True,
             )
-            return 1920, 1080  # Default fallback
+            return 1920, 1080
         else:
-            return 1920, 1080  # Default fallback
+            return 1920, 1080
     except:
-        return 1920, 1080  # Default fallback
+        return 1920, 1080
 
 
 def calculate_window_position(profile_index, total_profiles=6):
@@ -312,7 +310,7 @@ def maximize_chrome_window():
 def process_profile(config, profile, profile_index, os_type):
     """
     Process a single profile in a dedicated thread.
-    CHANGE: Only lock during typing operations, allow parallel execution for all other steps.
+    CHANGE: Pass typing_lock and profile_index to step functions for synchronized typing.
     """
     profile_name = profile["name"]
 
@@ -330,7 +328,6 @@ def process_profile(config, profile, profile_index, os_type):
             f"\n[Thread-{profile_index + 1}] Starting automation for profile: {profile_name}"
         )
 
-        # CHANGE: Parallel preparation - stagger Chrome launches
         launch_delay = profile_index * 3
         if launch_delay > 0:
             print(
@@ -338,27 +335,23 @@ def process_profile(config, profile, profile_index, os_type):
             )
             time.sleep(launch_delay)
 
-        # CHANGE: Parallel - Build and launch Chrome (no lock)
         cmd = build_command(config, profile, os_type, profile_index)
         launch_profile(cmd)
 
         print(f"[Thread-{profile_index + 1}] ⏳ Waiting for Chrome to load...")
         time.sleep(5)
 
-        # CHANGE: Parallel - Position window (no lock)
         if os_type == "mac":
             x, y, width, height = calculate_window_position(profile_index)
             print(f"[Thread-{profile_index + 1}] 🔧 Positioning window...")
             position_chrome_window_macos(profile_index, x, y, width, height)
             time.sleep(1)
 
-        # CHANGE: Parallel - Step 1 (search and click) - NO LOCK
         print(f"[Thread-{profile_index + 1}] 🤖 Starting Step 1 automation...")
         try:
             maximize_chrome_window()
 
-            # CHANGE: Step 1 uses typing, so we need to acquire lock only for typing portion
-            # Import the modified step1 function that accepts a lock parameter
+            # CHANGE: Import modified step1 function that accepts lock and profile_index
             from step1 import search_and_click_first_channel_with_lock
 
             step1_success = search_and_click_first_channel_with_lock(
@@ -371,14 +364,12 @@ def process_profile(config, profile, profile_index, os_type):
             if step1_success:
                 print(f"[Thread-{profile_index + 1}] ✅ Step 1 completed successfully")
 
-                # CHANGE: Parallel - Page stabilization (no lock)
                 print(
                     f"[Thread-{profile_index + 1}] ⏳ Waiting for page stabilization..."
                 )
                 wait_for_page_stability(timeout=20)
                 time.sleep(2)
 
-                # CHANGE: Parallel - Step 2 (click channel avatar) - NO LOCK
                 print(f"[Thread-{profile_index + 1}] 🎯 Starting Step 2 automation...")
                 try:
                     step2_success = click_channel_avatar_and_wait()
@@ -396,12 +387,11 @@ def process_profile(config, profile, profile_index, os_type):
                         )
                         time.sleep(5)
 
-                        # CHANGE: Step 3 - Only lock during typing in send_messages_in_loop
                         print(
                             f"[Thread-{profile_index + 1}] 💬 Starting Step 3 automation..."
                         )
                         try:
-                            # CHANGE: Import modified step3 function that accepts lock parameter
+                            # CHANGE: Import modified step3 function that accepts lock and profile_index
                             from step3 import send_messages_in_loop_with_lock
 
                             step3_success = send_messages_in_loop_with_lock(
@@ -465,8 +455,6 @@ def main():
 
     threads: List[threading.Thread] = []
 
-    # CHANGE: Launch all profiles in parallel threads
-    # Typing operations will be serialized via typing_lock in round-robin fashion
     for profile_index, profile in enumerate(config["profiles"]):
         thread = threading.Thread(
             target=process_profile,
