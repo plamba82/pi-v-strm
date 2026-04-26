@@ -6,7 +6,6 @@ import random
 
 logger = logging.getLogger(__name__)
 
-# Core roots (expandable mythology base)
 roots = [
     "narayan",
     "hari",
@@ -32,10 +31,61 @@ roots = [
     "gopal",
 ]
 
-# Divine prefixes
+# roots = [
+#     "hanuman",
+#     "bajrang",
+#     "bajrangbali",
+#     "pavanputra",
+#     "maruti",
+#     "kesari",
+#     "anjaneya",
+#     "sankatmochan",
+#     "mahaveer",
+#     "ramdoot",
+#     "veer",
+#     "balaji",
+#     "kapish",
+#     "rudra",
+#     "bhakt",
+#     "rambhakt",
+#     "veerhanuman",
+#     "jaihanuman",
+#     "hanumanta",
+#     "mahakaal",
+#     "chiranjeevi",
+#     "mahavir",
+#     "pavansut",
+#     "anjani",
+#     "kesarinandan",
+#     "balveer",
+#     "ramsevak",
+#     "udar",
+#     "dharam",
+#     "rakshak",
+#     "shakti",
+#     "bal",
+#     "veerbal",
+#     "gada",
+#     "gadaadhari",
+#     "sena",
+#     "mahaprabhu",
+#     "bhajan",
+#     "bhakti",
+#     "mantra",
+#     "sundar",
+#     "kapi",
+#     "kapiraj",
+#     "veeranjaneya",
+#     "mahatej",
+#     "tej",
+#     "prabhu",
+#     "ramnaam",
+#     "siyaram",
+#     "dhoom",
+# ]
+
 prefixes = ["jai", "om", "shree", "har har", "jai jai", "om namo", "jai ho"]
 
-# Divine suffix/epithets (this is what expands into 1000+)
 epithets = [
     "dev",
     "nath",
@@ -60,67 +110,233 @@ epithets = [
     "teja",
     "sagar",
 ]
+
+# epithets = [
+#     "bali",
+#     "veer",
+#     "mahaveer",
+#     "sankatmochan",
+#     "ramdoot",
+#     "pavanputra",
+#     "anjaneya",
+#     "kesarinandan",
+#     "bhakt",
+#     "rambhakt",
+#     "sevak",
+#     "rakshak",
+#     "kapish",
+#     "kapiraj",
+#     "bal",
+#     "shakti",
+#     "tej",
+#     "mahatej",
+#     "gada",
+#     "gadaadhari",
+#     "veerbal",
+#     "chiranjeevi",
+#     "prabhu",
+#     "swami",
+#     "nath",
+#     "dev",
+#     "mahaprabhu",
+#     "uddharak",
+#     "dharam",
+#     "sena",
+#     "raj",
+#     "veeraj",
+#     "maharaaj",
+#     "anand",
+#     "jyoti",
+#     "prakash",
+#     "dhoom",
+#     "mahashakti",
+#     "balveer",
+#     "kapiveer",
+# ]
 emojis = [
-    "🙏",
-    "❤️",
-    "🔥",
-    "✨",
-    "💫",
-    "🕉️",
-    "🌸",
-    "⚡",
-    "💖",
-    "😇",
-    "🌺",
-    "🌼",
-    "🌿",
-    "🌞",
-    "🌙",
-    "⭐",
-    "🌈",
-    "💥",
-    "🪔",
-    "🔱",
-    "☀️",
-    "🌊",
-    "🌷",
-    "🍀",
-    "🌻",
-    "🪷",
-    "💎",
-    "🧿",
-    "📿",
-    "🛕",
-    "🕊️",
-    "💐",
-    "🌟",
-    "🔥",
-    "💓",
-    "💞",
-    "💝",
-    "💗",
-    "💘",
-    "💟",
-    "💤",
-    "🌌",
-    "🌠",
-    "🪶",
-    "🧡",
-    "💛",
-    "💚",
-    "💙",
-    "🤍",
-    "💜",
+    "🙏🙏🙏",
+    "🙏🙏🙏🙏",
+    "🙏🙏🙏🙏🙏",
+    "🙏🙏🙏🙏🙏🙏",
+    "🙏🙏🙏🙏🙏🙏🙏",
+    "❤️❤️",
+    "❤️❤️❤️",
+    "❤️❤️❤️❤️",
+    "❤️❤️❤️❤️❤️",
+    "🔥🔥",
+    "🔥🔥🔥",
+    "🔥🔥🔥🔥",
+    "🕉️🕉️🕉️",
+    "🕉️🕉️🕉️🕉️",
+    "🕉️🕉️🕉️🕉️🕉️",
+    "🌸🌸🌸",
+    "🌸🌸🌸🌸",
+    "🌸🌸🌸🌸🌸",
+    "💖💖",
+    "💖💖💖",
+    "💖💖💖💖",
+    "🪔🪔🪔",
+    "🪔🪔🪔🪔",
+    "🪔🪔🪔🪔🪔",
+    "🔱🔱🔱",
+    "🔱🔱🔱🔱",
+    "🔱🔱🔱🔱🔱",
+    "🙏❤️🙏",
+    "🙏🔥🙏",
+    "🙏🕉️🙏",
+    "🙏🌸🙏",
+    "🙏💖🙏",
+    "🙏🪔🙏",
+    "🙏🔱🙏",
+    "❤️🙏❤️",
+    "❤️🔥❤️",
+    "❤️🕉️❤️",
+    "❤️🌸❤️",
+    "❤️💖❤️",
+    "❤️🪔❤️",
+    "❤️🔱❤️",
+    "🔥🙏🔥",
+    "🔥❤️🔥",
+    "🔥🕉️🔥",
+    "🔥🌸🔥",
+    "🔥💖🔥",
+    "🔥🪔🔥",
+    "🔥🔱🔥",
+    "🕉️🙏🕉️",
+    "🕉️❤️🕉️",
+    "🕉️🔥🕉️",
+    "🕉️🌸🕉️",
+    "🕉️💖🕉️",
+    "🕉️🪔🕉️",
+    "🕉️🔱🕉️",
+    "🌸🙏🌸",
+    "🌸❤️🌸",
+    "🌸🔥🌸",
+    "🌸🕉️🌸",
+    "🌸💖🌸",
+    "🌸🪔🌸",
+    "🌸🔱🌸",
+    "💖🙏💖",
+    "💖❤️💖",
+    "💖🔥💖",
+    "💖🕉️💖",
+    "💖🌸💖",
+    "💖🪔💖",
+    "💖🔱💖",
+    "🪔🙏🪔",
+    "🪔❤️🪔",
+    "🪔🔥🪔",
+    "🪔🕉️🪔",
+    "🪔🌸🪔",
+    "🪔💖🪔",
+    "🪔🔱🪔",
+    "🔱🙏🔱",
+    "🔱❤️🔱",
+    "🔱🔥🔱",
+    "🔱🕉️🔱",
+    "🔱🌸🔱",
+    "🔱💖🔱",
+    "🔱🪔🔱",
+    "🙏❤️🔥",
+    "🔥❤️🙏",
+    "❤️🙏🔥",
+    "🔥🙏❤️",
+    "❤️🔥🙏",
+    "🙏🔥❤️",
+    "🕉️🔥❤️",
+    "🔥🕉️❤️",
+    "❤️🕉️🔥",
+    "🕉️❤️🔥",
+    "🔥❤️🕉️",
+    "❤️🔥🕉️",
+    "🌸💖🙏",
+    "💖🌸🙏",
+    "🙏🌸💖",
+    "🌸🙏💖",
+    "💖🙏🌸",
+    "🙏💖🌸",
+    "🪔🔱🙏",
+    "🔱🪔🙏",
+    "🙏🪔🔱",
+    "🪔🙏🔱",
+    "🔱🙏🪔",
+    "🙏🔱🪔",
+    "🙏🙏❤️❤️",
+    "❤️❤️🙏🙏",
+    "🔥🔥🙏🙏",
+    "🙏🙏🔥🔥",
+    "🕉️🕉️🙏🙏",
+    "🙏🙏🕉️🕉️",
+    "🌸🌸💖💖",
+    "💖💖🌸🌸",
+    "🪔🪔🔱🔱",
+    "🔱🔱🪔🪔",
+    "🙏❤️🙏❤️",
+    "❤️🙏❤️🙏",
+    "🔥🕉️🔥🕉️",
+    "🕉️🔥🕉️🔥",
+    "🌸💖🌸💖",
+    "💖🌸💖🌸",
+    "🪔🔱🪔🔱",
+    "🔱🪔🔱🪔",
+    "🙏🙏🙏❤️❤️",
+    "❤️❤️🙏🙏🙏",
+    "🔥🔥🔥🙏🙏",
+    "🙏🙏🔥🔥🔥",
+    "🕉️🕉️🕉️🔥🔥",
+    "🔥🔥🕉️🕉️🕉️",
+    "🌸🌸🌸💖💖",
+    "💖💖🌸🌸🌸",
+    "🪔🪔🪔🔱🔱",
+    "🔱🔱🪔🪔🪔",
+    "🙏❤️🔥🕉️",
+    "🕉️🔥❤️🙏",
+    "🔥🙏🕉️❤️",
+    "❤️🕉️🙏🔥",
+    "🌸💖🪔🔱",
+    "🔱🪔💖🌸",
+    "💖🌸🔱🪔",
+    "🪔🔱🌸💖",
+    "🙏🙏🔥🔥❤️❤️",
+    "❤️❤️🔥🔥🙏🙏",
+    "🕉️🕉️🌸🌸💖💖",
+    "💖💖🌸🌸🕉️🕉️",
+    "🪔🪔🙏🙏🔱🔱",
+    "🔱🔱🙏🙏🪔🪔",
+    "🙏🔥🙏🔥🙏",
+    "❤️🕉️❤️🕉️❤️",
+    "🌸💖🌸💖🌸",
+    "🪔🔱🪔🔱🪔",
+    "🙏🙏🙏🔥🔥🔥",
+    "🔥🔥🔥🙏🙏🙏",
+    "❤️❤️❤️🕉️🕉️🕉️",
+    "🕉️🕉️🕉️❤️❤️❤️",
+    "🌸🌸🌸💖💖💖",
+    "💖💖💖🌸🌸🌸",
+    "🪔🪔🪔🔱🔱🔱",
+    "🔱🔱🔱🪔🪔🪔",
 ]
 
 
 def generate_gods_name() -> str:
     prefix = random.choice(prefixes)
     root = random.choice(roots)
-    epithet = random.choice(epithets)
     emoji = random.choice(emojis)
-    name = f"{prefix} {root} {emoji}"
-    return name.strip()
+
+    patterns = [
+        f"{prefix} {root} {emoji}",
+        f"{prefix} {root}",
+        f"{root} {emoji}",
+        f"{prefix} {emoji}",
+        f"{root}",
+        f"{emoji}",
+        f"{prefix} {root} {emoji} {emoji}",
+        f"{emoji} {prefix} {root}",
+        f"{root} {emoji} {emoji}",
+        f"{prefix} {root} {emoji} {root}",
+    ]
+
+    return random.choice(patterns).strip()
 
 
 def execute_applescript(script: str) -> Tuple[bool, str]:
@@ -322,18 +538,24 @@ def wait_for_live_chat_input(max_wait=30):
     return False, None
 
 
-# CHANGE: Modified to accept lock parameter for typing synchronization
+# CHANGE: Modified to accept lock and profile_index for synchronized typing
 def type_like_human(
     text: str, target_selector: str, lock=None, profile_index=0
 ) -> bool:
     """Type text character by character with human-like timing."""
     logger.info(f"Typing '{text}' character by character...")
 
-    # CHANGE: Acquire lock only during typing operation
+    # CHANGE: Acquire lock and switch to this profile's window before typing
     if lock:
         logger.info(f"[Profile-{profile_index + 1}] 🔒 Waiting for typing lock...")
         lock.acquire()
         logger.info(f"[Profile-{profile_index + 1}] ✅ Acquired typing lock")
+
+        # CHANGE: Switch focus to this profile's Chrome window
+        from main import switch_to_profile
+
+        switch_to_profile(profile_index)
+        time.sleep(0.5)  # Allow window switch to complete
 
     try:
         for i, char in enumerate(text):
@@ -439,7 +661,7 @@ def type_like_human(
         logger.info(f"Finished typing: {text}")
         return True
     finally:
-        # CHANGE: Release lock immediately after typing completes
+        # CHANGE: Release lock after typing completes
         if lock:
             lock.release()
             logger.info(f"[Profile-{profile_index + 1}] 🔓 Released typing lock")
@@ -493,7 +715,7 @@ def wait_for_send_button_enabled(max_wait=15):
     return False, None
 
 
-# CHANGE: Modified to accept lock parameter
+# CHANGE: Modified to accept lock and profile_index
 def send_live_chat_message(msg="jai ho", lock=None, profile_index=0):
     """
     Find the live chat input in iframe, activate it, type message with human-like behavior, and send the message.
@@ -503,7 +725,6 @@ def send_live_chat_message(msg="jai ho", lock=None, profile_index=0):
     logger.info("Waiting for page to fully load...")
     time.sleep(3)
 
-    # CHANGE: No lock needed for waiting/finding input
     input_found, selector_used = wait_for_live_chat_input(max_wait=45)
     if not input_found:
         logger.error("Live chat input field never appeared")
@@ -528,7 +749,6 @@ def send_live_chat_message(msg="jai ho", lock=None, profile_index=0):
     logger.info("Waiting for iframe to stabilize...")
     time.sleep(2)
 
-    # CHANGE: No lock needed for preparing input
     js_prepare_input = f"""
     (function() {{
         try {{
@@ -582,13 +802,12 @@ def send_live_chat_message(msg="jai ho", lock=None, profile_index=0):
 
     logger.info("Input field prepared and activated, starting to type message...")
 
-    # CHANGE: Lock is acquired inside type_like_human function
     message = msg
+    # CHANGE: Pass lock and profile_index to type_like_human
     if not type_like_human(message, selector_used, lock, profile_index):
         logger.error("Failed to type message")
         return False
 
-    # CHANGE: No lock needed for verification
     js_verify_text = f"""
     (function() {{
         try {{
@@ -626,7 +845,6 @@ def send_live_chat_message(msg="jai ho", lock=None, profile_index=0):
         logger.error(f"Text was not properly entered. Current content: {result}")
         return False
 
-    # CHANGE: No lock needed for waiting for button
     button_ready, button_selector = wait_for_send_button_enabled(max_wait=15)
     if not button_ready:
         logger.error("Send button never became enabled")
@@ -634,7 +852,6 @@ def send_live_chat_message(msg="jai ho", lock=None, profile_index=0):
 
     time.sleep(random.uniform(0.5, 1.0))
 
-    # CHANGE: No lock needed for clicking button
     js_click_send = f"""
     (function() {{
         try {{
@@ -742,20 +959,20 @@ def send_live_chat_message(msg="jai ho", lock=None, profile_index=0):
     return True
 
 
-# CHANGE: New wrapper function that accepts lock parameter
+# CHANGE: New wrapper function that accepts lock and profile_index
 def send_messages_in_loop_with_lock(
     count=1000, min_delay_ms=1, max_delay_ms=999, lock=None, profile_index=0
 ):
     """
     Send live chat messages in a loop with randomized delays.
-    Lock is only acquired during typing operations.
+    Lock is acquired for each message's typing operation.
 
     Args:
         count: Number of messages to send (default: 1000)
         min_delay_ms: Minimum delay in milliseconds between messages (default: 1)
         max_delay_ms: Maximum delay in milliseconds between messages (default: 999)
         lock: Threading lock for typing synchronization (optional)
-        profile_index: Profile index for logging (default: 0)
+        profile_index: Profile index for window switching (default: 0)
     """
     logger.info(
         f"Starting loop to send {count} messages with {min_delay_ms}-{max_delay_ms}ms delays"
@@ -769,7 +986,7 @@ def send_messages_in_loop_with_lock(
             message = generate_gods_name()
             logger.info(f"[{i}/{count}] Attempting to send: {message}")
 
-            # CHANGE: Pass lock to send_live_chat_message
+            # CHANGE: Pass lock and profile_index to send_live_chat_message
             success = send_live_chat_message(
                 msg=message, lock=lock, profile_index=profile_index
             )
@@ -809,7 +1026,6 @@ def send_messages_in_loop(count=1000, min_delay_ms=1, max_delay_ms=999):
     return send_messages_in_loop_with_lock(count, min_delay_ms, max_delay_ms, None, 0)
 
 
-# Example usage (for direct test/run)
 if __name__ == "__main__":
     logging.basicConfig(
         level=logging.INFO,

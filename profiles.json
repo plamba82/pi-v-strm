@@ -1,9 +1,11 @@
 {
-  "global_url": "https://youtube.com/shorts/WPOlGvNhXYU?si=b5MnvdG6dXLJRWnf",
+  "global_url": "https://youtube.com/shorts/FYQVXlLveGU?si=12ZOk3ogidrzT218",
   "profiles": [
-    {
-      "profile_name": "Test",
-      "duration": 50
-    }
+    { "profile_name": "sweetuguess", "duration": 50 },
+    { "profile_name": "John", "duration": 50 },
+    { "profile_name": "Neelam", "duration": 50 },
+    { "profile_name": "superokapi", "duration": 50 },
+    { "profile_name": "Arjun", "duration": 50 },
+    { "profile_name": "Prince", "duration": 50 }
   ]
 }
