@@ -393,7 +393,9 @@ def switch_chrome_window_macos(profile_index: int):
         if result.returncode == 0:
             print(f"✅ Switched to Profile {profile_index + 1}")
         else:
-            print(f"⚠️ Failed to switch to Profile {profile_index + 1}: {result.stderr}")
+            print(
+                f"⚠️ Failed to switch to Profile {profile_index + 1}: {result.stderr}"
+            )
     except Exception as e:
         print(f"❌ Error switching to Profile {profile_index + 1}: {e}")
 
@@ -466,7 +468,7 @@ def process_profile(profile_index: int, os_type: str, iteration: int):
     #     scroll_window_windows(profile_index, scroll_count=3)
     # time.sleep(2)
     print(f"   ✉️ Typing and submitting message...")
-    send_in_window(profile_index, generate_gods_name("hanuman"))
+    send_in_window(profile_index, generate_gods_name("vishnu"))
     print(f"✅ [Iteration {iteration}] Profile {profile_index + 1} completed")
 
 
@@ -574,7 +576,7 @@ def launch_chrome_profiles(config: Dict, os_type: str):
 
     # ========== STEP 3: 20-iteration loop to process all profiles ==========
     print("🔄 STEP 3: Starting 20-iteration loop...\n")
-    TOTAL_ITERATIONS = 200
+    TOTAL_ITERATIONS = 2000
 
     for iteration in range(1, TOTAL_ITERATIONS + 1):
         print(f"\n{'='*60}")

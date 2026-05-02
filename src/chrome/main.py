@@ -392,10 +392,10 @@ def process_profile(profile: dict, global_url: str, search_query: str = None) ->
             return
 
         # Fibonacci sequence for random sleep durations (in seconds)
-        fibonacci_seconds = [1, 2, 3, 5, 8, 13, 21, 29, 37, 45, 60]
+        fibonacci_seconds = [1, 2, 3, 5]
 
         # CHANGE: Loop 100 times through the entire workflow
-        for iteration in range(1, 200):
+        for iteration in range(1, 2000):
             logger.info(f"\n{'=' * 60}")
             logger.info(f"Iteration {iteration}/100 for profile: {profile_name}")
             logger.info(f"{'=' * 60}")
@@ -525,7 +525,7 @@ def main():
     """
     try:
         # Load keywords at application startup
-        keywords_data = load_keywords("src/chrome/keywords.json")
+        keywords_data = load_keywords("keywords.json")
 
         # Get keyword for current day
         try:
@@ -538,7 +538,7 @@ def main():
 
         # Load comments at application startup (global scope)
         global COMMENTS_LIST
-        COMMENTS_LIST = load_comments("src/chrome/comments.csv")
+        COMMENTS_LIST = load_comments("comments.csv")
 
         if not COMMENTS_LIST:
             logger.warning("No comments loaded. Comments will not be added to Shorts.")

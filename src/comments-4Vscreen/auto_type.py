@@ -7,24 +7,24 @@ import subprocess  # CHANGE: Added for AppleScript window activation
 # === PROFILE-SPECIFIC COORDINATES ===
 # CHANGE: Define coordinates for each profile index, 490. 332
 PROFILE_COORDINATES = {
-    0: {"text_box_x": 96, "text_box_y": 1040, "send_x": 428, "send_y": 1040},
+    0: {"text_box_x": 96, "text_box_y": 970, "send_x": 428, "send_y": 970},
     1: {
         "text_box_x": 586,  # Profile 1 coordinates (500px offset)
-        "text_box_y": 1040,
+        "text_box_y": 970,
         "send_x": 918,
-        "send_y": 1040,
+        "send_y": 970,
     },
     2: {
         "text_box_x": 1076,  # Profile 2 coordinates (1000px offset)
-        "text_box_y": 1040,
+        "text_box_y": 970,
         "send_x": 1388,
-        "send_y": 1040,
+        "send_y": 970,
     },
     3: {
         "text_box_x": 1566,  # Profile 3 coordinates (1500px offset)
-        "text_box_y": 1040,
+        "text_box_y": 970,
         "send_x": 1868,
-        "send_y": 1040,
+        "send_y": 970,
     },
 }
 

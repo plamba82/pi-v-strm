@@ -232,7 +232,7 @@ def open_safari_with_profile_name(
         return False
 
     if url:
-        time.sleep(0.4)
+        time.sleep(2)
         try:
             subprocess.run(["open", "-a", "Safari", url], check=True)
             print(f"   → Loaded: {url}")

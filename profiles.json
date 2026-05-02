@@ -1,11 +1,37 @@
 {
-  "global_url": "https://youtube.com/shorts/FYQVXlLveGU?si=12ZOk3ogidrzT218",
+  "global_url": "https://youtube.com/shorts/C1jqtElrNYA?feature=share",
   "profiles": [
-    { "profile_name": "sweetuguess", "duration": 50 },
-    { "profile_name": "John", "duration": 50 },
-    { "profile_name": "Neelam", "duration": 50 },
-    { "profile_name": "superokapi", "duration": 50 },
-    { "profile_name": "Arjun", "duration": 50 },
-    { "profile_name": "Prince", "duration": 50 }
+    {
+      "profile_name": "krishiv",
+      "duration": 150
+    },
+    {
+      "profile_name": "techgeekintown",
+      "duration": 150
+    },
+    {
+      "profile_name": "sweetuguess",
+      "duration": 150
+    },
+    {
+      "profile_name": "John",
+      "duration": 150
+    },
+    {
+      "profile_name": "Neelam",
+      "duration": 150
+    },
+    {
+      "profile_name": "superokapi",
+      "duration": 150
+    },
+    {
+      "profile_name": "Arjun",
+      "duration": 150
+    },
+    {
+      "profile_name": "Prince",
+      "duration": 150
+    }
   ]
 }

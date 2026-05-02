@@ -110,7 +110,7 @@ def type_like_human(text: str, target_selector: str) -> bool:
             time.sleep(random.uniform(0.04, 0.14))
         # occasional micro pause like thinking
         if random.random() < 0.15:
-            time.sleep(random.uniform(0.2, 0.6))
+            time.sleep(random.uniform(0.02, 0.06))
     logger.info(f"Finished typing: {text}")
     return True
 
@@ -275,7 +275,7 @@ def search_youtube(search_query: str, wait_for_results: bool = True) -> bool:
     if wait_for_results:
         logger.info("Step 5: Waiting for search results to load...")
 
-        max_wait_time = 15
+        max_wait_time = 10
         check_interval = 0.5
         elapsed_time = 0
 

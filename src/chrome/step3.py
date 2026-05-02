@@ -70,9 +70,9 @@ def type_like_human_comment(
             logger.error(f"Failed to type character: {char}")
             return False
         # Human-like delay
-        time.sleep(random.uniform(0.04, 0.14))
+        # time.sleep(random.uniform(0.04, 0.14))
         if random.random() < 0.15:
-            time.sleep(random.uniform(0.2, 0.6))
+            time.sleep(random.uniform(0.02, 0.06))
     logger.info("Finished typing comment as human.")
     return True
 
@@ -181,21 +181,21 @@ def click_comment_button_and_add_comment(
 
     # Step 5: Verify comment popup closed (unchanged)
     logger.info("Step 5.5: Verifying comment submission...")
-    time.sleep(1)
-    js_verify_submission = """
-    (function() {
-        var commentBox = document.querySelector('div#contenteditable-root[contenteditable="true"]');
-        if (!commentBox) return 'Comment popup closed - submission likely successful';
-        var rect = commentBox.getBoundingClientRect();
-        var isVisible = rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth) && window.getComputedStyle(commentBox).visibility !== 'hidden' && window.getComputedStyle(commentBox).display !== 'none';
-        if (!isVisible) return 'Comment popup hidden - submission likely successful';
-        return 'Comment popup still visible - submission may have failed';
-    })();
-    """
-    success, verify_result = execute_javascript_in_chrome(js_verify_submission)
-    if success:
-        logger.info(f"Verification: {verify_result}")
-    else:
-        logger.warning("Could not verify comment submission")
-    time.sleep(1)
+    # time.sleep(1)
+    # js_verify_submission = """
+    # (function() {
+    #     var commentBox = document.querySelector('div#contenteditable-root[contenteditable="true"]');
+    #     if (!commentBox) return 'Comment popup closed - submission likely successful';
+    #     var rect = commentBox.getBoundingClientRect();
+    #     var isVisible = rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth) && window.getComputedStyle(commentBox).visibility !== 'hidden' && window.getComputedStyle(commentBox).display !== 'none';
+    #     if (!isVisible) return 'Comment popup hidden - submission likely successful';
+    #     return 'Comment popup still visible - submission may have failed';
+    # })();
+    # """
+    # success, verify_result = execute_javascript_in_chrome(js_verify_submission)
+    # if success:
+    #     logger.info(f"Verification: {verify_result}")
+    # else:
+    #     logger.warning("Could not verify comment submission")
+    # time.sleep(1)
     return True

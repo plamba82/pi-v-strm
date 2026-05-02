@@ -1,0 +1,10 @@
+{
+  "global_url": "https://youtube.com/?",
+  "profiles": [
+    {
+      "profile_name": "Bhakti",
+      "url": "search:BhaktiSangeetPlus",
+      "duration": 50
+    }
+  ]
+}
